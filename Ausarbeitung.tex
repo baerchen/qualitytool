@@ -32,30 +32,39 @@ Zudem geht diese Arbeit auf die Funktionen ein, die das QualityControlTool zur A
 
 \end{abstract}
 
+\newpage
+
+\tableofcontents
+
+\newpage
 \section{Einleitung}
 \label{Einleitung}
 
 Diese Arbeit gibt dem Benutzer des QualityControlTools einen Überblick über die Möglichkeiten, die das Programm zur Analyse der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+ dem User bietet.(siehe Kapitel ...) Zudem wird dem Benutzer nahegebracht, wie das QualityControlTool zu bedienen ist. Hierzu wird zunächst die Benutzeroberfläche( siehe Kapitel ...), wie auch die Funktionsweise der einzelnen Buttons ( siehe Kapitel ...) dargestellt. Zusätzlich wird grob auf die Implementierung eingegangen.
 
+
 \section{Motivation}
 
-Das Institut für Medizinische Statistik und Epidemiologie (IMSE) der TU München beschäftigt sich mit der Analyse der Daten der \textsc{Kora} Studien. \textsc{Kora} steht für die \textit{kooperative Gesundheitsforschung in der Region Augsburg}.
+Das Institut für Medizinische Statistik und Epidemiologie (IMSE) der TU München beschäftigt sich mit der Analyse der Daten der \textsc{Kora} Studien. \textsc{Kora} steht für die \textit{kooperative Gesundheitsforschung in der Region Augsburg}. 
 
-to do:noch mehr details aus kathrins anfang einfügen
+Das Ziel der \textit{Feasibilty}-Studie der Nationalen Kohorten war das Testen der Realisierbarkeit mono- und multifunktioneller Apparaturen, die Körperbewegungen messen. So sollten Körperleistung (PA) und der Energieverbrauch analysiert werden. Im sepziellen wurden vier verschiedene Biosensoren betrachtet, die \textit{raw acceleration data} für mindestens 7 Tage lieferten.
 
 Das QualityControlTool soll das Auswerten der csv-Dateien von Biosensoren erleichtern. Dafür existieren zahlreiche Algorithmen, welche in \textsc{Matlab} implementiert sind. Allerdings besitzen viele in der Medizin nur ein eingeschränktes Informatikwissen. Für diese ist eine Auswertung mit einem hohen zeitlichen und hohem Arbeitsaufwand, sich in Matlab einzuarbeiten, verbunden.
 
 Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bzw. mathematische Kenntnisse gegeben. Sobald man mit der Benutzeroberfläche vertraut ist, übernimmt der PC das Auswerten der Daten. Zusätzlich werden die ausgewerteten Daten so gespeichert, dass sie schnell auffindbar sind und jederzeit erneut abgerufen werden können. 
 
 
-
-
 \section{Ausgangslage - die erste Version des Tools}
 
+\begin{figure}
+\centerline{
+\includegraphics[width=0.9\columnwidth]{Abbildungen/version_1.png}
+}
+\caption {Gui des QualityControlTools 1. Version}
+\label{v1}
+\end{figure}
 
-to do: Auszüge aus Ausarbeitung von Simon und Co
-
-TEST
+Die erste Version des QualityControlTools war bislang nur auf den Biosensor GT3X+ Actigraph ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textsc{Browse}-Buttons (siehe Abb. \ref{v1}) wurden die Daten der gewählten Datei geladen. Diese wurden dann als \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.  
 
 
 \end{document}
