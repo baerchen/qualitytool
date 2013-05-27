@@ -1,6 +1,8 @@
 \documentclass[onecolumn,german]{article}
 
 \usepackage{Ausarbeitung}
+\usepackage{float}
+\usepackage{amsmath}
 
 % Bitte hier Ihren Namen eintragen
 \author{Sarah Barton und Sonja Vogl \\ Technische Universität München}
@@ -56,7 +58,7 @@ Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bz
 
 \section{Ausgangslage - die erste Version des Tools}
 
-\begin{figure}
+\begin{figure}[H]
 \centerline{
 \includegraphics[width=0.9\columnwidth]{Abbildungen/version_1.png}
 }
@@ -70,20 +72,31 @@ Für den Sensortyp und den Datentyp war bereits die Vorrichtung für eine weitere 
 
 Zudem ermöglichte es das Tool durch das Betätigen des \textsc{Plot All Data + Cut}-Button, die eingelesenen Daten zu \textit{plotten}. Der resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert. 
 
+In einem nächsten Schritt konnten die gegebenen Daten zugeschnitten werden. Der Benutzer trug hierzu einen Starttag und die Anzahl der Folgetage in ein vorgegebenes Feld ein. Alle Daten, die sich nicht in diesem Zeitraum befanden, wurden weggeschnitten. Die resultierende \textsc{Timeseries} überschrieben \textit{Kora1.mat}. Aus den entstandenen Daten wurde wiederum ein Graph erstellt. Dieser wurde unter dem Namen \textit{KoraSecondPlot.png} im Dateisystem abgespeichert.
+
 Als ein so genannter Zwischenschritt war das Verändern der Epochenlänge zu sehen. Dafür musste zunächst die gewünschte Epochenlänge, als ein Vielfaches der bisherigen, eingestellt werden. (siehe Abb.~\ref{v1}:~4) Mit Hilfe von Matrizenberechnungen wurden die Werte eines Intervalls aufsummiert. Das Resultat überschreibt \textit{Kora1.mat}.
 
 Die Daten der csv-Datei ließen sich sowohl mit Hilfe von dem Algorithmus von Andre wie auch nach dem Algorithmus von Simon analysieren.
 Bei dem erstgenannten wurden für jeden Tag der Eingabedaten eine bestimmte Anzahl an Werte berechnet, welche in einem Vektor gespeichert wurden. Der Vektor ließ sich anschließend in der Datei \textit{finaldata.csv} auffinden. 
 
+Auch ließ sich die Tragezeit (siehe Abb.~\ref{v1}:~6) eines Sensors mit Hilfe des Algorithmus von Hecht al 98 berechnen. Resultierend geht daraus ein mit $0$ oder $1$ befüllten Vektor hervor. Dabei steht $0$ für nichtgetragen und $1$ für getragen. Aufzufinden war der Vektor sowohl als \textsc{Matlab}-Datei \textit{wearingTime.mat} und als csv-Datei \textit{wearingTime.csv} vorzufinden. 
+Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den errechneten Werten.
+
+Abschließend erm\"oglichte das Tool eine Auswertung der Daten nach Simon.(siehe Abb.~\ref{v1}) Es wurden pro Tag als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Problemen in Java vorzubeugen, wurde am Ende das Workspace geleert.
+
+Für weiteres Interesse verweisen wir Sie auf den Praktikumsbereicht \textit{Quality Control Tool for Different Accelerometer Data} von Johannes Eder und Martin Attenkofer.
+
+
+
 
 
 \section{Das erweiterte Tool}
 
-Bei der Erweiterung des gerade Vorgestellten QualityControlTools kam es, neben den Änderungen in der Funktionalität, auch zu einigen Änderungen in der Oberfläche. Diese werden im Folgenden genauer erläutert.
+Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben den Änderungen in der Funktionalität, auch zu einigen Änderungen in der Oberfläche. Diese werden im Folgenden genauer erläutert.
 
-\begin{figure}
+\begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{ErweitertesTool1.png}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/ErweitertesTool1.JPG}
 }
 \caption {Gui des QualityControlTools 2. Version}
 \label{v2}

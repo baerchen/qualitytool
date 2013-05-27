@@ -1,4 +1,4 @@
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \contentsline {section}{\numberline {2}Motivation}{3}{section.2}
-\contentsline {section}{\numberline {3}Ausgangslage - die erste Version des Tools}{3}{section.3}
+\contentsline {section}{\numberline {3}Ausgangslage - die erste Version des Tools}{4}{section.3}
 \contentsline {section}{\numberline {4}Das erweiterte Tool}{5}{section.4}
