@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  27 MAY 2013 16:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  30 MAY 2013 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,50 +351,58 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout4 = `Ausarbeitung.toc'.
 
  [2]
-<Abbildungen/version_1.png, id=41, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=72, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
-Package pdftex.def Info: Abbildungen/version_1.png used on input line 64.
+Package pdftex.def Info: Abbildungen/version_1.png used on input line 67.
 (pdftex.def)             Requested size: 310.4979pt x 232.42854pt.
  [3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.78 
+l.81 
       <./Abbildungen/version_1.png>]
-<Abbildungen/ErweitertesTool1.JPG, id=58, 742.27313pt x 392.21532pt>
+<Abbildungen/ErweitertesTool1.JPG, id=88, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
 Package pdftex.def Info: Abbildungen/ErweitertesTool1.JPG used on input line 10
-0.
+3.
 (pdftex.def)             Requested size: 310.4979pt x 164.07098pt.
  [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 I
+l.116 I
        m Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige ...
  <./Abbildungen/ErweitertesTool1.JPG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 127.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: A49C759D31137EB26645A6D33A36BC88;221.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+(rerunfilecheck)             Checksum: 48F2FC2124EBBCEF9467D5057219E9A1;714.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 6160 strings out of 495007
- 87817 string characters out of 3179690
+ 6175 strings out of 495007
+ 88081 string characters out of 3179690
  171787 words of memory out of 3000000
- 9261 multiletter control sequences out of 15000+200000
- 12757 words of font info for 49 fonts, out of 3000000 for 9000
+ 9270 multiletter control sequences out of 15000+200000
+ 13064 words of font info for 50 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  36i,7n,28p,748b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -406,10 +414,10 @@ t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 300765 bytes).
+Output written on Ausarbeitung.pdf (7 pages, 306472 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

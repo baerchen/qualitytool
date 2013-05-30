@@ -26,13 +26,16 @@
 %\label{tum}
 %\end{figure}
 
+
 \begin{abstract}
+\begin{center}
 \noindent
 Diese Ausarbeitung soll dem Benutzer einen Einblick in die Bedienbarkeit des QualtiyControlTools geben.
 Ausgehend von der ersten Version der beiden Entwickler Simon und bla werden die Erweiterungen des QualityControlTools vorgestellt.
 Zudem geht diese Arbeit auf die Funktionen ein, die das QualityControlTool zur Analyse der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+  bereitstellt.
-
+\end{center}
 \end{abstract}
+
 
 \newpage
 
@@ -111,6 +114,27 @@ Wie gerade erwähnt kann das erweiterte Tool auch Rohdaten auswerten. Diese haben
 In der ersten Version des Tools mussten die auszuwertenden Daten immer um 12:00 Uhr beginnen. Da die jetzigen Daten auch zu anderen Zeitpunkten anfangen können wurde das Tool um die Felder \textit{StartTime} und \textit{StartDate} erweitert (siehe Abb.~\ref{v2}:~3). Diese muss der User für Somnowatch und Shimmer Daten per Hand eingeben, da in den entsprechenden Dateien weder Informationen über Anfangszeit noch über Anfangsdatum gespeichert sind. Für Daten der anderen Sensoren werden diese Informationen automatisch eingelesen (vgl. Kapitel XX Load Button).
 
 Im Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige Neuerungen gemacht worden. Zum einen wurde der oben erwähnte \textit{Load}-Button hinzugefügt. Zum Anderen wurde für die Auswertung von Rohdaten der Button \textit{wearing Time van Hees} hinzugefügt (vgl. Kapitel XY Funktionalität van Hees). Um es dem User zu ermöglichen Rohdaten in Epochdaten umzuwandeln wurde zudem der Button \textit{Raw to Counts/METs} neu angelegt (vgl. Kapitel YY Funktionalität raw to counts).
+
+\subsection{Der Browse-Button}
+\subsubsection{Aktion des Benutzers}
+Um mit dem QualityControlTool arbeiten zu können, muss zunächst der \textit{Browse-Button} betätigt werden. Im Zuge dessen muss die zu analysierende csv-Datei aus dem entsprechenden Ordner auf dem Computer des Users ausgewählt werden. 
+
+\subsubsection{Aktionen des QualityControlTool}
+Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Berechnungen an. Es wird aus der csv-Datei der Name des jeweiligen Sensors ausgelesen und in die Gui des Tools eingetragen. Anhand der Datei wird ebenfalls die Art der Daten eingetragen. Handelt es sich um Rohdaten, erscheint auf der Anzeige \textit{raw data measurement}, andernfalls \textit{count/ epoch measurement}. Zusätzlich wird die Frequenz der Sensordaten bestimmt und ebenfalls dem Benutzer dargelegt. 
+
+/TODO: Bild einer Beispieldatei nach dem Browsen 
+
+\subsubsection{Beteiligte \textsc{Java}- und \textsc{Matlab}- Funktionen}
+
+/TODO: alle FUnktionen erklären
+
+
+\subsection{Der Load-Button}
+Der Load-Button wird dem Benutzer erst nach dem Ausführen des \textit{Browse}-Vorgangs freigeschaltet.
+
+\subsubsection{Möglichkeiten für den Benutzer}
+Die Trennung des Browse-Buttons und des Load-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren.
+
 
 
 
