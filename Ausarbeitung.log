@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  30 MAY 2013 10:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  31 MAY 2013 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,73 +351,196 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout4 = `Ausarbeitung.toc'.
 
  [2]
-<Abbildungen/version_1.png, id=72, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=78, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
 Package pdftex.def Info: Abbildungen/version_1.png used on input line 67.
 (pdftex.def)             Requested size: 310.4979pt x 232.42854pt.
- [3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1}) has been already used, duplicate ignored
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.81 
+l.79 
       <./Abbildungen/version_1.png>]
-<Abbildungen/ErweitertesTool1.JPG, id=88, 742.27313pt x 392.21532pt>
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+<Abbildungen/ErweitertesTool1.JPG, id=98, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
 Package pdftex.def Info: Abbildungen/ErweitertesTool1.JPG used on input line 10
-3.
+4.
 (pdftex.def)             Requested size: 310.4979pt x 164.07098pt.
- [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure
-.2}) has been already used, duplicate ignored
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 I
-       m Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige ...
- <./Abbildungen/ErweitertesTool1.JPG>]
+l.114 
+       <./Abbildungen/ErweitertesTool1.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+<Abbildungen/Browse-Button.png, id=110, 1023.07219pt x 536.75531pt>
+File: Abbildungen/Browse-Button.png Graphic file (type png)
+
+<use Abbildungen/Browse-Button.png>
+Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 129.
+(pdftex.def)             Requested size: 207.0021pt x 108.60225pt.
+ [7]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 127.
+(Font)              using `OT1/cmr/bx/n' instead on input line 135.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 139--141
+[]\OT1/cmr/m/n/10 Den \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktionen wird 
+da-bei der Da-teipfad und der Da-teiname
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 139--141
+\OT1/cmr/m/n/10 der zu-vor aus-gew[]ahl-ten csv-Datei []uber-ge-ben. Es wird di
+e Funk-ti-on
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 139--141
+\OML/cmm/m/it/10 FindSensorName\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[]path\
+OT1/cmr/m/n/10 )$ auf-ge-ru-fen. Ent-spre-chend des Funk-ti-ons-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 142--144
+[]\OT1/cmr/m/n/10 Auch die Fre-quenz des Sen-sor kann mit Hil-fe der \OT1/cmr/m
+/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktion
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 142--144
+\OML/cmm/m/it/10 FindSensorFrequency\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[]
+path\OT1/cmr/m/n/10 )$ be-stimmt wer-den. Auch die-ses Er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.157 \subsubsection
+                    {Programmvorgänge} <./Abbildungen/Browse-Button.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 48F2FC2124EBBCEF9467D5057219E9A1;714.
+(rerunfilecheck)             Checksum: A1332AC78FFBDBDB67BF731F98DB9E67;793.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 6175 strings out of 495007
- 88081 string characters out of 3179690
- 171787 words of memory out of 3000000
- 9270 multiletter control sequences out of 15000+200000
- 13064 words of font info for 50 fonts, out of 3000000 for 9000
+ 6190 strings out of 495007
+ 88339 string characters out of 3179690
+ 171893 words of memory out of 3000000
+ 9279 multiletter control sequences out of 15000+200000
+ 13762 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,7n,28p,748b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,28p,756b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 306472 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on Ausarbeitung.pdf (9 pages, 365356 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

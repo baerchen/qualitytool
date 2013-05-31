@@ -45,7 +45,7 @@ Zudem geht diese Arbeit auf die Funktionen ein, die das QualityControlTool zur A
 \section{Einleitung}
 \label{Einleitung}
 
-Diese Arbeit gibt dem Benutzer des QualityControlTools einen Überblick über die Möglichkeiten, die das Programm zur Analyse der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+ dem User bietet.(siehe Kapitel ...) Zudem wird dem Benutzer nahegebracht, wie das QualityControlTool zu bedienen ist. Hierzu wird zunächst die Benutzeroberfläche( siehe Kapitel ...), wie auch die Funktionsweise der einzelnen Buttons ( siehe Kapitel ...) dargestellt. Zusätzlich wird grob auf die Implementierung eingegangen.
+Diese Arbeit gibt dem Benutzer des QualityControlTools einen Überblick über die Möglichkeiten, die das Programm zur Analyse der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+ dem User bietet. Zudem wird dem Benutzer nahegebracht, wie das QualityControlTool zu bedienen ist. Hierzu wird zunächst die Benutzeroberfläche (siehe Kapitel \ref{v2_tool}), wie auch die Funktionsweise der einzelnen Buttons dargestellt. Zusätzlich wird grob auf die Implementierung eingegangen.
 
 
 \section{Motivation}
@@ -69,33 +69,34 @@ Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bz
 \label{v1}
 \end{figure}
 
-Die erste Version des QualityControlTools war bislang nur auf den Biosensor GT3X+ Actigraph ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textsc{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann als \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.
+Die erste Version des QualityControlTools war bislang nur auf den Biosensor GT3X+ Actigraph ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textsc{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann als \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.\newline
 
-Für den Sensortyp und den Datentyp war bereits die Vorrichtung für eine weitere Auswahl des Benutzers vorhanden.(siehe Abb.~\ref{v1}:~2~und~3) Diese blieb aber in der ersten Version dem Benutzer gesperrt. Die Anzeige blieb auf \textit{Actigraph(gt3x,gt3x+)} sowie \textit{count/epoch measurement} gesetzt. 
+Für den Sensortyp und den Datentyp war bereits die Vorrichtung für eine weitere Auswahl des Benutzers vorhanden.(siehe Abb.~\ref{v1}:~2~und~3) Diese blieb aber in der ersten Version dem Benutzer gesperrt. Die Anzeige blieb auf \textit{Actigraph(gt3x,gt3x+)} sowie \textit{count/epoch measurement} gesetzt.\newline 
 
-Zudem ermöglichte es das Tool durch das Betätigen des \textsc{Plot All Data + Cut}-Button, die eingelesenen Daten zu \textit{plotten}. Der resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert. 
+Zudem ermöglichte es das Tool durch das Betätigen des \textsc{Plot All Data + Cut}-Button, die eingelesenen Daten zu \textit{plotten}. Der resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert.\newline 
 
-In einem nächsten Schritt konnten die gegebenen Daten zugeschnitten werden. Der Benutzer trug hierzu einen Starttag und die Anzahl der Folgetage in ein vorgegebenes Feld ein. Alle Daten, die sich nicht in diesem Zeitraum befanden, wurden weggeschnitten. Die resultierende \textsc{Timeseries} überschrieben \textit{Kora1.mat}. Aus den entstandenen Daten wurde wiederum ein Graph erstellt. Dieser wurde unter dem Namen \textit{KoraSecondPlot.png} im Dateisystem abgespeichert.
+In einem nächsten Schritt konnten die gegebenen Daten zugeschnitten werden. Der Benutzer trug hierzu einen Starttag und die Anzahl der Folgetage in ein vorgegebenes Feld ein. Alle Daten, die sich nicht in diesem Zeitraum befanden, wurden weggeschnitten. Die resultierende \textsc{Timeseries} überschrieben \textit{Kora1.mat}. Aus den entstandenen Daten wurde wiederum ein Graph erstellt. Dieser wurde unter dem Namen \textit{KoraSecondPlot.png} im Dateisystem abgespeichert.\newline
 
-Als ein so genannter Zwischenschritt war das Verändern der Epochenlänge zu sehen. Dafür musste zunächst die gewünschte Epochenlänge, als ein Vielfaches der bisherigen, eingestellt werden. (siehe Abb.~\ref{v1}:~4) Mit Hilfe von Matrizenberechnungen wurden die Werte eines Intervalls aufsummiert. Das Resultat überschreibt \textit{Kora1.mat}.
+Als ein so genannter Zwischenschritt war das Verändern der Epochenlänge zu sehen. Dafür musste zunächst die gewünschte Epochenlänge, als ein Vielfaches der bisherigen, eingestellt werden. (siehe Abb.~\ref{v1}:~4) Mit Hilfe von Matrizenberechnungen wurden die Werte eines Intervalls aufsummiert. Das Resultat überschreibt \textit{Kora1.mat}.\newline
 
 Die Daten der csv-Datei ließen sich sowohl mit Hilfe von dem Algorithmus von Andre wie auch nach dem Algorithmus von Simon analysieren.
-Bei dem erstgenannten wurden für jeden Tag der Eingabedaten eine bestimmte Anzahl an Werte berechnet, welche in einem Vektor gespeichert wurden. Der Vektor ließ sich anschließend in der Datei \textit{finaldata.csv} auffinden. 
+Bei dem erstgenannten wurden für jeden Tag der Eingabedaten eine bestimmte Anzahl an Werte berechnet, welche in einem Vektor gespeichert wurden. Der Vektor ließ sich anschließend in der Datei \textit{finaldata.csv} auffinden.\newline
 
 Auch ließ sich die Tragezeit (siehe Abb.~\ref{v1}:~6) eines Sensors mit Hilfe des Algorithmus von Hecht al 98 berechnen. Resultierend geht daraus ein mit $0$ oder $1$ befüllten Vektor hervor. Dabei steht $0$ für nichtgetragen und $1$ für getragen. Aufzufinden war der Vektor sowohl als \textsc{Matlab}-Datei \textit{wearingTime.mat} und als csv-Datei \textit{wearingTime.csv} vorzufinden. 
-Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den errechneten Werten.
+Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den errechneten Werten.\newline
 
-Abschließend erm\"oglichte das Tool eine Auswertung der Daten nach Simon.(siehe Abb.~\ref{v1}) Es wurden pro Tag als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Problemen in Java vorzubeugen, wurde am Ende das Workspace geleert.
+Abschließend erm\"oglichte das Tool eine Auswertung der Daten nach Simon.(siehe Abb.~\ref{v1}) Es wurden pro Tag als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Problemen in Java vorzubeugen, wurde am Ende das Workspace geleert.\newline
 
 Für weiteres Interesse verweisen wir Sie auf den Praktikumsbereicht \textit{Quality Control Tool for Different Accelerometer Data} von Johannes Eder und Martin Attenkofer.
 
 
 
 
-
+\newpage
 \section{Das erweiterte Tool}
+\label{v2_tool}
 
-Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben den Änderungen in der Funktionalität, auch zu einigen Änderungen in der Oberfläche. Diese werden im Folgenden genauer erläutert.
+Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben den Änderungen in der Funktionalität, auch zu einigen Änderungen in der Oberfläche. Diese werden im Folgenden genauer erläutert.\newline
 
 \begin{figure}[H]
 \centerline{
@@ -105,35 +106,56 @@ Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben d
 \label{v2}
 \end{figure}
 
-In \ref{v2} sind alle Änderungen zur vorherigen Version gekennzeichnet. Dabei wird in dieser Arbeit auf die blau Markierten Felder nicht eingegangen, da diese Gegenstand einer anderen, parallel laufenden, Arbeit sind.
+In \ref{v2} sind alle Änderungen zur vorherigen Version gekennzeichnet. Dabei wird in dieser Arbeit auf die blau Markierten Felder nicht eingegangen, da diese Gegenstand einer anderen, parallel laufenden, Arbeit sind.\newline
 
-In Feld 1 der \ref{v2} hat sich für den Betrachter nichts geändert. Allerdings verbirgt sich hinter dem \textit{Browse}-Button eine andere Funktionalität. Statt die Datei zu laden wie in der ersten Version des Tools, wird hier nur noch die Datei ausgewählt und der entsprechende Dateipfad in die Java-Umgebung geladen. Das eigentliche Laden in die Matlab-Umgebung findet erst mit drücken des \textit{Load}-Button (siehe Abb.~\ref{v2}:~4) statt. Da die wesentlichen Änderungen des Tools darin liegen, dass mehrere Sensorarten und auch Rohdaten ausgewertet werden können musste die Funktionalität des \textit{Load}-Buttons ebenfalls erweitert werden. Die genaue Dokumentation dafür ist in Kapitel XX beschrieben.
+In Feld 1 der \ref{v2} hat sich für den Betrachter nichts geändert. Allerdings verbirgt sich hinter dem \textit{Browse}-Button eine andere Funktionalität. Statt die Datei zu laden wie in der ersten Version des Tools, wird hier nur noch die Datei ausgewählt und der entsprechende Dateipfad in die Java-Umgebung geladen. Das eigentliche Laden in die Matlab-Umgebung findet erst mit drücken des \textit{Load}-Button (siehe Abb.~\ref{v2}:~4) statt. Da die wesentlichen Änderungen des Tools darin liegen, dass mehrere Sensorarten und auch Rohdaten ausgewertet werden können musste die Funktionalität des \textit{Load}-Buttons ebenfalls erweitert werden. Die genaue Dokumentation dafür ist in Kapitel XX beschrieben.\newline
 
-Wie gerade erwähnt kann das erweiterte Tool auch Rohdaten auswerten. Diese haben keine Epochenlänge in Minuten oder Sekunden wie \textit{count/epoch measurement}, sondern werden mit einer bestimmten Frequenz aufgenommen. Da nicht in allen Rohdaten diese Frequenz angegeben ist, muss der User diese wissen und per Hand eingeben. Dies ist vor Allem bei Shimmer und Somnowatch Daten nötig. Bei ActiGraph GT3X+ und GeneActive Daten wird die Frequenz automatisch ausgelesen (vgl. Kapitel XX Load Button). Jedoch sollte der User hier immer die Frequenz überprüfen. Damit der User also zugriff auf die Frequenz hat, diese einstellen und überprüfen kann ist die Leise Frequency (siehe Abb.~\ref{v2}:~2) hinzugekommen.
+Wie gerade erwähnt kann das erweiterte Tool auch Rohdaten auswerten. Diese haben keine Epochenlänge in Minuten oder Sekunden wie \textit{count/epoch measurement}, sondern werden mit einer bestimmten Frequenz aufgenommen. Da nicht in allen Rohdaten diese Frequenz angegeben ist, muss der User diese wissen und per Hand eingeben. Dies ist vor Allem bei Shimmer und Somnowatch Daten nötig. Bei ActiGraph GT3X+ und GeneActive Daten wird die Frequenz automatisch ausgelesen (vgl. Kapitel XX Load Button). Jedoch sollte der User hier immer die Frequenz überprüfen. Damit der User also zugriff auf die Frequenz hat, diese einstellen und überprüfen kann ist die Leise Frequency (siehe Abb.~\ref{v2}:~2) hinzugekommen.\newline
 
-In der ersten Version des Tools mussten die auszuwertenden Daten immer um 12:00 Uhr beginnen. Da die jetzigen Daten auch zu anderen Zeitpunkten anfangen können wurde das Tool um die Felder \textit{StartTime} und \textit{StartDate} erweitert (siehe Abb.~\ref{v2}:~3). Diese muss der User für Somnowatch und Shimmer Daten per Hand eingeben, da in den entsprechenden Dateien weder Informationen über Anfangszeit noch über Anfangsdatum gespeichert sind. Für Daten der anderen Sensoren werden diese Informationen automatisch eingelesen (vgl. Kapitel XX Load Button).
+In der ersten Version des Tools mussten die auszuwertenden Daten immer um 12:00 Uhr beginnen. Da die jetzigen Daten auch zu anderen Zeitpunkten anfangen können wurde das Tool um die Felder \textit{StartTime} und \textit{StartDate} erweitert (siehe Abb.~\ref{v2}:~3). Diese muss der User für Somnowatch und Shimmer Daten per Hand eingeben, da in den entsprechenden Dateien weder Informationen über Anfangszeit noch über Anfangsdatum gespeichert sind. Für Daten der anderen Sensoren werden diese Informationen automatisch eingelesen (vgl. Kapitel XX Load Button).\newline
 
 Im Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige Neuerungen gemacht worden. Zum einen wurde der oben erwähnte \textit{Load}-Button hinzugefügt. Zum Anderen wurde für die Auswertung von Rohdaten der Button \textit{wearing Time van Hees} hinzugefügt (vgl. Kapitel XY Funktionalität van Hees). Um es dem User zu ermöglichen Rohdaten in Epochdaten umzuwandeln wurde zudem der Button \textit{Raw to Counts/METs} neu angelegt (vgl. Kapitel YY Funktionalität raw to counts).
 
 \subsection{Der Browse-Button}
 \subsubsection{Aktion des Benutzers}
-Um mit dem QualityControlTool arbeiten zu können, muss zunächst der \textit{Browse-Button} betätigt werden. Im Zuge dessen muss die zu analysierende csv-Datei aus dem entsprechenden Ordner auf dem Computer des Users ausgewählt werden. 
+Um mit dem QualityControlTool arbeiten zu können, muss zunächst der \textit{Browse}-Button betätigt werden. Im Zuge dessen muss die zu analysierende csv-Datei aus dem entsprechenden Ordner auf dem Computer des Users ausgewählt werden. 
 
 \subsubsection{Aktionen des QualityControlTool}
 Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Berechnungen an. Es wird aus der csv-Datei der Name des jeweiligen Sensors ausgelesen und in die Gui des Tools eingetragen. Anhand der Datei wird ebenfalls die Art der Daten eingetragen. Handelt es sich um Rohdaten, erscheint auf der Anzeige \textit{raw data measurement}, andernfalls \textit{count/ epoch measurement}. Zusätzlich wird die Frequenz der Sensordaten bestimmt und ebenfalls dem Benutzer dargelegt. 
 
-/TODO: Bild einer Beispieldatei nach dem Browsen 
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=0.6\columnwidth]{Abbildungen/Browse-Button.png}
+}
+\caption {Gui nach Betätigen des \textit{Browse}-Buttons}
+\label{bb}
+\end{figure}
+
 
 \subsubsection{Beteiligte \textsc{Java}- und \textsc{Matlab}- Funktionen}
 
-/TODO: alle FUnktionen erklären
+Im \textsc{Java}-Code werden in der Klasse \textit{KoraSteps} die Voreinstellungen ausgewählt. Dies findet in der Methode \textit{public static boolean precalculation(String currentPath, String currentFile, String currentDevice)} statt. Hier wird auf die entsprechenden \textsc{Matlab}-Funktionen zugegriffen. \newline
+
+Den \textsc{Matlab}-Funktionen wird dabei der Dateipfad und der Dateiname der zuvor ausgewählten csv-Datei übergeben.
+Es wird die Funktion \textit{$FindSensorName(1, file\_path)$} aufgerufen. Entsprechend des Funktionsnamens liest diese aus der Kopfzeile der Datei den Namen des behandelten Sensors. Der Name des Senors wird schließlich in \textsc{Java} auf den ermittelten Namen gesetzt und die Gui dementsprechend eingestellt. Misslingt die Suche, \textit{handelt} \textsc{Java} dies mit einem Auffangen der \textit{Exception}. Zusätzlich wird der User mit der Mitteilung ``Unknown Device Type'' benachrichtigt.\newline
+
+Auch die Frequenz des Sensor kann mit Hilfe der \textsc{Matlab}-Funktion \textit{$FindSensorFrequency(1, file\_path)$} bestimmt werden. Auch dieses Ergebnis aktualisiert in \textsc{Java} die aktuelle \textit{Frequeny} und ist für den Benutzer auf der Gui ersichtlich gemacht.
+Ein einschreitender Fehler wird wiederum mit einer \textit{Exceptionbehandlung} abgefangen und dem User mit der Nachricht ``Unknown Frequency!'' kenntlich gemacht.\newline
+
+/TODO: Vorladen!!!!
+
+
+
 
 
 \subsection{Der Load-Button}
-Der Load-Button wird dem Benutzer erst nach dem Ausführen des \textit{Browse}-Vorgangs freigeschaltet.
+Der \textit{Load}-Button wird dem Benutzer erst nach dem Ausführen des \textit{Browse}-Vorgangs freigeschaltet.
 
 \subsubsection{Möglichkeiten für den Benutzer}
-Die Trennung des Browse-Buttons und des Load-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren.
+Die Trennung des \textit{Browse}-Buttons und des \textit{Load}-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren.
+
+\subsubsection{Programmvorgänge}
+bku
 
 
 
