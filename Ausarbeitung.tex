@@ -125,7 +125,7 @@ Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Be
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.6\columnwidth]{Abbildungen/Browse-Button.png}
+\includegraphics[width=0.7\columnwidth]{Abbildungen/Browse-Button.png}
 }
 \caption {Gui nach Betätigen des \textit{Browse}-Buttons}
 \label{bb}
@@ -142,20 +142,26 @@ Es wird die Funktion \textit{$FindSensorName(1, file\_path)$} aufgerufen. Entspr
 Auch die Frequenz des Sensor kann mit Hilfe der \textsc{Matlab}-Funktion \textit{$FindSensorFrequency(1, file\_path)$} bestimmt werden. Auch dieses Ergebnis aktualisiert in \textsc{Java} die aktuelle \textit{Frequeny} und ist für den Benutzer auf der Gui ersichtlich gemacht.
 Ein einschreitender Fehler wird wiederum mit einer \textit{Exceptionbehandlung} abgefangen und dem User mit der Nachricht ``Unknown Frequency!'' kenntlich gemacht.\newline
 
-/TODO: Vorladen!!!!
+Erfolgreiche Vorberechnungen werden mit ``Precalculations where successful. Check allocations and press ``Load'''' bestätigt.\newline
 
+Daneben erscheint die csv-Datei auf der dem Display der Benutzeroberfläche. Dafür ist die die Funktion \textit{private void setupCsvTable(CsvFileLoader csvFile)} in der \textsc{Java}-Klasse \textit{MainControlsBackend} zuständig.\newline
 
-
+Zum Schluss wird der \textit{Load}-Button zur Nutzung freigeschalten.
 
 
 \subsection{Der Load-Button}
 Der \textit{Load}-Button wird dem Benutzer erst nach dem Ausführen des \textit{Browse}-Vorgangs freigeschaltet.
 
 \subsubsection{Möglichkeiten für den Benutzer}
-Die Trennung des \textit{Browse}-Buttons und des \textit{Load}-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren.
+Die Trennung des \textit{Browse}-Buttons und des \textit{Load}-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren. So lassen sich nach den Voreinstellungen sowohl der Sensorname, als auch die Frequenz und die Datenart einstellen.
 
 \subsubsection{Programmvorgänge}
-bku
+Die nun endgültigen Einstellungen werden nun erstmals in die \textsc{Matlab}-Umgebung geladen. In der \textsc{Java}-Klasse \textit{KoraSteps} wird nun die Methode \textit{KoraStep1} ausgeführt. Abhängig von dem jeweiligen Sensor und dem \textit{measurement} werden von hier aus die entsprechenden \textsc{Matlab}-Funktionen aufgerufen. Für das \textit{count/epoch measurement} existiert in diesem Tool nur eine Implementation für den Sensor Actigraph GT3X. Im Falle von falschen Usereinstellungen im Bezug auf die zugrundeliegende Datenart wird dies als Fehler behandelt. Dabei erscheint die Meldung ``No code implemented for \textbf{sensorname} count/epoch measurement!''. Das Laden im \textit{raw data measurement} ist für jeden Sensor erlaubt.\newline
+
+Für jeden dieser Fälle existiert eine \textsc{Matlab}-Funktion. Diese weichen in Sensor- und Datentypspezifischen Details voneinander ab. Beispielsweise betrifft dies die abweichende Aufteilung der csv-Dateien. So besitzen die GeneActive Dateien einen Kopf mit den jeweiligen Informationen, wohingegen Somnowatch Dateien direkt mit den Daten starten. Auch die Anzahl der Spalten weichen voneinander ab.\newline
+
+/TODO: Beschreibung des groben ABlaufs der Loadfile funktion in matlab 
+
 
 
 
