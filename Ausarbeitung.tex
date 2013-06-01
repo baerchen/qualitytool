@@ -125,7 +125,7 @@ Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Be
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.7\columnwidth]{Abbildungen/Browse-Button.png}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse-Button.png}
 }
 \caption {Gui nach Betätigen des \textit{Browse}-Buttons}
 \label{bb}
@@ -156,11 +156,26 @@ Der \textit{Load}-Button wird dem Benutzer erst nach dem Ausführen des \textit{B
 Die Trennung des \textit{Browse}-Buttons und des \textit{Load}-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren. So lassen sich nach den Voreinstellungen sowohl der Sensorname, als auch die Frequenz und die Datenart einstellen.
 
 \subsubsection{Programmvorgänge}
-Die nun endgültigen Einstellungen werden nun erstmals in die \textsc{Matlab}-Umgebung geladen. In der \textsc{Java}-Klasse \textit{KoraSteps} wird nun die Methode \textit{KoraStep1} ausgeführt. Abhängig von dem jeweiligen Sensor und dem \textit{measurement} werden von hier aus die entsprechenden \textsc{Matlab}-Funktionen aufgerufen. Für das \textit{count/epoch measurement} existiert in diesem Tool nur eine Implementation für den Sensor Actigraph GT3X. Im Falle von falschen Usereinstellungen im Bezug auf die zugrundeliegende Datenart wird dies als Fehler behandelt. Dabei erscheint die Meldung ``No code implemented for \textbf{sensorname} count/epoch measurement!''. Das Laden im \textit{raw data measurement} ist für jeden Sensor erlaubt.\newline
+Die nun endgültigen Einstellungen werden nun erstmals in die \textsc{Matlab}-Umgebung geladen. In der \textsc{Java}-Klasse \textit{KoraSteps} wird nun die Methode \textit{KoraStep1} ausgeführt. Abhängig von dem jeweiligen Sensor und dem \textit{measurement} werden von hier aus die entsprechenden \textsc{Matlab}-Funktionen aufgerufen. Für das \textit{count/epoch measurement} existiert in diesem Tool nur eine Implementation für den Sensor Actigraph GT3X. Im Falle von falschen Usereinstellungen im Bezug auf die zugrundeliegende Datenart wird dies als Fehler behandelt. Dabei erscheint die Meldung ``No code implemented for [sensorname] count/epoch measurement!''. Das Laden im \textit{raw data measurement} ist für jeden Sensor erlaubt.\newline
 
-Für jeden dieser Fälle existiert eine \textsc{Matlab}-Funktion. Diese weichen in Sensor- und Datentypspezifischen Details voneinander ab. Beispielsweise betrifft dies die abweichende Aufteilung der csv-Dateien. So besitzen die GeneActive Dateien einen Kopf mit den jeweiligen Informationen, wohingegen Somnowatch Dateien direkt mit den Daten starten. Auch die Anzahl der Spalten weichen voneinander ab.\newline
+Für jeden dieser Fälle existiert eine \textsc{Matlab}-Funktion. Diese weichen in Sensor- und Datentypspezifischen Details voneinander ab. Grund dafür ist beispielsweise der Unterschied im Aufbau der csv-Dateien. So besitzen die GeneActive Dateien einen Kopf mit den jeweiligen Informationen, wohingegen Somnowatch Dateien direkt mit den Daten starten. Auch die Anzahl der Spalten weichen voneinander ab.\newline
 
-/TODO: Beschreibung des groben ABlaufs der Loadfile funktion in matlab 
+In Matlab wird in der Funktion \textit{$FileLoader\_[sensorname]Kora$} bzw. für \textit{$count/epoch measurement$} \textit{$FileLoaderKora\_new$} die Messdaten aus der csv-Datei gefiltert und zeitlich angepasst. Das Ergebnis wird unter dem \textit{$[Filename]\_RAW$} bzw. \textit{$[Filename]\_MAT$} gespeichert und für den User jederzeit wieder aufrufbar.\newline
+
+Ist das Laden abgeschlossen, wird sowohl der \textit{PlotAllData + Cut}-Button als auch der \textit{RawToCount}-Button auf ``grün'' geschalten.
+
+\subsection{PlotAllData + Cut -Button}
+
+Die geladenen Daten lassen sich in einer Grafik darstellen. In der Grafik sind drei verschiedene Graphen zu sehen. Die dazugehörige Legende beschreibt, was der jeweilige Graph darstellt. Zusätzlich ist die Grafik mit dem Sensorname, dem Datentyp und der Frequenz beschriftet. \newline
+
+In dem Fenster des \textit{Plots} kann der Benutzer nun Einstellungen bezüglich Startzeit und Dauer der relevanten Daten treffen.\newline
+
+/TODO: Geplotetteter Graph 
+
+\subsubsection{Implementierung}
+
+
+
 
 
 

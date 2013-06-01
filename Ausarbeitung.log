@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  31 MAY 2013 16:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  1 JUN 2013 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout4 = `Ausarbeitung.toc'.
 
  [2]
-<Abbildungen/version_1.png, id=78, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=88, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
@@ -408,7 +408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<Abbildungen/ErweitertesTool1.JPG, id=98, 742.27313pt x 392.21532pt>
+<Abbildungen/ErweitertesTool1.JPG, id=108, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
@@ -441,12 +441,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<Abbildungen/Browse-Button.png, id=110, 1023.07219pt x 536.75531pt>
+<Abbildungen/Browse-Button.png, id=120, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
 Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 129.
-(pdftex.def)             Requested size: 241.49895pt x 126.70264pt.
+(pdftex.def)             Requested size: 310.4979pt x 162.90338pt.
  [7]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
@@ -512,17 +512,17 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.155 \subsubsection
-                    {Möglichkeiten für den Benutzer} <./Abbildungen/Browse-Butt
-on.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
+l.149 Z
+       um Schluss wird der \textit{Load}-Button zur Nutzung freigeschalten. <./
+Abbildungen/Browse-Button.png>]
+Underfull \hbox (badness 2285) in paragraph at lines 159--160
+\OT1/cmr/m/it/10 su-re-ment \OT1/cmr/m/n/10 wer-den von hier aus die ent-spre-c
+hen-den \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktionen
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 161--162
-\OT1/cmr/m/n/10 die ab-wei-chen-de Auf-tei-lung der csv-Dateien. So be-sit-zen 
-die Ge-ne-Ac-ti-ve
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
  []
 
 
@@ -530,28 +530,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+
+Underfull \hbox (badness 4132) in paragraph at lines 163--164
+\OML/cmm/m/it/10 count=epochmeasurement$ $FileLoaderKora[]new$ \OT1/cmr/m/n/10 
+die Messda-ten aus der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: A1332AC78FFBDBDB67BF731F98DB9E67;793.
+(rerunfilecheck)             Checksum: 9F50B2F098B5E9D6868050DED227FFA7;943.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 6190 strings out of 495007
- 88339 string characters out of 3179690
- 171893 words of memory out of 3000000
- 9279 multiletter control sequences out of 15000+200000
+ 6195 strings out of 495007
+ 88416 string characters out of 3179690
+ 172893 words of memory out of 3000000
+ 9281 multiletter control sequences out of 15000+200000
  13762 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,7n,28p,789b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,28p,782b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -562,10 +583,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on Ausarbeitung.pdf (9 pages, 367105 bytes).
+Output written on Ausarbeitung.pdf (10 pages, 371888 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,3 +9,5 @@
 \contentsline {subsection}{\numberline {4.2}Der Load-Button}{9}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}M\"oglichkeiten f\"ur den Benutzer}{9}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Programmvorg\"ange}{9}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}PlotAllData + Cut -Button}{10}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Implementierung}{10}{subsubsection.4.3.1}
