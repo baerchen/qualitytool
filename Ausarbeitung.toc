@@ -11,3 +11,8 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Programmvorg\"ange}{9}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}PlotAllData + Cut -Button}{10}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Implementierung}{10}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Cut Data}{11}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}PlotRelevantData-Button}{11}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Wearing time van Hees-Button}{11}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Aktionen des QualityControlTool}{11}{subsubsection.4.5.1}
+\contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{12}{subsection.4.6}
