@@ -18,3 +18,11 @@
 \BOOKMARK [3][-]{subsubsection.4.5.1}{Aktionen des QualityControlTool}{subsection.4.5}% 18
 \BOOKMARK [2][-]{subsection.4.6}{Raw to Counts/METs-Button}{section.4}% 19
 \BOOKMARK [3][-]{subsubsection.4.6.1}{Implementierung}{subsection.4.6}% 20
+\BOOKMARK [1][-]{section.5}{Beispielablauf einer Analyse von Shimmer Daten}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Starten des Programms}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Laden einer Shimmer Datei}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.3}{Umwandeln von Rohdaten in Counts}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.4}{Plotten aller Daten}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.5}{Plotten der relevanten Rohdaten}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.6}{Berechnung der Tragezeit nach van Hees}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.7}{?}{section.5}% 28

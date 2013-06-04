@@ -116,7 +116,7 @@ In der ersten Version des Tools mussten die auszuwertenden Daten immer um 12:00 
 
 Im Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige Neuerungen gemacht worden. Zum einen wurde der oben erwähnte \textit{Load}-Button hinzugefügt. Zum Anderen wurde für die Auswertung von Rohdaten der Button \textit{wearing Time van Hees} hinzugefügt (vgl. Kapitel \ref{Wearing time van Hees-Button}). Um es dem User zu ermöglichen Rohdaten in Epochdaten umzuwandeln wurde zudem der Button \textit{Raw to Counts/METs} neu angelegt (vgl. Kapitel \ref{Raw to Counts/METs-Button}).
 
-\subsection{Der Browse-Button}
+\subsection{Der Browse-Button}\label{Der Browse-Button}
 \subsubsection{Aktion des Benutzers}
 Um mit dem QualityControlTool arbeiten zu können, muss zunächst der \textit{Browse}-Button betätigt werden. Im Zuge dessen muss die zu analysierende csv-Datei aus dem entsprechenden Ordner auf dem Computer des Users ausgewählt werden. 
 
@@ -209,7 +209,7 @@ Sobald der User den Button gedrückt hat wird über den \textsc{Java}-Code die Met
 
 Das Ergebnis wird auf zwei verschiedene Arten abgespeichert: Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Daten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
 
-Außerdem wird eine \textit{.csv}-Datei abgespeichert. Diese enthält die genaue Zeitangabe jedes berechneten Intervalls und die dazugehörige Trage-Informationen aus der vierten Spalte der Matrix \textit{B}. Zu finden sind diese Dateien jeweils unter dem Namen {$[Filename]\_wearingTimevHees$} mit der entsprechenden Endung für den Datentyp.
+Außerdem wird eine CSV-Datei abgespeichert. Diese enthält die genaue Zeitangabe jedes berechneten Intervalls und die dazugehörige Trage-Informationen aus der vierten Spalte der Matrix \textit{B}. Zu finden sind diese Dateien jeweils unter dem Namen {$[Filename]\_wearingTimevHees$} mit der entsprechenden Endung für den Datentyp.
 
 \subsection{Raw to Counts/METs-Button}\label{Raw to Counts/METs-Button}
 
@@ -227,5 +227,38 @@ Bei jedem Sensor werden die Rohdaten automatisch in Counts mit einer Epochenläng
 Außerdem werden die Counts und METs in einer CSV-Datei unter dem Namen {$[Filename]\_Count\_MET.csv$} gespeichert. Diese Datei enthält dann zuerst die genaue Zeitangabe der Daten. Dahinter stehen jeweils, durch Kommata getrennt, die zugehörigen Counts und dann METs.\newline
 
 Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
+
+
+\section{Beispielablauf einer Analyse von Shimmer Daten}
+
+Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
+
+\subsection{Starten des Programms}
+Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.
+
+Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} TODO: Wie hieß die Matlab Erweiterung die wir noch installiert haben???
+
+\subsection{Laden einer Shimmer Datei}
+
+Zuerst wird über den \textit{Browse}-Button (siehe Kapitel \ref{Der Browse-Button}) auf dem Computer eine auszuwertende Datei ausgewählt. In diesem Fall handelt es sich um eine Datei mit Rohdaten von dem Sensortyp Shimmer.
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.png}
+}
+\caption {Das Tool nachdem die Datei mittels \textit{Browse}-Button ausgewählt wurde}
+\label{browse}
+\end{figure}
+
+Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte trotzdem immer überprüft werden ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.
+\subsection{Umwandeln von Rohdaten in Counts}
+
+\subsection{Plotten aller Daten}
+
+\subsection{Plotten der relevanten Rohdaten}
+
+\subsection{Berechnung der Tragezeit nach van Hees}
+
+\subsection{?}
 
 \end{document}
