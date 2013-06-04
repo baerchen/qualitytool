@@ -244,13 +244,26 @@ Zuerst wird über den \textit{Browse}-Button (siehe Kapitel \ref{Der Browse-Butto
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.png}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.jpg}
 }
-\caption {Das Tool nachdem die Datei mittels \textit{Browse}-Button ausgewählt wurde}
+\caption {Nach auswählen der Datei mittels \textit{Browse}-Button}
 \label{browse}
 \end{figure}
 
 Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte trotzdem immer überprüft werden ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.
+
+Ebenfalls wird die Frequenz automatisch gesetzt. Da diese jedoch nicht in den Daten des Sensortyps Shimmer zu finden sind wurde hier ein Defaultwert von 100 Herz angegeben. Diesen Wert gilt es für den Benutzer unbedingt zu überprüfen, da er auch abweichen kann.
+
+Hat der Benutzer alle automatisch getroffenen Einstellungen überprüft und gegebenenfalls geändert kann nun der grün umrandete \textit{Load}-Button betätigt werden (siehe Kapitel \ref{Der Load-Button}). Wurde dieser gedrückt kann es vor Allem bei größeren Daten, abhängig von der jeweiligen Rechnerleistung, zu einer Rechenzeit von mehreren Minuten kommen.
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Load.jpg}
+}
+\caption {Nach laden der Datei mittels \textit{Load}-Button}
+\label{load}
+\end{figure}
+
 \subsection{Umwandeln von Rohdaten in Counts}
 
 \subsection{Plotten aller Daten}
