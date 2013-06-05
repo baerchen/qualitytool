@@ -10,20 +10,20 @@
 \contentsline {subsubsection}{\numberline {4.2.1}M\"oglichkeiten f\"ur den Benutzer}{9}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Programmvorg\"ange}{9}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}PlotAllData + Cut -Button}{10}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Implementierung}{10}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1}Implementierung}{11}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Cut Data}{11}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}PlotRelevantData-Button}{11}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Aktionen des QualityControlTools}{11}{subsubsection.4.4.1}
-\contentsline {subsection}{\numberline {4.5}Wearing time van Hees-Button}{11}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.4}PlotRelevantData-Button}{12}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Aktionen des QualityControlTools}{12}{subsubsection.4.4.1}
+\contentsline {subsection}{\numberline {4.5}Wearing time van Hees-Button}{12}{subsection.4.5}
 \contentsline {subsubsection}{\numberline {4.5.1}Aktionen des QualityControlTool}{12}{subsubsection.4.5.1}
-\contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{12}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{13}{subsection.4.6}
 \contentsline {subsubsection}{\numberline {4.6.1}Implementierung}{13}{subsubsection.4.6.1}
 \contentsline {section}{\numberline {5}Beispielablauf einer Analyse von Shimmer Daten}{14}{section.5}
 \contentsline {subsection}{\numberline {5.1}Starten des Programms}{14}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Laden einer Shimmer Datei}{14}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Umwandeln von Rohdaten in Counts}{15}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Plotten aller Daten}{16}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Plotten der relevanten Rohdaten}{18}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Berechnung der Tragezeit nach van Hees}{20}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}}{21}{subsection.5.7}
-\contentsline {section}{\numberline {6}Hinweise zur Benutzung des Tools}{21}{section.6}
+\contentsline {subsection}{\numberline {5.3}Umwandeln von Rohdaten in Counts}{16}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Plotten aller Daten}{17}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Plotten der relevanten Rohdaten}{19}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Berechnung der Tragezeit nach van Hees}{21}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}}{22}{subsection.5.7}
+\contentsline {section}{\numberline {6}Hinweise zur Benutzung des Tools}{22}{section.6}

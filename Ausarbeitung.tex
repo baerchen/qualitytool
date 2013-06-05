@@ -65,7 +65,7 @@ Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bz
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/version_1.png}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/version_1.png}
 }
 \caption {Gui des QualityControlTools 1. Version}
 \label{v1}
@@ -102,7 +102,7 @@ Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben d
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/ErweitertesTool1.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/ErweitertesTool1.JPG}
 }
 \caption {Gui des QualityControlTools 2. Version}
 \label{v2}
@@ -127,7 +127,7 @@ Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Be
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse-Button.png}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/Browse-Button.png}
 }
 \caption {Gui nach Betätigen des \textit{Browse}-Buttons}
 \label{bb}
@@ -175,7 +175,7 @@ In dem Fenster des \textit{Plots} kann der Benutzer nun Einstellungen bezüglich 
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.7\columnwidth]{Abbildungen/Plot.png}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/Plot.png}
 }
 \caption {Beispiel: \textit{Plot} einer GT3X+ Datei}
 \label{plot}
@@ -235,7 +235,7 @@ Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt
 Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
 
 \subsection{Starten des Programms}
-Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.
+Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.\newline
 
 Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
 
@@ -245,23 +245,23 @@ Zuerst wird über den \textit{Browse}-Button (siehe Kapitel \ref{Der Browse-Butto
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/Browse.JPG}
 }
 \caption {Nach auswählen der Datei mittels \textit{Browse}-Button}
 \label{browse}
 \end{figure}
 
-Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte trotzdem immer überprüft werden ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.
+Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte trotzdem immer überprüft werden ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.\newline
 
-Ebenfalls wird die Frequenz automatisch gesetzt. Da diese jedoch nicht in den Daten des Sensortyps Shimmer zu finden sind wurde hier ein Defaultwert von 100 Herz angegeben. Diesen Wert gilt es für den Benutzer unbedingt zu überprüfen, da er auch abweichen kann.
+Ebenfalls wird die Frequenz automatisch gesetzt. Da diese jedoch nicht in den Daten des Sensortyps Shimmer zu finden sind wurde hier ein Defaultwert von 100 Herz angegeben. Diesen Wert gilt es für den Benutzer unbedingt zu überprüfen, da er auch abweichen kann.\newline
 
-Eine weitere Besonderheit die bei den beiden Sensortypen Shimmer und Somnowatch zusätzliche zu beachten sind, sind die Felder \textit{Start Date} und \textit{Start Time}. Auch diese beiden Informationen sind in den Daten der genannten Sensoren nicht enthalten. Deshalb müssen diese vor drücken des \textit{Load}-Buttons vom Benutzer unbedingt angepasst werden. Geschieht dies nicht, so wie in diesem Beispielablauf, wird jeweils der Defaultwert verwendet.
+Eine weitere Besonderheit die bei den beiden Sensortypen Shimmer und Somnowatch zusätzliche zu beachten sind, sind die Felder \textit{Start Date} und \textit{Start Time}. Auch diese beiden Informationen sind in den Daten der genannten Sensoren nicht enthalten. Deshalb müssen diese vor drücken des \textit{Load}-Buttons vom Benutzer unbedingt angepasst werden. Geschieht dies nicht, so wie in diesem Beispielablauf, wird jeweils der Defaultwert verwendet.\newline
 
 Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann nun der grün umrandete \textit{Load}-Button betätigt werden (siehe Kapitel \ref{Der Load-Button}). Wurde dieser gedrückt kann es vor Allem bei größeren Daten, abhängig von der jeweiligen Rechnerleistung, zu einer Rechenzeit von mehreren Minuten kommen.
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Load.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/Load.JPG}
 }
 \caption {Nach laden der Datei mittels \textit{Load}-Button}
 \label{load}
@@ -269,13 +269,13 @@ Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann n
 
 \subsection{Umwandeln von Rohdaten in Counts}
 
-In diesem Schritt des Beispielablauf werden nun die Counts aus den Rohdaten berechnet. Natürlich besteht die Möglichkeit zuerst die Rohdaten zu Plotten (PlotAllData + Cut-Button) und zu beschneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten Plots nicht so lange und die Daten können auf die selbe Art beschnitten werden. In den folgenden Abschnitten wird beschrieben wie der Benutzer danach über den \textit{data type} zurück zu \textit{raw data measurement} wechseln kann um nur noch den Plot für die ausgewählten Daten durchzuführen.
+In diesem Schritt des Beispielablauf werden nun die Counts aus den Rohdaten berechnet. Natürlich besteht die Möglichkeit zuerst die Rohdaten zu Plotten (PlotAllData + Cut-Button) und zu beschneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten Plots nicht so lange und die Daten können auf die selbe Art beschnitten werden. In den folgenden Abschnitten wird beschrieben wie der Benutzer danach über den \textit{data type} zurück zu \textit{raw data measurement} wechseln kann um nur noch den Plot für die ausgewählten Daten durchzuführen.\newline
 
-Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem laden grün umrandeten, Button \textit{Raw to Counts/METs} (siehe Kapitel \ref{Raw to Counts/METs-Button}) drücken. Nach der Berechnung wird in der Oberfläche die Auswahl des \textit{data type} automatisch auf \textit{count/epoch measurement} gesetzt. Nun ist es möglich zwischen beiden Einstellungen hin- und herzuspringen um Berechnungen durchzuführen die es eventuell nur für einen der Datentypen gibt. Ebenfalls wird nun die Leiste für die Einstellung der Epoche freigegeben und auf 60 Sekunden gesetzt. Gleichzeitig kann der Benutzer nun keine Änderungen mehr in der Frequenz-Leiste mehr machen (vgl. Abb. \ref{rawToCounts}).
+Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem laden grün umrandeten, Button \textit{Raw to Counts/METs} (siehe Kapitel \ref{Raw to Counts/METs-Button}) drücken. Nach der Berechnung wird in der Oberfläche die Auswahl des \textit{data type} automatisch auf \textit{count/epoch measurement} gesetzt. Nun ist es möglich zwischen beiden Einstellungen hin- und herzuspringen um Berechnungen durchzuführen die es eventuell nur für einen der Datentypen gibt. Ebenfalls wird nun die Leiste für die Einstellung der Epoche freigegeben und auf 60 Sekunden gesetzt. Gleichzeitig kann der Benutzer nun keine Änderungen mehr in der Frequenz-Leiste mehr machen (vgl. Abb. \ref{rawToCounts}).\newline
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/RawToCounts.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/RawToCounts.JPG}
 }
 \caption {Nach berechnen der Counts/METs mittels \textit{Raw to Counts/METs}-Button}
 \label{rawToCounts}
@@ -283,25 +283,25 @@ Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem lade
 
 \subsection{Plotten aller Daten}\label{Plotten aller Daten}
 
-Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige abzuschneiden werden in diesem Schritt erst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.
+Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige abzuschneiden werden in diesem Schritt erst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.\newline
 
 Zur Erstellung der Grafik für den ersten Plot wird der \textit{$PlotAllData + Cut$}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/FirstPlot.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/FirstPlot.JPG}
 }
 \caption {Erster Plot}
 \label{firstPlot}
 \end{figure}
 
-Im unteren Bereich wird nun das Zeitintervall für die zukünftig verwendeten Daten angegeben. In diesem Beispiel wird der Bereich zwischen dem ersten und dem dritten Tag genutzt. Dies ergibt sich aus der \textit{1} im Feld \textit{Start Day} und der \textit{2} im Feld \textit{Duration Days}. Da die Daten in diesem Fall schon vor Ende des dritten Tages aufhören, werden in den folgenden Schritten automatisch alle Daten vom ersten Tag an bis zum Ende verwendet.
+Im unteren Bereich wird nun das Zeitintervall für die zukünftig verwendeten Daten angegeben. In diesem Beispiel wird der Bereich zwischen dem ersten und dem dritten Tag genutzt. Dies ergibt sich aus der \textit{1} im Feld \textit{Start Day} und der \textit{2} im Feld \textit{Duration Days}. Da die Daten in diesem Fall schon vor Ende des dritten Tages aufhören, werden in den folgenden Schritten automatisch alle Daten vom ersten Tag an bis zum Ende verwendet.\newline
 
 Wird vom User nun der Button \textit{PlotRelevantData} angewendet werden nur die gerade gewählten Daten in der Grafik dargestellt (siehe Abb. \ref{secondPlot}). Ab diesem Schritt werden auch für die Analyse und die Berechnung der Tragezeit nur noch die gewählten Daten verwendet.
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/SecondPlot.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/SecondPlot.JPG}
 }
 \caption {Zweiter Plot}
 \label{secondPlot}
@@ -313,7 +313,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso besc
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Cut.JPG}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/Cut.JPG}
 }
 \caption {Ansicht der Benutzeroberfläche vor Plotten der relevanten Rohdaten}
 \label{cut}
