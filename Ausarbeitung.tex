@@ -65,7 +65,7 @@ Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bz
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=150mm, height=100mm]{Abbildungen/version_1.png}
+\includegraphics[width=150mm, height=95mm]{Abbildungen/version_1.png}
 }
 \caption {Gui des QualityControlTools 1. Version}
 \label{v1}
@@ -102,7 +102,7 @@ Bei der Erweiterung des gerade vorgestellten QualityControlTools kam es, neben d
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=150mm, height=100mm]{Abbildungen/ErweitertesTool1.JPG}
+\includegraphics[width=150mm, height=90mm]{Abbildungen/ErweitertesTool1.JPG}
 }
 \caption {Gui des QualityControlTools 2. Version}
 \label{v2}
@@ -127,7 +127,7 @@ Ist die auszuwertende Datei gewählt, stellt das QualityControlTool vorläufige Be
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=150mm, height=100mm]{Abbildungen/Browse-Button.png}
+\includegraphics[width=150mm, height=95mm]{Abbildungen/Browse-Button.png}
 }
 \caption {Gui nach Betätigen des \textit{Browse}-Buttons}
 \label{bb}
@@ -175,7 +175,7 @@ In dem Fenster des \textit{Plots} kann der Benutzer nun Einstellungen bezüglich 
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=150mm, height=100mm]{Abbildungen/Plot.png}
+\includegraphics[width=135mm, height=100mm]{Abbildungen/Plot.png}
 }
 \caption {Beispiel: \textit{Plot} einer GT3X+ Datei}
 \label{plot}
@@ -201,7 +201,7 @@ Der \textit{PlotRelevantData-Button} wird dem Benutzer erst nach dem Ausführen d
 
 \subsubsection{Aktionen des QualityControlTools}
 
-/TODO!!! 
+Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Methode \textit{KoraStep3} der Klasse \textit{KoraSteps} aufgerufen. Von hier aus wird die \textbf{Matlab}-Funktion \textit{$step3\_cutFile$}. Für den Datentyp \textit{raw measurement} wird \textit{$cutFirstPlus2\_Raw$} benutzt. Die in der Datei \textit{[sensorname]$\_$RAW.mat} gespeicherten Daten aus dem vorangegangenen Schritt werden \textit{geplottet}. Bei \textit{count/epoch measurement} greift \textit{$step3\_cutFile$} auf \textit{$cutFirstPlus2\_new$} zu. Für diesen Datentyp werden ebenfalls die zuvor geschnittenen Daten anhand der Datei \textit{$[sensorname].mat$} gezeichnet. Der dabei enstehende \textit{Plot} wird wiederum in \textit{KoraSecondPlot.png} gespeichert. Somit lässt sich die Graphik von dem User ohne erneute Einstellungen jederzeit aufrufen.
 
 \subsection{Wearing time van Hees-Button}\label{Wearing time van Hees-Button}
 Dieser Button stellt dem Benutzer eine Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees (TODO: Referenz zu van Hees Doc einfügen!!!) verwendet. Der Button wird freigeschaltet sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
