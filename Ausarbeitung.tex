@@ -4,6 +4,7 @@
 \usepackage{float}
 \usepackage{amsmath}
 
+
 % Bitte hier Ihren Namen eintragen
 \author{Sarah Barton und Sonja Vogl \\ Technische Universität München}
 
@@ -30,6 +31,7 @@
 \begin{abstract}
 \begin{center}
 \noindent
+
 Diese Ausarbeitung soll dem Benutzer einen Einblick in die Bedienbarkeit des QualtiyControlTools geben.
 Ausgehend von der ersten Version der beiden Entwickler Simon und bla werden die Erweiterungen des QualityControlTools vorgestellt.
 Zudem geht diese Arbeit auf die Funktionen ein, die das QualityControlTool zur Analyse der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+  bereitstellt.
@@ -228,7 +230,6 @@ Außerdem werden die Counts und METs in einer CSV-Datei unter dem Namen {$[Filena
 
 Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
 
-
 \section{Beispielablauf einer Analyse von Shimmer Daten}
 
 Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
@@ -236,7 +237,7 @@ Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung e
 \subsection{Starten des Programms}
 Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.
 
-Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} TODO: Wie hieß die Matlab Erweiterung die wir noch installiert haben???
+Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
 
 \subsection{Laden einer Shimmer Datei}
 
@@ -244,7 +245,7 @@ Zuerst wird über den \textit{Browse}-Button (siehe Kapitel \ref{Der Browse-Butto
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Browse.JPG}
 }
 \caption {Nach auswählen der Datei mittels \textit{Browse}-Button}
 \label{browse}
@@ -260,7 +261,7 @@ Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann n
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Load.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Load.JPG}
 }
 \caption {Nach laden der Datei mittels \textit{Load}-Button}
 \label{load}
@@ -274,7 +275,7 @@ Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem lade
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/RawToCounts.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/RawToCounts.JPG}
 }
 \caption {Nach berechnen der Counts/METs mittels \textit{Raw to Counts/METs}-Button}
 \label{rawToCounts}
@@ -284,11 +285,11 @@ Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem lade
 
 Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige abzuschneiden werden in diesem Schritt erst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.
 
-Zur Erstellung der Grafik für den ersten Plot wird der \textit{PlotAllData + Cut}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
+Zur Erstellung der Grafik für den ersten Plot wird der \textit{$PlotAllData + Cut$}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/FirstPlot.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/FirstPlot.JPG}
 }
 \caption {Erster Plot}
 \label{firstPlot}
@@ -300,7 +301,7 @@ Wird vom User nun der Button \textit{PlotRelevantData} angewendet werden nur die
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/SecondPlot.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/SecondPlot.JPG}
 }
 \caption {Zweiter Plot}
 \label{secondPlot}
@@ -312,7 +313,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso besc
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/Cut.jpg}
+\includegraphics[width=0.9\columnwidth]{Abbildungen/Cut.JPG}
 }
 \caption {Ansicht der Benutzeroberfläche vor Plotten der relevanten Rohdaten}
 \label{cut}
@@ -322,7 +323,7 @@ Da jetzt ein Teil der Daten wegfällt funktioniert dieser Schritt schneller als d
 
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/SecondPlot_RAW.jpg}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/SecondPlot_RAW.JPG}
 }
 \caption {Zweiter Plot mit Rohdaten}
 \label{secondPlot_RAW}
@@ -335,22 +336,25 @@ Nun werden für folgende Anwendungen auch bei Rohdaten nur noch die gewählten, ni
 TODO: Beschreibung
 \begin{figure}[H]
 \centerline{
-\includegraphics[width=0.9\columnwidth]{Abbildungen/wearingTimevH.jpg}
+\includegraphics[width=150mm, height=100mm]{Abbildungen/wearingTimevH.JPG}
 }
 \caption {Nach der Berechnung der Tragezeit nach van Hees}
 \label{wTvH}
 \end{figure}
 
-\subsection{?}
+\subsection{}
 
 \section{Hinweise zur Benutzung des Tools}
 
-TODO:
+/TODO:
 
 - Installationen die vor der Benutzung gemacht werden müssen
 
 - Hinweis: Keine anderen Dinge währenddessen auf dem Rechner machen (ggf. Internet ausschalten), v.a. bei großen Daten
 
 - Besonderheiten für Shimmer, Somnowatch (z.B. Frequenz muss immer wieder neu eingestellt werden wenn zu Rohdaten zurückgewechselt wird!!!), GT3X+, GeneActiv auflisten
+
+
+
 
 \end{document}
