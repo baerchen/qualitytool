@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  6 JUN 2013 21:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  6 JUN 2013 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,7 +622,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout5 = `Ausarbeitung.toc'.
 
  [2]
-<Abbildungen/version_1.png, id=203, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=213, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
@@ -654,7 +654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
-[5] <Abbildungen/ErweitertesTool1.JPG, id=224, 742.27313pt x 392.21532pt>
+[5] <Abbildungen/ErweitertesTool1.JPG, id=234, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
@@ -688,7 +688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-<Abbildungen/Browse-Button.png, id=242, 1023.07219pt x 536.75531pt>
+<Abbildungen/Browse-Button.png, id=252, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
@@ -755,7 +755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-<Abbildungen/Plot.png, id=259, 658.71094pt x 554.82281pt>
+<Abbildungen/Plot.png, id=269, 658.71094pt x 554.82281pt>
 File: Abbildungen/Plot.png Graphic file (type png)
 
 <use Abbildungen/Plot.png>
@@ -890,7 +890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-<Abbildungen/Browse.JPG, id=306, 1026.08344pt x 544.28343pt>
+<Abbildungen/Browse.JPG, id=316, 1026.08344pt x 544.28343pt>
 File: Abbildungen/Browse.JPG Graphic file (type jpg)
 
 <use Abbildungen/Browse.JPG>
@@ -917,7 +917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-<Abbildungen/Load.JPG, id=314, 1027.58907pt x 545.78906pt>
+<Abbildungen/Load.JPG, id=324, 1027.58907pt x 545.78906pt>
 File: Abbildungen/Load.JPG Graphic file (type jpg)
 
 <use Abbildungen/Load.JPG>
@@ -950,7 +950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
-<Abbildungen/RawToCounts.JPG, id=322, 1027.58907pt x 546.54187pt>
+<Abbildungen/RawToCounts.JPG, id=332, 1027.58907pt x 546.54187pt>
 File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
 
 <use Abbildungen/RawToCounts.JPG>
@@ -961,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
-<Abbildungen/FirstPlot.JPG, id=330, 645.91313pt x 576.65437pt>
+<Abbildungen/FirstPlot.JPG, id=340, 645.91313pt x 576.65437pt>
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
@@ -978,7 +978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-<Abbildungen/SecondPlot.JPG, id=336, 676.77844pt x 521.69907pt>
+<Abbildungen/SecondPlot.JPG, id=346, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
@@ -991,7 +991,7 @@ Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 394.
                                                   \fi \fi 
 l.398 
        <./Abbildungen/FirstPlot.JPG>]
-<Abbildungen/Cut.JPG, id=344, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=354, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
@@ -1004,7 +1004,7 @@ Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 406.
                                                   \fi \fi 
 l.410 
        <./Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=351, 675.27281pt x 521.69907pt>
+<Abbildungen/SecondPlot_RAW.JPG, id=361, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 416.
                                                   \fi \fi 
 l.420 
        <./Abbildungen/Cut.JPG>]
-<Abbildungen/wearingTimevH.JPG, id=356, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=366, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
@@ -1031,27 +1031,27 @@ Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 429.
                                                   \fi \fi 
 l.433 
        <./Abbildungen/SecondPlot_RAW.JPG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.449 \end{document}
+l.454 \end{document}
                      <./Abbildungen/wearingTimevH.JPG>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: D635370F7B2CCF89E7665435F49D3125;2549.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 449.
+(rerunfilecheck)             Checksum: 341B53EF621179F053673D42EF6540B7;2652.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
  ) 
 Here is how much of TeX's memory you used:
- 15231 strings out of 495007
- 273867 string characters out of 3179690
+ 15235 strings out of 495007
+ 273907 string characters out of 3179690
  352134 words of memory out of 3000000
- 18053 multiletter control sequences out of 15000+200000
+ 18055 multiletter control sequences out of 15000+200000
  13762 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,16n,82p,1111b,1915s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1067,10 +1067,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on Ausarbeitung.pdf (25 pages, 1456032 bytes).
+Output written on Ausarbeitung.pdf (25 pages, 1457449 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 377 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
 

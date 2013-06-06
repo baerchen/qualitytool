@@ -33,3 +33,5 @@
 \contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{24}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}}{25}{subsection.6.7}
 \contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{25}{section.7}
+\contentsline {section}{\numberline {8}m\"ogliche Verbesserungen}{25}{section.8}
+\contentsline {section}{\numberline {9}Fazit}{25}{section.9}
