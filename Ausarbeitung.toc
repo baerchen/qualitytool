@@ -18,12 +18,13 @@
 \contentsline {subsubsection}{\numberline {4.5.1}Aktionen des QualityControlTool}{12}{subsubsection.4.5.1}
 \contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{13}{subsection.4.6}
 \contentsline {subsubsection}{\numberline {4.6.1}Implementierung}{13}{subsubsection.4.6.1}
-\contentsline {section}{\numberline {5}Beispielablauf einer Analyse von Shimmer Daten}{14}{section.5}
-\contentsline {subsection}{\numberline {5.1}Starten des Programms}{14}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Laden einer Shimmer Datei}{14}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Umwandeln von Rohdaten in Counts}{16}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Plotten aller Daten}{17}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Plotten der relevanten Rohdaten}{19}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Berechnung der Tragezeit nach van Hees}{21}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}}{22}{subsection.5.7}
-\contentsline {section}{\numberline {6}Hinweise zur Benutzung des Tools}{22}{section.6}
+\contentsline {section}{\numberline {5}Abh\"angigkeiten im QualityControlTool}{14}{section.5}
+\contentsline {section}{\numberline {6}Beispielablauf einer Analyse von Shimmer Daten}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Starten des Programms}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Laden einer Shimmer Datei}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Umwandeln von Rohdaten in Counts}{17}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Plotten aller Daten}{18}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{20}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{22}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}}{23}{subsection.6.7}
+\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{23}{section.7}

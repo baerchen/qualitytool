@@ -3,6 +3,7 @@
 \usepackage{Ausarbeitung}
 \usepackage{float}
 \usepackage{amsmath}
+\usepackage{tikz}
 
 
 % Bitte hier Ihren Namen eintragen
@@ -230,6 +231,33 @@ Außerdem werden die Counts und METs in einer CSV-Datei unter dem Namen {$[Filena
 
 Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
 
+\section{Abhängigkeiten im QualityControlTool}
+
+
+\begin{tikzpicture}
+ 
+  \tikzstyle{level 1}=[sibling distance=60mm]
+  \tikzstyle{level 2}=[sibling distance=60mm]
+  \tikzstyle{level 3}=[sibling distance=30mm]
+
+  \node {Browse}
+    child  {node {Load}
+      child{ node {RawToCounts/METs}}
+      child{ node {PlotAllData + Cut}
+        child{ node {PlotRevelantData}
+         child{ node {ChangeEpoch}}
+         child{ node {WearingTime}}
+         child{ node {WearingTime (van Hees)}}
+         child{ node {Analyse (Andre)}}
+         }
+      }
+    };
+
+ 
+
+
+\end{tikzpicture}
+
 \section{Beispielablauf einer Analyse von Shimmer Daten}
 
 Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
@@ -237,7 +265,7 @@ Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung e
 \subsection{Starten des Programms}
 Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.\newline
 
-Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
+Damit das Tool auf Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (siehe Praktikumsbericht ``Quality Control Tool for Different Accelerometer Data'' von Johannes Eder, Martin Attenhofer), wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
 
 \subsection{Laden einer Shimmer Datei}
 
