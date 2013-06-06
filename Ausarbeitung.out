@@ -19,13 +19,17 @@
 \BOOKMARK [2][-]{subsection.4.6}{Raw to Counts/METs-Button}{section.4}% 19
 \BOOKMARK [3][-]{subsubsection.4.6.1}{Aktionen des QualityControlTool}{subsection.4.6}% 20
 \BOOKMARK [3][-]{subsubsection.4.6.2}{Implementierung}{subsection.4.6}% 21
-\BOOKMARK [1][-]{section.5}{Abh\344ngigkeiten im QualityControlTool}{}% 22
-\BOOKMARK [1][-]{section.6}{Beispielablauf einer Analyse von Shimmer Daten}{}% 23
-\BOOKMARK [2][-]{subsection.6.1}{Starten des Programms}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.2}{Laden einer Shimmer Datei}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.3}{Umwandeln von Rohdaten in Counts}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.4}{Plotten aller Daten}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.5}{Plotten der relevanten Rohdaten}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.6}{Berechnung der Tragezeit nach van Hees}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.7}{}{section.6}% 30
-\BOOKMARK [1][-]{section.7}{Hinweise zur Benutzung des Tools}{}% 31
+\BOOKMARK [2][-]{subsection.4.7}{Analyse nach Andre}{section.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Beschreibung}{subsection.4.7}% 23
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Implementierung}{subsection.4.7}% 24
+\BOOKMARK [2][-]{subsection.4.8}{Analyse nach Simon}{section.4}% 25
+\BOOKMARK [1][-]{section.5}{Abh\344ngigkeiten im QualityControlTool}{}% 26
+\BOOKMARK [1][-]{section.6}{Beispielablauf einer Analyse von Shimmer Daten}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Starten des Programms}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Laden einer Shimmer Datei}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.3}{Umwandeln von Rohdaten in Counts}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.4}{Plotten aller Daten}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.5}{Plotten der relevanten Rohdaten}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.6}{Berechnung der Tragezeit nach van Hees}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.7}{}{section.6}% 34
+\BOOKMARK [1][-]{section.7}{Hinweise zur Benutzung des Tools}{}% 35

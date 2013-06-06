@@ -4,6 +4,8 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usepackage{verbatim}
 
 
 % Bitte hier Ihren Namen eintragen
@@ -235,35 +237,85 @@ Außerdem werden die Counts und METs in einer CSV-Datei unter dem Namen {$[Filena
 
 Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
 
+\subsection{Analyse nach Andre}
+\subsubsection{Beschreibung}
+Bei Betätigung des \textit{Analyse (Andre)} -Button werden die Daten nach dem Algorithmus von Andre ausgewertet. Pro Tag der Eingabedaten werden eine bestimmte Anzahl an Werten berechnet. Diese Werte werden in /TODO:Name der Datei gespeichert.
 
+\subsubsection{Implementierung}
+Zunächst wird in der \textsc{Java}-Klasse \textit{KoraSteps} die Methode \textit{KoraStep4} aufgerufen. Diese greift auf die \textsc{Matlab}-Funktion \textit{$step4\_analyse$} zu, welche auf die Funktion \textit{$koradata\_new$} weiterleitet. Dort findet die eigentliche Berechnung statt.\newline
+
+Dabei wurde der Algorithmus so angepasst, dass die Berechnungen nur noch für einen Patienten durchgeführt werden. Zudem sind die Daten für jede Epochenlänge analysierbar. Ein valider Tag beinhaltet mindestens 10 Stunden.\newline
+
+In der Funktion \textit{finaldata2csv} werden die berechneten Daten in der Datei \textit{finaldata.csv} abgespeichert.
+
+
+\subsection{Analyse nach Simon}
+
+Bei der Analyse nach Simon hat sich zur ersten Version des Tools nichts verändert.
+Die Analyse ist weiterhin nur für \textit{count/epoch measurement} für den Sensor Actigraph GT3x ausführbar.
+Für weitere Informationen zum Aufbau der Implementierung verweisen wir Sie an dieser Stelle auf den Praktkumsbericht ``QualityControlTool for Different Accelerometer Data'' von Martin Attenkofer und Johannes Eder.
 
 \section{Abhängigkeiten im QualityControlTool}
 
-\begin{center}
-\begin{tikzpicture}
+%\begin{center}
+%\begin{tikzpicture}
+% 
+%  \tikzstyle{level 1}=[sibling distance=60mm]
+%  \tikzstyle{level 2}=[sibling distance=60mm]
+%  \tikzstyle{level 3}=[sibling distance=45mm]
+%  \tikzstyle{level 3}=[sibling distance=45mm]
+%  
+%  \node {Browse}
+%    child  {node {Load}
+%      child{ node {RawToCounts/METs}}
+%      child{ node {PlotAllData + Cut}
+%        child{ node {PlotRevelantData}
+%         child{ node {ChangeEpoch}}
+%         child{ node {WearingTime (van Hees)}}
+%         child{ node {Analyse (Andre)}}
+%         child{ node {WearingTime}
+%          child{ node {Analyse(Simon)}}
+%          }
+%         }
+%      }
+%    };
+%
+% \end{tikzpicture}
+% \end{center}
  
-  \tikzstyle{level 1}=[sibling distance=60mm]
-  \tikzstyle{level 2}=[sibling distance=60mm]
-  \tikzstyle{level 3}=[sibling distance=45mm]
-  \tikzstyle{level 3}=[sibling distance=45mm]
-  
-  \node {Browse}
-    child  {node {Load}
-      child{ node {RawToCounts/METs}}
-      child{ node {PlotAllData + Cut}
-        child{ node {PlotRevelantData}
-         child{ node {ChangeEpoch}}
-         child{ node {WearingTime (van Hees)}}
-         child{ node {Analyse (Andre)}}
-         child{ node {WearingTime}
-          child{ node {Analyse(Simon)}}
-          }
-         }
+\begin{center} 
+\begin{tikzpicture} 
+   \path[mindmap,concept color=black,text=white]
+    node[concept] {Browse}
+    [clockwise from=270]
+      child[concept color=red!50!black] {
+      node[concept] {Load}
+      [clockwise from=-55]
+    child[concept color=red] {
+      node[concept](pad) {PlotAllData + Cut}
+      [clockwise from=270]
+           child[concept color=orange, text = black] {
+           node[concept] {Plot\\Relevant\\Data}
+           [clockwise from=310]
+      child { node[concept] {Wearing\\Time\\v.Hees} }
+      child { node[concept] {Analyse\\(Andre)} }
+      child { node[concept] {Change\\Epoch} }
+      child { node[concept] {Wearing\\Time}
+            [clockwise from=270]
+           child[concept color=yellow, text = black]{
+               node[concept] {Analyse\\(Simon)}}
+       }
       }
-    };
+    }
+    child[concept color=red] { node[concept] (rtc){RawTo\\Counts/\\METs}}
+    }; ; 
+    
+    \draw [circle connection bar]
+      (rtc) edge (pad);
+    
+\end{tikzpicture}
+\end{center}
 
- \end{tikzpicture}
- \end{center}
 
 \section{Beispielablauf einer Analyse von Shimmer Daten}\label{Beispielablauf}
 

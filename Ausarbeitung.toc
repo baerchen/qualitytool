@@ -19,13 +19,17 @@
 \contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{13}{subsection.4.6}
 \contentsline {subsubsection}{\numberline {4.6.1}Aktionen des QualityControlTool}{14}{subsubsection.4.6.1}
 \contentsline {subsubsection}{\numberline {4.6.2}Implementierung}{14}{subsubsection.4.6.2}
-\contentsline {section}{\numberline {5}Abh\"angigkeiten im QualityControlTool}{15}{section.5}
-\contentsline {section}{\numberline {6}Beispielablauf einer Analyse von Shimmer Daten}{15}{section.6}
-\contentsline {subsection}{\numberline {6.1}Starten des Programms}{15}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Laden einer Shimmer Datei}{16}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Umwandeln von Rohdaten in Counts}{17}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Plotten aller Daten}{19}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{20}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{22}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}}{23}{subsection.6.7}
-\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{23}{section.7}
+\contentsline {subsection}{\numberline {4.7}Analyse nach Andre}{15}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Beschreibung}{15}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Implementierung}{15}{subsubsection.4.7.2}
+\contentsline {subsection}{\numberline {4.8}Analyse nach Simon}{15}{subsection.4.8}
+\contentsline {section}{\numberline {5}Abh\"angigkeiten im QualityControlTool}{16}{section.5}
+\contentsline {section}{\numberline {6}Beispielablauf einer Analyse von Shimmer Daten}{16}{section.6}
+\contentsline {subsection}{\numberline {6.1}Starten des Programms}{17}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Laden einer Shimmer Datei}{17}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Umwandeln von Rohdaten in Counts}{19}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Plotten aller Daten}{20}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{22}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{24}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}}{25}{subsection.6.7}
+\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{25}{section.7}
