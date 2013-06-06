@@ -233,27 +233,31 @@ Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt
 
 \section{Abhängigkeiten im QualityControlTool}
 
-
+\begin{center}
 \begin{tikzpicture}
  
   \tikzstyle{level 1}=[sibling distance=60mm]
   \tikzstyle{level 2}=[sibling distance=60mm]
-  \tikzstyle{level 3}=[sibling distance=60mm]
-
+  \tikzstyle{level 3}=[sibling distance=45mm]
+  \tikzstyle{level 3}=[sibling distance=45mm]
+  
   \node {Browse}
     child  {node {Load}
       child{ node {RawToCounts/METs}}
       child{ node {PlotAllData + Cut}
         child{ node {PlotRevelantData}
          child{ node {ChangeEpoch}}
-         child{ node {WearingTime}}
          child{ node {WearingTime (van Hees)}}
          child{ node {Analyse (Andre)}}
+         child{ node {WearingTime}
+          child{ node {Analyse(Simon)}}
+          }
          }
       }
     };
 
  \end{tikzpicture}
+ \end{center}
 
 \section{Beispielablauf einer Analyse von Shimmer Daten}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  6 JUN 2013 13:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  6 JUN 2013 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,12 +885,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
  []
 
 
-Overfull \hbox (43.57283pt too wide) in paragraph at lines 259--260
-[] 
+Overfull \hbox (110.73666pt too wide) in paragraph at lines 259--260
+ [] 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
@@ -898,20 +898,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 File: Abbildungen/Browse.JPG Graphic file (type jpg)
 
 <use Abbildungen/Browse.JPG>
-Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 277.
+Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 278.
 (pdftex.def)             Requested size: 426.78741pt x 241.84409pt.
  [15]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
@@ -919,27 +919,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 File: Abbildungen/Load.JPG Graphic file (type jpg)
 
 <use Abbildungen/Load.JPG>
-Package pdftex.def Info: Abbildungen/Load.JPG used on input line 293.
+Package pdftex.def Info: Abbildungen/Load.JPG used on input line 294.
 (pdftex.def)             Requested size: 426.78647pt x 241.84685pt.
  [16pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 \end{figure}
+l.297 \end{figure}
                    <./Abbildungen/Browse.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 302--303
+Underfull \hbox (badness 1158) in paragraph at lines 303--304
 \OT1/cmr/m/n/10 zwi-schen bei-den Ein-stel-lun-gen hin- und her-zu-sprin-gen um
  Be-rech-nun-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
@@ -947,16 +947,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--303
 File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
 
 <use Abbildungen/RawToCounts.JPG>
-Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 307.
+Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 308.
 (pdftex.def)             Requested size: 426.78647pt x 241.84685pt.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.310 \end{figure}
+l.311 \end{figure}
                    <./Abbildungen/Load.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
@@ -964,16 +964,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--315
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
-Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 321.
+Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 322.
 (pdftex.def)             Requested size: 426.78693pt x 284.53409pt.
  [18pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.326 
        <./Abbildungen/RawToCounts.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
@@ -981,33 +981,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--327
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 333.
+Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 334.
 (pdftex.def)             Requested size: 412.57608pt x 270.30592pt.
  [19pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.337 
+l.338 
        <./Abbildungen/FirstPlot.JPG>]
 <Abbildungen/Cut.JPG, id=298, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
-Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 345.
+Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 346.
 (pdftex.def)             Requested size: 426.78647pt x 270.30174pt.
  [20pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.349 
+l.350 
        <./Abbildungen/SecondPlot.JPG>]
 <Abbildungen/SecondPlot_RAW.JPG, id=305, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 355.
+Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 356.
 
 (pdftex.def)             Requested size: 398.34569pt x 284.5313pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.10
@@ -1015,49 +1015,49 @@ Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 355.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.359 
+l.360 
        <./Abbildungen/Cut.JPG>]
 <Abbildungen/wearingTimevH.JPG, id=310, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
-Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 368.
+Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 369.
 (pdftex.def)             Requested size: 426.78717pt x 270.30174pt.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.11
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.372 
+l.373 
        <./Abbildungen/SecondPlot_RAW.JPG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 388.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
  [23pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.388 \end{document}
+l.389 \end{document}
                      <./Abbildungen/wearingTimevH.JPG>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 388.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 388.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 388.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
 (rerunfilecheck)             Checksum: 804A2C0945E38B91544F82061932274F;2236.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 388.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
  ) 
 Here is how much of TeX's memory you used:
- 14625 strings out of 495007
- 256665 string characters out of 3179690
+ 14631 strings out of 495007
+ 256833 string characters out of 3179690
  324568 words of memory out of 3000000
- 17469 multiletter control sequences out of 15000+200000
+ 17475 multiletter control sequences out of 15000+200000
  13762 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,14n,55p,1112b,1304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,55p,1112b,1575s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -1069,7 +1069,7 @@ s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb>
-Output written on Ausarbeitung.pdf (23 pages, 1430454 bytes).
+Output written on Ausarbeitung.pdf (23 pages, 1430537 bytes).
 PDF statistics:
  375 PDF objects out of 1000 (max. 8388607)
  323 compressed objects within 4 object streams
