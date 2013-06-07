@@ -293,25 +293,28 @@ Für weitere Informationen zum Aufbau der Implementierung verweisen wir Sie an di
 % \end{center}
  
 \begin{center} 
+%rot = rawdata
+%blau = countdata
+%orange = beides
 \begin{tikzpicture} 
-   \path[mindmap,concept color=black,text=white]
+   \path[mindmap,concept color=orange,text=black]
     node[concept] {Browse}
     [clockwise from=270]
-      child[concept color=red!50!black] {
+      child[concept color=orange] {
       node[concept] {Load}
       [clockwise from=-55]
-    child[concept color=red] {
+    child[concept color=orange] {
       node[concept](pad) {PlotAllData + Cut}
       [clockwise from=270]
            child[concept color=orange, text = black] {
            node[concept] {Plot\\Relevant\\Data}
            [clockwise from=310]
-      child { node[concept] {Wearing\\Time\\v.Hees} }
+      child [concept color=red, text = white]{ node[concept] {Wearing\\Time\\v.Hees} }
       child { node[concept] {Analyse\\(Andre)} }
-      child { node[concept] {Change\\Epoch} }
+      child [concept color=blue, text = black]{ node[concept] {Change\\Epoch} }
       child { node[concept] {Wearing\\Time}
             [clockwise from=270]
-           child[concept color=yellow, text = black]{
+           child[concept color=blue, text = black]{
                node[concept] {Analyse\\(Simon)}}
        }
       }
@@ -324,6 +327,12 @@ Für weitere Informationen zum Aufbau der Implementierung verweisen wir Sie an di
     
 \end{tikzpicture}
 \end{center}
+
+Legende:\newline
+Abhängigkeiten von großen zu kleinen \textit{Bubbles}\\
+rot $\mathrel{\widehat{=}}$ \textit{raw data measurment}\\
+blau  $\mathrel{\widehat{=}}$ \textit{count/epoch measurment}\\
+orange  $\mathrel{\widehat{=}}$ \textit{raw data measurment} oder \textit{count/epoch measurment}
 
 
 \section{Beispielablauf einer Analyse von Shimmer Daten}\label{Beispielablauf}
