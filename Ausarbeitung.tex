@@ -431,9 +431,37 @@ TODO: Beschreibung
 \label{wTvH}
 \end{figure}
 
-\subsection{}
+\subsection{Epochenänderung}
+
+An dem Schritt zur Änderung der Epoche wurde in der Erweiterung keine Änderung vorgenommen. Mit Hilfe des Schiebereglers (siehe Abb. \ref{epoch}) kann eine beliebige Epoche eingestellt werden.
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=160mm, height=5mm]{Abbildungen/epoch.png}
+}
+\caption {Schieberegler zur Epocheneinstellung}
+\label{epoch}
+\end{figure}
+
+Das Intervall zur Anpassung beginnt bei der von dem Sensor festgelegten initialen Epochenlänge (beispielsweise 2 Sekunden). Das Maximum liegt bei 60 Sekunden. Die Wahl der neuen Länge muss ein vielfaches der initialen Epochenlänge betragen.
+
+\subsection{Analyse nach Andre}
+
+\subsection{Analyse nach Simon}
+
 
 \section{Hinweise zur Benutzung des Tools}\label{Hinweise}
+
+Das QualityControlTool läuft auf jedem Computer. Allerdings müssen zunächst die Umgebungen \textbf{Java Runtime Environment\footnotemark}
+\footnotetext{mögliche Downloadseite: \textit{http://www.oracle.com/technetwork/java/javase/downloads/index.html}}, \textbf{Matlab Compiler Runtime\footnotemark}
+\footnotetext{mögliche Downloadseite: \textit{http://www.mathworks.de/products/compiler/}} und die \textsc{Matlab} \textbf{Signal Processing Toolboxe\footnotemark}
+\footnotetext{mögliche Downloadseite: \textit{http://www.mathworks.de/products/signal/}} installiert werden.\newline
+
+Allerdings gibt es bei der Programmausführung je Computer Unterschiede in der Berechnungsgeschwindigkeit. Dies liegt an der Größe des Arbeitsspeichers eines Computers und an der Anzahl der vorhandenen Kernels. Entsprechend der Kernelanzahl werden die Berechnungen in den \textsc{Matlab} -Funktionen auf die Kernels verteilt. Je mehr Kernels existieren und belastet werden, desto schneller ist auch das Programm.
+Dennoch können Berechnungen -- vor allem von großen Datenmengen --  viel Zeit in Anspruch nehmen. Aus diesem Grund empfehlen wir während der Ausführung des Tools anderweitige gleichzeitige Benutzung des Rechners zu vermeiden bzw. auf das Nötigste zu beschränken. Dazu zählt beispielsweise auch das Ausschalten des Internets. Dadurch kann der Rechner für das Programm vollkommen ausgelastet werden und gewinnt an Geschwindigkeit.\newline
+
+Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen. Bei den beiden Sensoren Shimmer und Somnowatch muss die Frequenz 
+sowohl zu Beginn eingestellt werden als auch nach dem Wechsel zu den Rohdaten.
 
 /TODO:
 
@@ -443,7 +471,9 @@ TODO: Beschreibung
 
 - Besonderheiten für Shimmer, Somnowatch (z.B. Frequenz muss immer wieder neu eingestellt werden wenn zu Rohdaten zurückgewechselt wird!!!), GT3X+, GeneActiv auflisten
 
-\section{mögliche Verbesserungen}
+Kommentar Sonja: Du mir ist, bei dem letzten Punkt leider nichts weiteres eingefallen. Sobald mir etwas einfällt, werde ich das hinzufügen.
+
+\section{mögliche Verbesserungen und Erweiterungen}
 
 \section{Fazit}
 
