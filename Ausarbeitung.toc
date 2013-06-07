@@ -21,19 +21,19 @@
 \contentsline {subsubsection}{\numberline {4.6.2}Implementierung}{15}{subsubsection.4.6.2}
 \contentsline {subsection}{\numberline {4.7}Analyse nach Andre}{16}{subsection.4.7}
 \contentsline {subsubsection}{\numberline {4.7.1}Beschreibung}{16}{subsubsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.2}Implementierung}{16}{subsubsection.4.7.2}
-\contentsline {subsection}{\numberline {4.8}Analyse nach Simon}{16}{subsection.4.8}
-\contentsline {section}{\numberline {5}Abh\"angigkeiten im QualityControlTool}{17}{section.5}
-\contentsline {section}{\numberline {6}Beispielablauf einer Analyse von Shimmer Daten}{17}{section.6}
-\contentsline {subsection}{\numberline {6.1}Starten des Programms}{18}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Laden einer Shimmer Datei}{18}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Umwandeln von Rohdaten in Counts}{20}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Plotten aller Daten}{21}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{23}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{25}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Epochen\"anderung}{26}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Analyse nach Andre}{26}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Analyse nach Simon}{27}{subsection.6.9}
-\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{27}{section.7}
-\contentsline {section}{\numberline {8}m\"ogliche Verbesserungen und Erweiterungen}{28}{section.8}
-\contentsline {section}{\numberline {9}Fazit}{28}{section.9}
+\contentsline {subsubsection}{\numberline {4.7.2}Implementierung}{17}{subsubsection.4.7.2}
+\contentsline {subsection}{\numberline {4.8}Analyse nach Simon}{17}{subsection.4.8}
+\contentsline {section}{\numberline {5}Abh\"angigkeiten im QualityControlTool}{18}{section.5}
+\contentsline {section}{\numberline {6}Beispielablauf einer Analyse von Shimmer Daten}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Starten des Programms}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Laden einer Shimmer Datei}{19}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Umwandeln von Rohdaten in Counts}{21}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Plotten aller Daten}{22}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{24}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{26}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Epochen\"anderung}{27}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Analyse nach Andre}{27}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Analyse nach Simon}{28}{subsection.6.9}
+\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{28}{section.7}
+\contentsline {section}{\numberline {8}m\"ogliche Verbesserungen und Erweiterungen}{29}{section.8}
+\contentsline {section}{\numberline {9}Fazit}{29}{section.9}

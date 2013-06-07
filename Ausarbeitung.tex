@@ -240,7 +240,15 @@ Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt
 
 \subsection{Analyse nach Andre}
 \subsubsection{Beschreibung}
-Bei Betätigung des \textit{Analyse (Andre)} -Button werden die Daten nach dem Algorithmus von Andre ausgewertet. Pro Tag der Eingabedaten werden eine bestimmte Anzahl an Werten berechnet. Diese Werte werden in /TODO:Name der Datei gespeichert.
+Bei Betätigung des \textit{Analyse (Andre)} -Button werden die Daten nach dem Algorithmus von Andre ausgewertet. Pro Tag der Eingabedaten werden eine bestimmte Anzahl an Werten berechnet. Diese Werte werden in \textit{finaldata.csv} gespeichert. (siehe Abb.\ref{andre}) 
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=140mm, height=90mm]{Abbildungen/csv_andre.png}
+}
+\caption {csv-Datei des Actigraph (count measurement) nach Analyse von Andre}
+\label{andre}
+\end{figure}
 
 \subsubsection{Implementierung}
 Zunächst wird in der \textsc{Java}-Klasse \textit{KoraSteps} die Methode \textit{KoraStep4} aufgerufen. Diese greift auf die \textsc{Matlab}-Funktion \textit{$step4\_analyse$} zu, welche auf die Funktion \textit{$koradata\_new$} weiterleitet. Dort findet die eigentliche Berechnung statt.\newline
