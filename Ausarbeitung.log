@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  7 JUN 2013 23:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  8 JUN 2013 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -617,12 +617,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Ausarbeitung.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Ausarbeitung.toc [2])
 \tf@toc=\write5
 \openout5 = `Ausarbeitung.toc'.
 
- [2] [3]
-<Abbildungen/version_1.png, id=227, 870.25125pt x 651.43375pt>
+ [3]
+<Abbildungen/version_1.png, id=232, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
@@ -654,7 +654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-[6] <Abbildungen/ErweitertesTool1.JPG, id=248, 742.27313pt x 392.21532pt>
+[6] <Abbildungen/ErweitertesTool1.JPG, id=253, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
@@ -688,7 +688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-<Abbildungen/Browse-Button.png, id=267, 1023.07219pt x 536.75531pt>
+<Abbildungen/Browse-Button.png, id=272, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
@@ -755,7 +755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-<Abbildungen/Plot.png, id=283, 658.71094pt x 554.82281pt>
+<Abbildungen/Plot.png, id=288, 658.71094pt x 554.82281pt>
 File: Abbildungen/Plot.png Graphic file (type png)
 
 <use Abbildungen/Plot.png>
@@ -834,7 +834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-[15] <Abbildungen/csv_andre.png, id=312, 1044.90375pt x 623.32875pt>
+[15] <Abbildungen/csv_andre.png, id=317, 1044.90375pt x 623.32875pt>
 File: Abbildungen/csv_andre.png Graphic file (type png)
 
 <use Abbildungen/csv_andre.png>
@@ -902,7 +902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
-<Abbildungen/Browse.JPG, id=336, 1026.08344pt x 544.28343pt>
+<Abbildungen/Browse.JPG, id=341, 1026.08344pt x 544.28343pt>
 File: Abbildungen/Browse.JPG Graphic file (type jpg)
 
 <use Abbildungen/Browse.JPG>
@@ -930,7 +930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--364
                                                   \fi \fi 
 l.366 
        <./Abbildungen/Browse.JPG>]
-<Abbildungen/Load.JPG, id=349, 1027.58907pt x 545.78906pt>
+<Abbildungen/Load.JPG, id=354, 1027.58907pt x 545.78906pt>
 File: Abbildungen/Load.JPG Graphic file (type jpg)
 
 <use Abbildungen/Load.JPG>
@@ -964,7 +964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--382
                                                   \fi \fi 
 l.382 
        <./Abbildungen/Load.JPG>]
-<Abbildungen/RawToCounts.JPG, id=357, 1027.58907pt x 546.54187pt>
+<Abbildungen/RawToCounts.JPG, id=362, 1027.58907pt x 546.54187pt>
 File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
 
 <use Abbildungen/RawToCounts.JPG>
@@ -975,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-<Abbildungen/FirstPlot.JPG, id=359, 645.91313pt x 576.65437pt>
+<Abbildungen/FirstPlot.JPG, id=364, 645.91313pt x 576.65437pt>
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
@@ -992,7 +992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
-<Abbildungen/SecondPlot.JPG, id=366, 676.77844pt x 521.69907pt>
+<Abbildungen/SecondPlot.JPG, id=371, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
@@ -1005,7 +1005,7 @@ Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 412.
                                                   \fi \fi 
 l.416 
        <./Abbildungen/FirstPlot.JPG>]
-<Abbildungen/Cut.JPG, id=374, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=379, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 424.
                                                   \fi \fi 
 l.428 
        <./Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=381, 675.27281pt x 521.69907pt>
+<Abbildungen/SecondPlot_RAW.JPG, id=386, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
@@ -1032,7 +1032,7 @@ Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 434.
                                                   \fi \fi 
 l.438 
        <./Abbildungen/Cut.JPG>]
-<Abbildungen/wearingTimevH.JPG, id=387, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=392, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
@@ -1045,7 +1045,7 @@ Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 447.
                                                   \fi \fi 
 l.451 
        <./Abbildungen/SecondPlot_RAW.JPG>]
-<Abbildungen/epoch.png, id=394, 1138.2525pt x 33.12375pt>
+<Abbildungen/epoch.png, id=399, 1138.2525pt x 33.12375pt>
 File: Abbildungen/epoch.png Graphic file (type png)
 
 <use Abbildungen/epoch.png>
@@ -1074,62 +1074,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--475
  []
 
 
-Overfull \hbox (29.07465pt too wide) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+ []
+
+
+Overfull \hbox (29.07465pt too wide) in paragraph at lines 492--492
 [][][]\OT1/cmr/m/n/8 m[]ogli-che Dow-n-load-sei-te: \OT1/cmr/m/it/8 http://www.
 oracle.com/technetwork/java/javase/downloads/index.html| 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 480--484
+Underfull \hbox (badness 1354) in paragraph at lines 491--495
 \OT1/cmr/m/n/10 die Um-ge-bun-gen \OT1/cmr/bx/n/10 Ja-va Run-ti-me En-vi-ron-me
 nt[][][] \OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Mat-lab Com-pi-ler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--484
+Underfull \hbox (badness 10000) in paragraph at lines 491--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--487
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--490
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 522.
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
 [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 522.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 522.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 522.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: EBE7ACB95B85AC10BF94B94005004393;2824.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 522.
+(rerunfilecheck)             Checksum: 50F2F942DA71120C9E471D9A1663E031;2903.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 15268 strings out of 495007
- 274438 string characters out of 3179690
- 352698 words of memory out of 3000000
- 18074 multiletter control sequences out of 15000+200000
+ 15271 strings out of 495007
+ 274467 string characters out of 3179690
+ 352699 words of memory out of 3000000
+ 18075 multiletter control sequences out of 15000+200000
  14114 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,16n,82p,1111b,1915s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1148,10 +1164,10 @@ mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Ausarbeitung.pdf (29 pages, 1666307 bytes).
+Output written on Ausarbeitung.pdf (30 pages, 1669048 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 87 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 433 compressed objects within 5 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

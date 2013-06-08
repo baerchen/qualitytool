@@ -475,6 +475,17 @@ Die Analyse nach Simon lässt sich erst nach der Berechnung der Tragezeit durchfü
 
 Da bei der Erweiterung dieser Schritt nicht bearbeitet wurde, lassen sich nur die \textit{count/epoch measurement} Daten des Sensors Actigraph auswerten.
 
+\section{Unannehmlichkeiten bei der Implementierung}
+
+Die Implementierung in \textsc{Java} erfolgte über den Texteditor \textsc{Eclipse}.\newline
+
+Da von dem \textsc{Java} Programm auf \textsc{Matlab}-Funktionen zugegriffen wird, müssen die \textsc{Matlab}-Dateien bei jeder Änderungen neu als \textsc{Java} Klasse \textit{gebuildet} werden. Da es sich um viel \textsc{Matlab}-Code handelt, beansprucht dies sehr viel Zeit. Wenn der Entwickler nun eine Idee für eine Programmierung hat, sich aber derer nicht sicher ist, kostet ihm es viel Zeit, seine Erkenntnis zu testen.\newline
+
+Zudem trat bei der Implementierung häufig der Fehler \textit{too many input arguments} auf. Durch visuelles Überpfrüfen der entsprechenden Funktion und den Aufruf mit seinen Übergabeparametern, konnten keine Fehler gefunden werden. Es handelte sich auch nicht um einen Fehler. Oftmals reichte es völlig aus entweder \textsc{Eclipse} und \textsc{Matlab} zu schließen oder erneut zu \textit{builden}.\newline
+
+/TODO: sollen wir so etwas bringen? Wenn ja: Erweiterung
+
+
 \section{Hinweise zur Benutzung des Tools}\label{Hinweise}
 
 Das QualityControlTool läuft auf jedem Computer. Allerdings müssen zunächst die Umgebungen \textbf{Java Runtime Environment\footnotemark}

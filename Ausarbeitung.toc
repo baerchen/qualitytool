@@ -34,6 +34,7 @@
 \contentsline {subsection}{\numberline {6.7}Epochen\"anderung}{27}{subsection.6.7}
 \contentsline {subsection}{\numberline {6.8}Analyse nach Andre}{27}{subsection.6.8}
 \contentsline {subsection}{\numberline {6.9}Analyse nach Simon}{28}{subsection.6.9}
-\contentsline {section}{\numberline {7}Hinweise zur Benutzung des Tools}{28}{section.7}
-\contentsline {section}{\numberline {8}m\"ogliche Verbesserungen und Erweiterungen}{29}{section.8}
-\contentsline {section}{\numberline {9}Fazit}{29}{section.9}
+\contentsline {section}{\numberline {7}Unannehmlichkeiten bei der Implementierung}{28}{section.7}
+\contentsline {section}{\numberline {8}Hinweise zur Benutzung des Tools}{28}{section.8}
+\contentsline {section}{\numberline {9}m\"ogliche Verbesserungen und Erweiterungen}{29}{section.9}
+\contentsline {section}{\numberline {10}Fazit}{29}{section.10}
