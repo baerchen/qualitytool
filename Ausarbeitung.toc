@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {4.4.1}Implementierung}{13}{subsubsection.4.4.1}
 \contentsline {subsection}{\numberline {4.5}Wearing time van Hees-Button}{14}{subsection.4.5}
 \contentsline {subsubsection}{\numberline {4.5.1}Implementierung}{14}{subsubsection.4.5.1}
-\contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{14}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Raw to Counts/METs-Button}{15}{subsection.4.6}
 \contentsline {subsubsection}{\numberline {4.6.1}Aktionen des QualityControlTool}{15}{subsubsection.4.6.1}
 \contentsline {subsubsection}{\numberline {4.6.2}Implementierung}{15}{subsubsection.4.6.2}
 \contentsline {subsection}{\numberline {4.7}Analyse nach Andre}{16}{subsection.4.7}
@@ -32,9 +32,9 @@
 \contentsline {subsection}{\numberline {6.5}Plotten der relevanten Rohdaten}{24}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Berechnung der Tragezeit nach van Hees}{26}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}Epochen\"anderung}{27}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Analyse nach Andre}{27}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.8}Analyse nach Andre}{28}{subsection.6.8}
 \contentsline {subsection}{\numberline {6.9}Analyse nach Simon}{28}{subsection.6.9}
 \contentsline {section}{\numberline {7}Unannehmlichkeiten bei der Implementierung}{28}{section.7}
-\contentsline {section}{\numberline {8}Hinweise zur Benutzung des Tools}{28}{section.8}
+\contentsline {section}{\numberline {8}Hinweise zur Benutzung des Tools}{29}{section.8}
 \contentsline {section}{\numberline {9}m\"ogliche Verbesserungen und Erweiterungen}{29}{section.9}
 \contentsline {section}{\numberline {10}Fazit}{29}{section.10}

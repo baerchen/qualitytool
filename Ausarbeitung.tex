@@ -206,8 +206,7 @@ Der \textit{PlotRelevantData-Button} wird dem Benutzer erst nach dem Ausführen d
 
 \subsubsection{Implementierung}
 
-TODO: Umschreiben; Genauer beschreiben!!!!!
-Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Methode \textit{KoraStep3} der Klasse \textit{KoraSteps} aufgerufen. Von hier aus wird die \textsc{Matlab}-Funktion \textit{$step3\_cutFile$}. Für den Datentyp \textit{raw measurement} wird \textit{$cutFirstPlus2\_Raw$} benutzt. Die in der Datei \textit{[sensorname]$\_$RAW.mat} gespeicherten Daten aus dem vorangegangenen Schritt werden \textit{geplottet}. Bei \textit{count/epoch measurement} greift \textit{$step3\_cutFile$} auf \textit{$cutFirstPlus2\_new$} zu. Für diesen Datentyp werden ebenfalls die zuvor geschnittenen Daten anhand der Datei \textit{$[sensorname].mat$} gezeichnet. Der dabei enstehende \textit{Plot} wird wiederum in \textit{$[sensorname]\_SecondPlot.png$} beziehungsweise in \textit{$[sensorname]\_SecondPlot\_RAW.png$} gespeichert. Somit lässt sich die Grafik von dem User ohne erneute Einstellungen jederzeit aufrufen.
+Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Methode \textit{KoraStep3} der Klasse \textit{KoraSteps} aufgerufen. Von hier aus wird die \textsc{Matlab}-Funktion \textit{$step3\_cutFile$} geladen. In dieser gibt es dann die Fallunterscheidung für \textit{raw measurement} und \textit{count/epoch measurement}. Im ersten Fall wird jeweils die \textsc{Matlab}-Funktion \textit{$cutFirstPlus2\_Raw$}, im zweiten Fall die Funktion \textit{$cutFirstPlus2\_new$} berechnet. Die in der Datei \textit{[sensorname]$\_$RAW.mat} bzw. \textit{[sensorname].mat} gespeicherten Daten werden dabei in einem neuen Graphen gezeichnet. Der so entstehende, zweite Plot wird wiederum in \textit{$[sensorname]\_SecondPlot.png$} beziehungsweise in \textit{$[sensorname]\_SecondPlot\_RAW.png$} abgespeichert. Somit lässt sich auch diese Grafik von dem Benutzer ohne erneute Einstellungen jederzeit aufrufen.
 
 \subsection{Wearing time van Hees-Button}\label{Wearing time van Hees-Button}
 
@@ -216,7 +215,15 @@ Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist wurde zusä
 \subsubsection{Implementierung}
 Sobald der User den Button gedrückt hat wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Das heißt, wurden die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten, fehlen diese auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data to small!'' ausgegeben.\newline
 
-Das Ergebnis wird auf zwei verschiedene Arten abgespeichert: Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Beschleunigungsdaten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
+Das Ergebnis wird auf zwei verschiedene Arten abgespeichert (siehe Abb. \ref{vH}): Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Beschleunigungsdaten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=110mm, height=50mm]{Abbildungen/wearingTimevH_csv_mat.JPG}
+}
+\caption {Auswertung der Tragezeit nach van Hees}
+\label{vH}
+\end{figure}
 
 Außerdem wird eine csv-Datei abgespeichert. Diese enthält die genaue Zeitangabe jedes berechneten Intervalls und die dazugehörige Trage-Information aus der vierten Spalte der Matrix \textit{B}. Zu finden sind diese Dateien jeweils unter dem Namen {$[Filename]\_wearingTimevHees$} mit der entsprechenden Endung für den Datentyp.
 
@@ -440,7 +447,12 @@ Nun werden für folgende Anwendungen auch bei Rohdaten nur noch die gewählten, ni
 
 \subsection{Berechnung der Tragezeit nach van Hees}
 
-TODO: Beschreibung
+In dem nächsten Schritt kann nun die Tragezeit nach van Hees berechnet werden. Da sich diese ausschließlich mit Rohdaten berechnen lässt werden für die Auswertung die gerade beschnittenen Daten verwendet.
+
+Damit dies durchgeführt wird muss der User lediglich auf den \textit{Wearing time van Hees}-Button drücken. Beachtet werden sollte davor noch, wie gerade erklärt, dass dieser nur funktioniert solange der \textit{Data type} noch auf  \textit{raw data measurement} gesetzt ist.
+
+Nach der Berechnung sieht die Oberfläche wie folgt aus, und der Benutzer bekommt über den \textit{Log} eine Bestätigung der erfolgreichen Berechnung mitgeteilt:
+
 \begin{figure}[H]
 \centerline{
 \includegraphics[width=160mm, height=90mm]{Abbildungen/wearingTimevH.JPG}
@@ -448,6 +460,8 @@ TODO: Beschreibung
 \caption {Nach der Berechnung der Tragezeit nach van Hees}
 \label{wTvH}
 \end{figure}
+
+Die Ergebnisse sind, wie in Kapitel \ref{Wearing time van Hees-Button} erklärt, in diesem Beispiel unter den Namen \textit{$shm\_2210061137\_wearingTimevH.csv$} und \textit{$shm\_2210061137\_wearingTimevH.mat$} zu finden. Im Gegensatz zu den zwei Plots, werden diese Ergebnisse nicht automatisch geöffnet. Um sie anzeigen zu lassen muss der User in den Ordner des QualityControlTools navigieren. Dort sind die gerade erwähnten Dateien dann zu finden und können ganz normal gehandhabt werden. 
 
 \subsection{Epochenänderung}
 
