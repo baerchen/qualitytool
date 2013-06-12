@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.3)  10 JUN 2013 09:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.3)  12 JUN 2013 12:09
 entering extended mode
 **Ausarbeitung.tex
 (C:\Users\Sarah\git\qualitytool\Ausarbeitung.tex
@@ -546,38 +546,41 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks35
 \verbatim@in@stream=\read2
 )
+(C:\Users\Sarah\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen169
+)
 (C:\Users\Sarah\git\qualitytool\Ausarbeitung.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\Sarah\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
-\scratchdimen=\dimen169
+\scratchdimen=\dimen170
 \scratchbox=\box40
 \nofMPsegments=\count132
 \nofMParguments=\count133
 \everyMPshowfont=\toks36
 \MPscratchCnt=\count134
-\MPscratchDim=\dimen170
+\MPscratchDim=\dimen171
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks37
 )
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
  (C:\Users\Sarah\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -586,21 +589,21 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (C:\Users\Sarah\git\qualitytool\Ausarbeitung.out)
 (C:\Users\Sarah\git\qualitytool\Ausarbeitung.out)
 \@outlinefile=\write4
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -610,19 +613,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Sarah\git\qualitytool\Ausarbeitung.toc [2])
 \tf@toc=\write5
  [3]
-<Abbildungen/version_1.png, id=230, 870.25125pt x 651.43375pt>
-File: Abbildungen/version_1.png Graphic file (type png)
-
-<use Abbildungen/version_1.png>
-Package pdftex.def Info: Abbildungen/version_1.png used on input line 75.
-(pdftex.def)             Requested size: 426.79866pt x 270.31013pt.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[4] <Abbildungen/version_1.png, id=236, 870.25125pt x 651.43375pt>
+File: Abbildungen/version_1.png Graphic file (type png)
+
+<use Abbildungen/version_1.png>
+Package pdftex.def Info: Abbildungen/version_1.png used on input line 84.
+(pdftex.def)             Requested size: 426.79866pt x 270.31013pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -631,31 +638,36 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 
+l.90 
       <C:/Users/Sarah/git/qualitytool/Abbildungen/version_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[6] <Abbildungen/ErweitertesTool1.JPG, id=251, 742.27313pt x 392.21532pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+[6] <Abbildungen/ErweitertesTool1.JPG, id=257, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
-Package pdftex.def Info: Abbildungen/ErweitertesTool1.JPG used on input line 11
-1.
+Package pdftex.def Info: Abbildungen/ErweitertesTool1.JPG used on input line 12
+0.
 (pdftex.def)             Requested size: 426.79242pt x 256.09198pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
@@ -664,50 +676,50 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.120 W
+l.129 W
        ie gerade erwähnt kann das erweiterte Tool auch Rohdaten auswerten. D...
  <C:/Users/Sarah/git/qualitytool/Abbildungen/ErweitertesTool1.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-<Abbildungen/Browse-Button.png, id=270, 1023.07219pt x 536.75531pt>
+<Abbildungen/Browse-Button.png, id=276, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
-Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 136.
+Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 145.
 (pdftex.def)             Requested size: 455.24228pt x 256.07529pt.
  [8]
-Underfull \hbox (badness 1394) in paragraph at lines 146--147
+Underfull \hbox (badness 1394) in paragraph at lines 155--156
 []\OT1/cmr/m/n/10 Den \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktionen wird 
 da-bei der Da-teipfad und der Da-teiname
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 \OT1/cmr/m/n/10 der zu-vor aus-gew[]ahl-ten csv-Datei []uber-ge-ben.Es wird die
  Funk-ti-on
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 146--147
+Underfull \hbox (badness 4543) in paragraph at lines 155--156
 $\OML/cmm/m/it/10 FindSensorName\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[]path
 \OT1/cmr/m/n/10 )$ auf-ge-ru-fen. Ent-spre-chend des Funk-ti-ons-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/cmr/m/n/10 Die Fre-quenz des Sen-sors wird mit Hil-fe der \OT1/cmr/m/sc/
 10 Mat-lab\OT1/cmr/m/n/10 -Funktion
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 148--149
+Underfull \hbox (badness 2635) in paragraph at lines 157--158
 $\OML/cmm/m/it/10 FindSensorFrequency\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[
 ]path\OT1/cmr/m/n/10 )$ be-stimmt. Auch die-ses Er-geb-nis ak-
  []
@@ -717,45 +729,45 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.149 
+l.158 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/Browse-Button.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-<Abbildungen/Plot.png, id=286, 658.71094pt x 554.82281pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+<Abbildungen/Plot.png, id=292, 658.71094pt x 554.82281pt>
 File: Abbildungen/Plot.png Graphic file (type png)
 
 <use Abbildungen/Plot.png>
-Package pdftex.def Info: Abbildungen/Plot.png used on input line 184.
+Package pdftex.def Info: Abbildungen/Plot.png used on input line 193.
 (pdftex.def)             Requested size: 355.66844pt x 284.53055pt.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
@@ -764,67 +776,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.197 \subsubsection
+l.206 \subsubsection
                     {Cut Data} <C:/Users/Sarah/git/qualitytool/Abbildungen/Plot
 .png>]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 209--210
+Underfull \hbox (badness 1838) in paragraph at lines 218--219
 \OT1/cmr/m/n/10 Wird der But-ton von dem Be-nut-zer bet[]atigt, wird im \OT1/cm
 r/m/sc/10 Ja-va\OT1/cmr/m/n/10 -Prgramm
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 209--210
+Underfull \hbox (badness 1102) in paragraph at lines 218--219
 \OT1/cmr/m/n/10 die Me-tho-de \OT1/cmr/m/it/10 Ko-ra-Step3 \OT1/cmr/m/n/10 der 
 Klas-se \OT1/cmr/m/it/10 Ko-ra-Steps \OT1/cmr/m/n/10 auf-ge-ru-fen. Von hier au
 s
  []
 
 [13]
-Underfull \hbox (badness 1019) in paragraph at lines 216--217
+Underfull \hbox (badness 1019) in paragraph at lines 225--226
 \OT1/cmr/m/n/10 Me-tho-de \OT1/cmr/m/it/10 pu-blic sta-tic boo-lean Ko-ra-Step5
 VanHees(String de-vi-ce, String fi-
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 216--217
+Underfull \hbox (badness 1237) in paragraph at lines 225--226
 \OT1/cmr/m/it/10 le, int fre-quen-cy) \OT1/cmr/m/n/10 in der Klas-se \OT1/cmr/m
 /it/10 Ko-ra-Steps \OT1/cmr/m/n/10 auf-ge-ru-fen. []Uber die-se wird
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<Abbildungen/wearingTimevH_csv_mat.JPG, id=304, 499.8675pt x 222.07968pt>
+<Abbildungen/wearingTimevH_csv_mat.JPG, id=310, 499.8675pt x 222.07968pt>
 File: Abbildungen/wearingTimevH_csv_mat.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH_csv_mat.JPG>
 Package pdftex.def Info: Abbildungen/wearingTimevH_csv_mat.JPG used on input li
-ne 223.
+ne 232.
 (pdftex.def)             Requested size: 312.98846pt x 142.26266pt.
  [14]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
@@ -833,35 +845,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.239 
+l.248 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/wearingTimevH_csv_mat.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-<Abbildungen/csv_andre.png, id=317, 1044.90375pt x 623.32875pt>
+<Abbildungen/csv_andre.png, id=323, 1044.90375pt x 623.32875pt>
 File: Abbildungen/csv_andre.png Graphic file (type png)
 
 <use Abbildungen/csv_andre.png>
-Package pdftex.def Info: Abbildungen/csv_andre.png used on input line 255.
+Package pdftex.def Info: Abbildungen/csv_andre.png used on input line 264.
 (pdftex.def)             Requested size: 398.34306pt x 256.08005pt.
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
@@ -870,282 +882,302 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.274 \section
+l.283 \section
               {Abhängigkeiten im QualityControlTool} <C:/Users/Sarah/git/qualit
 ytool/Abbildungen/csv_andre.png>]
-Overfull \hbox (2.40208pt too wide) in paragraph at lines 330--330
+Overfull \hbox (2.40208pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/8 PlotAllData 
  []
 
 
-Overfull \hbox (4.5349pt too wide) in paragraph at lines 330--330
+Overfull \hbox (4.5349pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/5 Wearing 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 330--330
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.66681pt too wide) in paragraph at lines 330--330
+Overfull \hbox (3.66681pt too wide) in paragraph at lines 313--313
  []\OT1/cmr/m/n/5 (Andre) 
  []
 
 
-Overfull \hbox (2.23627pt too wide) in paragraph at lines 330--330
+Overfull \hbox (2.23627pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/5 Change 
  []
 
 
-Overfull \hbox (4.5349pt too wide) in paragraph at lines 330--330
+Overfull \hbox (4.5349pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/5 Wearing 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 330--330
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 313--313
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.90295pt too wide) in paragraph at lines 330--330
+Overfull \hbox (3.90295pt too wide) in paragraph at lines 313--313
  []\OT1/cmr/m/n/5 (Simon) 
  []
 
 Missing character: There is no ; in font nullfont!
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
-<Abbildungen/Browse.JPG, id=341, 1026.08344pt x 544.28343pt>
-File: Abbildungen/Browse.JPG Graphic file (type jpg)
+<Abbildungen/OpenTool.png, id=348, 735.49782pt x 411.03563pt>
+File: Abbildungen/OpenTool.png Graphic file (type png)
 
-<use Abbildungen/Browse.JPG>
-Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 361.
-(pdftex.def)             Requested size: 455.25139pt x 256.07071pt.
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
-
- []
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.373 
-       <C:/Users/Sarah/git/qualitytool/Abbildungen/Browse.JPG>]
-<Abbildungen/Load.JPG, id=354, 1027.58907pt x 545.78906pt>
-File: Abbildungen/Load.JPG Graphic file (type jpg)
-
-<use Abbildungen/Load.JPG>
-Package pdftex.def Info: Abbildungen/Load.JPG used on input line 377.
-(pdftex.def)             Requested size: 455.24518pt x 256.07117pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
-
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 386--387
-\OT1/cmr/m/n/10 Ka-pi-tel []4.6[]) dr[]ucken. Nach der Be-rech-nung wird in der
- Ober-fl[]ache die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
-
- []
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.389 
-       <C:/Users/Sarah/git/qualitytool/Abbildungen/Load.JPG>]
-<Abbildungen/RawToCounts.JPG, id=362, 1027.58907pt x 546.54187pt>
-File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
-
-<use Abbildungen/RawToCounts.JPG>
-Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 393.
-(pdftex.def)             Requested size: 455.24518pt x 256.07411pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-<Abbildungen/FirstPlot.JPG, id=364, 645.91313pt x 576.65437pt>
-File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
-
-<use Abbildungen/FirstPlot.JPG>
-Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 407.
-(pdftex.def)             Requested size: 355.65741pt x 284.53409pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+<use Abbildungen/OpenTool.png>
+Package pdftex.def Info: Abbildungen/OpenTool.png used on input line 340.
+(pdftex.def)             Requested size: 398.35252pt x 213.39479pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.411 
-       <C:/Users/Sarah/git/qualitytool/Abbildungen/RawToCounts.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+l.348 
+       <C:/Users/Sarah/git/qualitytool/Abbildungen/OpenTool.png>]
+<Abbildungen/Browse.JPG, id=357, 1026.08344pt x 544.28343pt>
+File: Abbildungen/Browse.JPG Graphic file (type jpg)
+
+<use Abbildungen/Browse.JPG>
+Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 352.
+(pdftex.def)             Requested size: 455.25139pt x 256.07071pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
-<Abbildungen/SecondPlot.JPG, id=371, 676.77844pt x 521.69907pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.362 
+       <C:/Users/Sarah/git/qualitytool/Abbildungen/Browse.JPG>]
+<Abbildungen/Load.JPG, id=365, 1027.58907pt x 545.78906pt>
+File: Abbildungen/Load.JPG Graphic file (type jpg)
+
+<use Abbildungen/Load.JPG>
+Package pdftex.def Info: Abbildungen/Load.JPG used on input line 368.
+(pdftex.def)             Requested size: 455.24518pt x 256.07117pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 377--378
+\OT1/cmr/m/n/10 Ka-pi-tel []5.6[]) dr[]ucken. Nach der Be-rech-nung wird in der
+ Ober-fl[]ache die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.378 
+       <C:/Users/Sarah/git/qualitytool/Abbildungen/Load.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+<Abbildungen/RawToCounts.JPG, id=373, 1027.58907pt x 546.54187pt>
+File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
+
+<use Abbildungen/RawToCounts.JPG>
+Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 384.
+(pdftex.def)             Requested size: 455.24518pt x 256.07411pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+[]\OT1/cmr/m/n/10 Abbildung 10: []Nach be-rech-nen der Counts/METs mit-tels \OT
+1/cmr/m/it/10 Raw to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+<Abbildungen/FirstPlot.JPG, id=375, 645.91313pt x 576.65437pt>
+File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
+
+<use Abbildungen/FirstPlot.JPG>
+Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 398.
+(pdftex.def)             Requested size: 355.65741pt x 284.53409pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.401 \end{figure}
+                   <C:/Users/Sarah/git/qualitytool/Abbildungen/RawToCounts.JPG>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+<Abbildungen/SecondPlot.JPG, id=382, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 419.
+Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 410.
 (pdftex.def)             Requested size: 355.66512pt x 284.5313pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.11
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.423 
+l.414 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/FirstPlot.JPG>]
-<Abbildungen/Cut.JPG, id=379, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=390, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
-Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 431.
+Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 422.
 (pdftex.def)             Requested size: 455.24518pt x 256.0771pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.435 
+l.426 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=386, 675.27281pt x 521.69907pt>
+<Abbildungen/SecondPlot_RAW.JPG, id=397, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 441.
+Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 432.
 
 (pdftex.def)             Requested size: 355.66727pt x 284.5313pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.13
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.445 
+l.436 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/Cut.JPG>]
-<Abbildungen/wearingTimevH.JPG, id=392, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=403, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
-Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 459.
+Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 450.
 (pdftex.def)             Requested size: 455.24069pt x 256.0771pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.463 
+l.454 
        <C:/Users/Sarah/git/qualitytool/Abbildungen/SecondPlot_RAW.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-[]\OT1/cmr/m/n/10 Die Er-geb-nis-se sind, wie in Ka-pi-tel []4.5[] er-kl[]art, 
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[]\OT1/cmr/m/n/10 Die Er-geb-nis-se sind, wie in Ka-pi-tel []5.5[] er-kl[]art, 
 in die-sem Bei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 \OT1/cmr/m/n/10 spiel un-ter den Na-men $\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 
 2210061137[]\OML/cmm/m/it/10 wearingTimevH:csv$ \OT1/cmr/m/n/10 und
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 464--465
+Underfull \hbox (badness 3209) in paragraph at lines 455--456
 $\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 2210061137[]\OML/cmm/m/it/10 wearingTime
 vH:mat$ \OT1/cmr/m/n/10 zu fin-den. Im Ge-gen-satz zu den
  []
 
-<Abbildungen/epoch.png, id=400, 1138.2525pt x 33.12375pt>
+<Abbildungen/epoch.png, id=411, 1138.2525pt x 33.12375pt>
 File: Abbildungen/epoch.png Graphic file (type png)
 
 <use Abbildungen/epoch.png>
-Package pdftex.def Info: Abbildungen/epoch.png used on input line 473.
+Package pdftex.def Info: Abbildungen/epoch.png used on input line 464.
 (pdftex.def)             Requested size: 455.24083pt x 14.22624pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.15
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.480 \subsection
+l.471 \subsection
                  {Analyse nach Andre}pdfTeX warning (ext4): destination with th
-e same identifier (name{figure.15}) has been already used, duplicate ignored
+e same identifier (name{figure.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.480 \subsection
+l.471 \subsection
                  {Analyse nach Andre} <C:/Users/Sarah/git/qualitytool/Abbildung
 en/wearingTimevH.JPG> <C:/Users/Sarah/git/qualitytool/Abbildungen/epoch.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
-
- []
-
-
-Overfull \hbox (29.07465pt too wide) in paragraph at lines 506--506
+Overfull \hbox (29.07465pt too wide) in paragraph at lines 487--487
 [][][]\OT1/cmr/m/n/8 m[]ogli-che Dow-n-load-sei-te: \OT1/cmr/m/it/8 http://www.
 oracle.com/technetwork/java/javase/downloads/index.html| 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 505--509
-\OT1/cmr/m/n/10 die Um-ge-bun-gen \OT1/cmr/bx/n/10 Ja-va Run-ti-me En-vi-ron-me
-nt[][][] \OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 Mat-lab Com-pi-ler
+Underfull \hbox (badness 10000) in paragraph at lines 486--490
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--509
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--515
+Overfull \hbox (9.9033pt too wide) in paragraph at lines 498--513
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--513
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 519.
+
+(C:\Users\Sarah\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 519.
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
@@ -1159,29 +1191,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 535--536
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
 [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
  (C:\Users\Sarah\git\qualitytool\Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 2906B4CCA4C8D49940159E929BD6FEBC;2943.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
+(rerunfilecheck)             Checksum: B64BE97D0A8461C70FA6DF291B2601CA;2920.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 540.
  ) 
 Here is how much of TeX's memory you used:
- 15279 strings out of 493921
- 274705 string characters out of 3149689
- 349533 words of memory out of 3000000
- 18182 multiletter control sequences out of 15000+200000
+ 15321 strings out of 493921
+ 275516 string characters out of 3149689
+ 352391 words of memory out of 3000000
+ 18213 multiletter control sequences out of 15000+200000
  14114 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,16n,82p,1111b,1915s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,82p,1112b,1921s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sa
 rah/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sarah/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public
@@ -1194,11 +1221,11 @@ ts/cm/cmr5.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sarah/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Sarah/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti10.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb
->
-Output written on Ausarbeitung.pdf (30 pages, 1779576 bytes).
+s/cm/cmsy10.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pf
+b><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Ausarbeitung.pdf (30 pages, 1894224 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 514 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

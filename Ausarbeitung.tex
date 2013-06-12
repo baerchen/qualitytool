@@ -6,6 +6,7 @@
 \usepackage{tikz}
 \usetikzlibrary{mindmap,trees}
 \usepackage{verbatim}
+\usepackage{multirow}
 
 
 % Bitte hier Ihren Namen eintragen
@@ -13,7 +14,7 @@
 
 \title{IDP im Sommersemester 2013 \\
 % Hier bitte den Titel eintragen!
-       {\bf QualityControlTool}
+       {\bf Quality Control Tool: Adaption to raw data}
 }
 
 % Bitte Datum des Vortrags angeben
@@ -66,6 +67,14 @@ Das QualityControlTool soll das Auswerten der csv-Dateien von den Biosensoren er
 
 Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bzw. mathematische Kenntnisse gegeben. Sobald man mit der Benutzeroberfläche vertraut ist, übernimmt der PC das Auswerten der Daten. Zusätzlich werden die ausgewerteten Daten so gespeichert, dass sie schnell auffindbar sind und jederzeit erneut abgerufen werden können. 
 
+\section{Projektbeschreibung}
+
+Das bestehende QualityControlTool soll in Zuge dieser Arbeit für die Sensoren ActiGraph GT3X+, GeneActive, Somnowatch und Shimmer erweitert werden. Da Dateien dieser Sensoren nur in Rohdaten vorliegen, müssen die Funktionen für diesen Datentyp erweitert werden. Dabei sollen alle Funktionen flexibel für die an dem Sensor eingestellten Frequenzen funktionieren.\newline
+
+Damit die Bedienbarkeit für den Anwender einfach bleibt soll außerdem die Oberfläche angepasst werden. Dazu wird die Auswahlleiste für den Sensortyp, sowie für den Datentyp aktiviert. Zudem soll dem User eine Möglichkeit zur Einstellung und zum Ablesen der Frequenz geboten werden. \newline
+
+Außerdem sollen die beiden neuen Funktionen \textit{wearing time van Hees} und \textit{Raw to Counts/METs} neu in das Tool integriert werden. Die Erste dient der Möglichkeit die Tragezeit von Rohdaten zu ermitteln. Die zweite Funktion soll die geladenen Rohdaten in Counts umwandeln, so dass mit diesen Daten genauso wie in der ersten Version des Tool gearbeitet werden können.
+
 
 \section{Ausgangslage - die erste Version des Tools}
 
@@ -77,7 +86,7 @@ Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bz
 \label{v1}
 \end{figure}
 
-Die erste Version des QualityControlTools war bislang nur auf den Biosensor ActiGraph GT3X ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textsc{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann als \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.\newline
+Die erste Version des QualityControlTools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} war bislang nur auf den Biosensor ActiGraph GT3X ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textsc{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann als \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.\newline
 
 Für den Sensortyp (\textit{Device}) und den Datentyp (\textit{Data type}) war bereits die Vorrichtung für eine Auswahlmöglichkeit des Benutzers vorhanden(siehe Abb.~\ref{v1}:~2~und~3). Diese blieb aber in der ersten Version dem Benutzer gesperrt. Das heißt die Anzeige war automatisch auf \textit{Actigraph(gt3x,gt3x+)} sowie auf \textit{count/epoch measurement} gesetzt und konnte nicht verändert werden.
 
@@ -92,7 +101,7 @@ Bei dem erstgenannten wurden für jeden Tag der Eingabedaten eine bestimmte Anzah
 
 Auch ließ sich die Tragezeit (siehe Abb.~\ref{v1}:~6) eines Sensors mit Hilfe des Algorithmus von Hecht al 98 berechnen. Resultierend geht daraus ein mit $0$ oder $1$ befüllten Vektor hervor. Dabei steht $0$ für nichtgetragen und $1$ für getragen. Aufzufinden war der Vektor sowohl als \textsc{Matlab}-Datei \textit{wearingTime.mat} und als csv-Datei \textit{wearingTime.csv} vorzufinden. Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den zugehörigen, errechneten Werten.
 
-Abschließend erm\"oglichte das Tool eine Auswertung der Daten nach Simon(siehe Abb.~\ref{v1}). Es wurden pro Tag, als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Problemen in Java vorzubeugen, wurde am Ende der Workspace geleert.
+Abschließend ermöglichte das Tool eine Auswertung der Daten nach Simon(siehe Abb.~\ref{v1}). Es wurden pro Tag, als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Problemen in Java vorzubeugen, wurde am Ende der Workspace geleert.
 
 Für weiteres Interesse verweisen wir Sie auf den Praktikumsbericht \textit{Quality Control Tool for Different Accelerometer Data} von Johannes Eder und Martin Attenkofer.
 
@@ -210,10 +219,10 @@ Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Met
 
 \subsection{Wearing time van Hees-Button}\label{Wearing time van Hees-Button}
 
-Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist wurde zusätzlich der Button \textit{Wearing time van Hees} angelegt. Dieser stellt dem Benutzer eine Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees (TODO: Referenz zu van Hees Doc einfügen!!!) verwendet. Der Button wird freigeschaltet sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
+Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist wurde zusätzlich der Button \textit{Wearing time van Hees} angelegt. Dieser stellt dem Benutzer eine Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees verwendet. Der Button wird freigeschaltet sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
 
 \subsubsection{Implementierung}
-Sobald der User den Button gedrückt hat wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Das heißt, wurden die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten, fehlen diese auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data to small!'' ausgegeben.\newline
+Sobald der User den Button gedrückt hat wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Das heißt, wurden die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten, fehlen diese auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data too small!'' ausgegeben.\newline
 
 Das Ergebnis wird auf zwei verschiedene Arten abgespeichert (siehe Abb. \ref{vH}): Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Beschleunigungsdaten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
 
@@ -247,7 +256,7 @@ Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt
 
 \subsection{Analyse nach Andre}
 \subsubsection{Beschreibung}
-Bei Betätigung des \textit{Analyse (Andre)} -Button werden die Daten nach dem Algorithmus von Andre ausgewertet. Pro Tag der Eingabedaten werden eine bestimmte Anzahl an Werten berechnet. Diese Werte werden in \textit{finaldata.csv} gespeichert. (siehe Abb.\ref{andre}) 
+Bei Betätigung des \textit{Analyse (Andre)}-Button werden die Daten nach dem Algorithmus von Andre ausgewertet. Pro Tag der Eingabedaten werden eine bestimmte Anzahl an Werten berechnet. Die einzige Änderung in dieser Berechnung zur ersten Version des Tools ist, dass die Werte nun unter dem Namen \textit{$[Filename]\_finaldata.csv$} gespeichert werden (siehe Abb.\ref{andre}).
 
 \begin{figure}[H]
 \centerline{
@@ -262,7 +271,7 @@ Zunächst wird in der \textsc{Java}-Klasse \textit{KoraSteps} die Methode \textit
 
 Dabei wurde der Algorithmus so angepasst, dass die Berechnungen nur noch für einen Patienten durchgeführt werden. Zudem sind die Daten für jede Epochenlänge analysierbar. Ein valider Tag beinhaltet mindestens 10 Stunden.\newline
 
-In der Funktion \textit{finaldata2csv} werden die berechneten Daten in der Datei \textit{finaldata.csv} abgespeichert.
+In der Funktion \textit{finaldata2csv} werden die berechneten Daten in der Datei \textit{$[Filename]\_finaldata.csv$} abgespeichert.
 
 
 \subsection{Analyse nach Simon}
@@ -272,32 +281,6 @@ Die Analyse ist weiterhin nur für \textit{count/epoch measurement} für den Senso
 Für weitere Informationen zum Aufbau der Implementierung verweisen wir Sie an dieser Stelle auf den Praktkumsbericht ``QualityControlTool for Different Accelerometer Data'' von Martin Attenkofer und Johannes Eder.
 
 \section{Abhängigkeiten im QualityControlTool}
-
-%\begin{center}
-%\begin{tikzpicture}
-% 
-%  \tikzstyle{level 1}=[sibling distance=60mm]
-%  \tikzstyle{level 2}=[sibling distance=60mm]
-%  \tikzstyle{level 3}=[sibling distance=45mm]
-%  \tikzstyle{level 3}=[sibling distance=45mm]
-%  
-%  \node {Browse}
-%    child  {node {Load}
-%      child{ node {RawToCounts/METs}}
-%      child{ node {PlotAllData + Cut}
-%        child{ node {PlotRevelantData}
-%         child{ node {ChangeEpoch}}
-%         child{ node {WearingTime (van Hees)}}
-%         child{ node {Analyse (Andre)}}
-%         child{ node {WearingTime}
-%          child{ node {Analyse(Simon)}}
-%          }
-%         }
-%      }
-%    };
-%
-% \end{tikzpicture}
-% \end{center}
  
 \begin{center} 
 %rot = rawdata
@@ -317,16 +300,16 @@ Für weitere Informationen zum Aufbau der Implementierung verweisen wir Sie an di
            node[concept] {Plot\\Relevant\\Data}
            [clockwise from=310]
       child [concept color=red, text = white]{ node[concept] {Wearing\\Time\\v.Hees} }
-      child { node[concept] {Analyse\\(Andre)} }
-      child [concept color=blue, text = black]{ node[concept] {Change\\Epoch} }
-      child { node[concept] {Wearing\\Time}
+      child [concept color = blue, text = white] { node[concept] {Analyse\\(Andre)} }
+      child [concept color=blue, text = white]{ node[concept] {Change\\Epoch} }
+      child [concept color=blue, text = white]{ node[concept] {Wearing\\Time}
             [clockwise from=270]
-           child[concept color=blue, text = black]{
+           child[concept color=blue, text = white]{
                node[concept] {Analyse\\(Simon)}}
        }
       }
     }
-    child[concept color=red] { node[concept] (rtc){RawTo\\Counts/\\METs}}
+    child[concept color=red, text = white] { node[concept] (rtc){RawTo\\Counts/\\METs}}
     }; ; 
     
     \draw [circle connection bar]
@@ -347,9 +330,17 @@ orange  $\mathrel{\widehat{=}}$ \textit{raw data measurment} oder \textit{count/
 Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
 
 \subsection{Starten des Programms}
-Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare .jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.\newline
+Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei ebenfalls geöffnet werden.\newline
 
-Damit das Tool auf dem Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools benötigt wird (TODO: Verweis einfügen zu Dokumentation von Jungs), wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
+Damit das Tool auf dem Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benutzt.
+
+\begin{figure}[H]
+\centerline{
+\includegraphics[width=140mm, height=75mm]{Abbildungen/OpenTool.png}
+}
+\caption {Öffnen des Tools}
+
+\end{figure}
 
 \subsection{Laden einer Shimmer Datei}
 
@@ -489,57 +480,59 @@ Die Analyse nach Simon lässt sich erst nach der Berechnung der Tragezeit durchfü
 
 Da bei der Erweiterung dieser Schritt nicht bearbeitet wurde, lassen sich nur die \textit{count/epoch measurement} Daten des Sensors Actigraph auswerten.
 
-\section{Unannehmlichkeiten bei der Implementierung}
-
-Die Implementierung in \textsc{Java} erfolgte über den Texteditor \textsc{Eclipse}.\newline
-
-Da von dem \textsc{Java} Programm auf \textsc{Matlab}-Funktionen zugegriffen wird, müssen die \textsc{Matlab}-Dateien bei jeder Änderungen neu als \textsc{Java} Klasse \textit{gebuildet} werden. Da es sich um viel \textsc{Matlab}-Code handelt, beansprucht dies sehr viel Zeit. Wenn der Entwickler nun eine Idee für eine Programmierung hat, sich aber derer nicht sicher ist, kostet ihm es viel Zeit, seine Erkenntnis zu testen.\newline
-
-Zudem trat bei der Implementierung häufig der Fehler \textit{too many input arguments} auf. Durch visuelles Überpfrüfen der entsprechenden Funktion und den Aufruf mit seinen Übergabeparametern, konnten keine Fehler gefunden werden. Es handelte sich auch nicht um einen Fehler. Oftmals reichte es völlig aus entweder \textsc{Eclipse} und \textsc{Matlab} zu schließen oder erneut zu \textit{builden}.\newline
-
-/TODO: sollen wir so etwas bringen? Wenn ja: Erweiterung
-
 
 \section{Hinweise zur Benutzung des Tools}\label{Hinweise}
 
 Das QualityControlTool läuft auf jedem Computer. Allerdings müssen zunächst die Umgebungen \textbf{Java Runtime Environment\footnotemark}
 \footnotetext{mögliche Downloadseite: \textit{http://www.oracle.com/technetwork/java/javase/downloads/index.html}}, \textbf{Matlab Compiler Runtime\footnotemark}
-\footnotetext{mögliche Downloadseite: \textit{http://www.mathworks.de/products/compiler/}} und die \textsc{Matlab} \textbf{Signal Processing Toolboxe\footnotemark}
+\footnotetext{mögliche Downloadseite: \textit{http://www.mathworks.de/products/compiler/}} und die \textsc{Matlab} \textbf{Signal Processing Toolbox\footnotemark}
 \footnotetext{mögliche Downloadseite: \textit{http://www.mathworks.de/products/signal/}} installiert werden.\newline
 
-Allerdings gibt es bei der Programmausführung je Computer Unterschiede in der Berechnungsgeschwindigkeit. Dies liegt an der Größe des Arbeitsspeichers eines Computers und an der Anzahl der vorhandenen Kernels. Entsprechend der Kernelanzahl werden die Berechnungen in den \textsc{Matlab} -Funktionen auf die Kernels verteilt. Je mehr Kernels existieren und belastet werden, desto schneller ist auch das Programm.
-Dennoch können Berechnungen -- vor allem von großen Datenmengen --  viel Zeit in Anspruch nehmen. Aus diesem Grund empfehlen wir während der Ausführung des Tools anderweitige gleichzeitige Benutzung des Rechners zu vermeiden bzw. auf das Nötigste zu beschränken. Dazu zählt beispielsweise auch das Ausschalten des Internets. Dadurch kann der Rechner für das Programm vollkommen ausgelastet werden und gewinnt an Geschwindigkeit.\newline
+Allerdings gibt es bei der Programmausführung je Computer Unterschiede in der Berechnungsgeschwindigkeit. Dies liegt an der Größe des Arbeitsspeichers eines Computers und an der Anzahl der vorhandenen Kernels. Entsprechend der Kernelanzahl werden die Berechnungen in den \textsc{Matlab}-Funktionen auf die Kernels verteilt. Je mehr Kernels existieren und belastet werden, desto schneller ist auch das Programm.
+Dennoch können Berechnungen -- vor allem von großen Datenmengen --  viel Zeit in Anspruch nehmen. Aus diesem Grund empfehlen wir während der Ausführung des Tools anderweitige, gleichzeitige Benutzung des Rechners zu vermeiden bzw. auf das Nötigste zu beschränken. Dazu zählt beispielsweise auch das Ausschalten des Internets. Dadurch kann der Rechner für das Programm vollkommen ausgelastet werden und gewinnt an Geschwindigkeit.\newline
 
-Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen. Bei den beiden Sensoren Shimmer und Somnowatch muss die Frequenz 
-sowohl zu Beginn eingestellt werden als auch nach dem Wechsel zu den Rohdaten.\newline
+Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen:\newline
 
 
-/TODO:
 
-- Installationen die vor der Benutzung gemacht werden müssen
+\begin{tabular}{|c | c | c | c | c|}
+\hline
+ & Shimmer & Somnowatch & GeneActive & ActiGraph GT3X+ \\
+\hline
 
-- Hinweis: Keine anderen Dinge währenddessen auf dem Rechner machen (ggf. Internet ausschalten), v.a. bei großen Daten
+\multirow{2}{*}{Load} & \multicolumn{2}{c}{ Zeit, Datum und}\vline \\& \multicolumn{2}{c}{ Frequenz einstellen} \vline & \multicolumn{2}{c}{Einstellungen überprüfen} \vline \\
+\hline
 
-- Besonderheiten für Shimmer, Somnowatch (z.B. Frequenz muss immer wieder neu eingestellt werden wenn zu Rohdaten zurückgewechselt wird!!!), GT3X+, GeneActiv auflisten
+\multirow{2}{*}{Raw to Counts} & \multicolumn{2}{c}{Falls danach Wechsel}\vline \\&
+\multicolumn{2}{c}{ zu Rohdaten,}\vline \\& \multicolumn{2}{c}{ Frequenz neu einstellen} \vline \\
 
-Kommentar Sonja: Du mir ist, bei dem letzten Punkt leider nichts weiteres eingefallen. Sobald mir etwas einfällt, werde ich das hinzufügen.
+\hline
 
-\section{mögliche Verbesserungen und Erweiterungen}
+\end{tabular}
+\newline
 
+\section{Mögliche Verbesserungen und Erweiterungen}
+
+Um das QualityControlTool zu verbessern und zu erweitern weisen wir auf folgende Anregungen hin:
+
+\begin{itemize}
+\item Da es besonders bei großen Daten und Computern mit vergleichsweise wenig Arbeitsspeicher zu Problemen mit dem Einlesen geben kann, würde das Ersetzen der \textsc{Matlab}-Funktion \textit{csvread} eventuell zu einem schnelleren Ablauf führen. Denn eigentlich werden aus den Dateien nur die drei Spalten für die Beschleunigungsdaten benötigt, allerdings werden im Moment alle gefüllten Spalten einer Datei eingelesen. Das heißt es wird viel Rechenaufwand darauf verwendet Daten in die \textsc{Matlab}-Umgebung zu laden die im Anschluss für keine Funktion mehr benötigt werden.
+
+\item Um dem Benutzer das Auswerten von vielen Daten des selben Sensors zu erleichtern könnte man in weiteren Arbeiten eine Batch-File erstellen. Diese könnte beispielsweise alle Dateien aus einem gewählten Ordner automatisch nacheinander auswerten, ohne dass der Anwender das Tool nach der Ordnerwahl weiterhin bedienen muss.
+
+\item Außerdem gibt es noch weitere, zahlreiche Funktionen für Analysemöglichkeiten der \textsc{Kora} Studie die in das Tool mit eingebunden werden können. Ein Beispiel hierfür ist die Berechnung und geeignete Darstellung des Gini Index.
+\end{itemize}
+
+\newpage
 \section{Fazit}
 
 Das QualityControlTool erleichtert den Umgang mit den \textsc{Matlab} -Funktionen. So benötigt der User keine Kenntnisse über das Programmieren mit \textsc{Matlab} und kann sich allein auf die Auswertungen konzentrieren.\newline
 
-Um dies zu realisieren, wurden zunächst die \textsc{Matlab}-Funktionen angepasst. Viele Funktionen wurden für alle Sensoren zusammengefasst. Die bestehenden aus der 1.Version wurden an das \textit{raw data measurement} sowie an die verschiedenen Sensoren angepasst bzw. erweitert.(vgl. Kapitel \ref{v2_tool}) Dabei wurde die grundlegene Hierarchie des Vorgängerversion beibehalten und lediglich um Zusatzschritte erweitert. Mit Hilfe des \textsc{Matlab} eigenen Deploytools werden diese Funktionen als \textsc{Java}-Klassen verfügbar gemacht.\newline
+Um dies zu realisieren, wurden zunächst die \textsc{Matlab}-Funktionen angepasst. Viele Funktionen wurden für alle Sensoren zusammengefasst. Die bestehenden aus der 1.Version wurden an das \textit{raw data measurement} sowie an die verschiedenen Sensoren angepasst bzw. erweitert.(vgl. Kapitel \ref{v2_tool}) Dabei wurde die grundlegende Hierarchie des Vorgängerversion beibehalten und lediglich um Zusatzschritte erweitert. Mit Hilfe des \textsc{Matlab} eigenen Deploytools werden diese Funktionen als \textsc{Java}-Klassen verfügbar gemacht.\newline
 
-Anschließend wurden in \textsc{Java} die entsprechendenden Erweiterungen implementiert, in denen die jeweiliegen \textsc{Matlab}-Funktionen aufgerufen werden. Dazu wurde die Oberfläche entsprechend angepasst. Durch das Verbinden der Buttons in der Benutzeroberfläche mit den Funktionalitäten, entstand ein einfach benutzbares Programm. Die lässt sich an dem in dieser Ausarbeitung dargestellten Beispielablauf (siehe Kapitel \ref{Beispielablauf}).\newline
+Anschließend wurden in \textsc{Java} die entsprechenden Erweiterungen implementiert, in denen die jeweiligen \textsc{Matlab}-Funktionen aufgerufen werden. Dazu wurde die Oberfläche entsprechend angepasst. Durch das Verbinden der Buttons in der Benutzeroberfläche mit den Funktionalitäten, entstand ein einfach benutzbares Programm. Die lässt sich an dem in dieser Ausarbeitung dargestellten Beispielablauf (siehe Kapitel \ref{Beispielablauf}).\newline
 
-Es ist ein Programm entstanden, das das Auswerten auf einer großen Bandbreite ermöglicht. Dazu benötigt der Benutzer keinerlei Hintergrundinformationen im Bezug auf die Programmierung. Allerdings benötigt es sehr viel Geduld bei der Analyse. Besonders bei großen Dateien bedarf es für die einzelenen Schritte mehr oder weniger viel Zeit. 
-
-
-
-
-
+Es ist ein Programm entstanden, das das Auswerten auf einer großen Bandbreite ermöglicht. Dazu benötigt der Benutzer keinerlei Hintergrundinformationen im Bezug auf die Programmierung. Allerdings benötigt es sehr viel Geduld bei der Analyse. Besonders bei großen Dateien bedarf es für die einzelnen Schritte mehr oder weniger viel Zeit. 
 
 
 
