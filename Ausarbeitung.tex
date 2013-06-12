@@ -519,7 +519,9 @@ Um das QualityControlTool zu verbessern und zu erweitern weisen wir auf folgende
 \begin{itemize}
 \item Da es besonders bei großen Daten und Computern mit vergleichsweise wenig Arbeitsspeicher zu Problemen mit dem Einlesen geben kann, würde das Ersetzen der \textsc{Matlab}-Funktion \textit{csvread} eventuell zu einem schnelleren Ablauf führen. Denn eigentlich werden aus den Dateien nur die drei Spalten für die Beschleunigungsdaten benötigt, allerdings werden im Moment alle gefüllten Spalten einer Datei eingelesen. Das heißt es wird viel Rechenaufwand darauf verwendet Daten in die \textsc{Matlab}-Umgebung zu laden die im Anschluss für keine Funktion mehr benötigt werden.
 
-\item Zudem könnte die Gui mit einem zusätzlichen Balken versehen werden, der dem Benutzer anzeigt, wie viel Zeit eine Berechnung noch benötigt. Dies könnte mit einer Prozentangabe realisiert werden, die angibt wie viel Wartezeit abhängig von der Gesamtdauer noch einzurechnen ist.
+\item Zudem könnte die GUI mit einem zusätzlichen Balken versehen werden, der dem Benutzer anzeigt, wie viel Zeit eine Berechnung noch benötigt. Dies könnte mit einer Prozentangabe realisiert werden, die angibt wie viel Wartezeit abhängig von der Gesamtdauer noch einzurechnen ist.
+
+\item Eine weitere Einstellungsmöglichkeit die implementiert werden kann, ist eine Variable Epochenlänge bei der Berechnung von Roh- zu Countdaten. Im Moment besteht nämlich nur die Möglichkeit Counts mit einer Epochenlänge von 60 Sekunden aus Rohdaten zu erstellen.
 
 \item Um dem Benutzer das Auswerten von vielen Daten des selben Sensors zu erleichtern könnte man in weiteren Arbeiten eine Batch-File erstellen. Diese könnte beispielsweise alle Dateien aus einem gewählten Ordner automatisch nacheinander auswerten, ohne dass der Anwender das Tool nach der Ordnerwahl weiterhin bedienen muss.
 
