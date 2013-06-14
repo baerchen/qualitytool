@@ -29,8 +29,8 @@
 \contentsline {subsection}{\numberline {7.1}Starten des Programms}{23}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Laden einer Shimmer Datei}{24}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Umwandeln von Rohdaten in Counts}{26}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Plotten aller Daten}{27}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Plotten der relevanten Rohdaten}{29}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.4}\textit {Plotten} aller Daten}{27}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}\textit {Plotten} der relevanten Rohdaten}{29}{subsection.7.5}
 \contentsline {subsection}{\numberline {7.6}Berechnung der Tragezeit nach van Hees}{31}{subsection.7.6}
 \contentsline {subsection}{\numberline {7.7}Epochen\"anderung}{32}{subsection.7.7}
 \contentsline {subsection}{\numberline {7.8}Analyse nach Andre}{33}{subsection.7.8}

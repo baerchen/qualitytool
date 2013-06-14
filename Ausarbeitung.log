@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  14 JUN 2013 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  14 JUN 2013 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,35 +852,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 219--220
-\OT1/cmr/m/n/10 Wird der But-ton von dem Be-nut-zer bet[]atigt, wird im \OT1/cm
-r/m/sc/10 Ja-va\OT1/cmr/m/n/10 -Prgramm
+Underfull \hbox (badness 1442) in paragraph at lines 219--220
+\OT1/cmr/m/n/10 Fall-un-ter-schei-dung zwi-schen \OT1/cmr/m/it/10 raw mea-su-re
+-ment \OT1/cmr/m/n/10 und \OT1/cmr/m/it/10 count/epoch mea-su-re-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 219--220
-\OT1/cmr/m/n/10 die Me-tho-de \OT1/cmr/m/it/10 Ko-ra-Step3 \OT1/cmr/m/n/10 der 
-Klas-se \OT1/cmr/m/it/10 Ko-ra-Steps \OT1/cmr/m/n/10 auf-ge-ru-fen. Von hier au
-s
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 219--220
-\OT1/cmr/m/n/10 tei \OT1/cmr/m/it/10 [Filename]$[]$RAW.mat \OT1/cmr/m/n/10 bzw.
- \OT1/cmr/m/it/10 [Fi-lena-me].mat \OT1/cmr/m/n/10 ge-spei-cher-ten Da-ten wer-
+Underfull \hbox (badness 1237) in paragraph at lines 219--220
+\OT1/cmr/m/n/10 im zwei-ten Fall die Funk-ti-on $\OML/cmm/m/it/10 cutFirstPlus\
+OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 new$ \OT1/cmr/m/n/10 be-rech-net. Die in der
 
  []
 
 [16]
-Underfull \hbox (badness 1019) in paragraph at lines 226--227
-\OT1/cmr/m/n/10 Me-tho-de \OT1/cmr/m/it/10 pu-blic sta-tic boo-lean Ko-ra-Step5
-VanHees(String de-vi-ce, String fi-
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 226--227
-\OT1/cmr/m/it/10 le, int fre-quen-cy) \OT1/cmr/m/n/10 in der Klas-se \OT1/cmr/m
-/it/10 Ko-ra-Steps \OT1/cmr/m/n/10 auf-ge-ru-fen. []Uber die-se wird
+Underfull \hbox (badness 1681) in paragraph at lines 226--227
+\OT1/cmr/m/n/10 die \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktion \OT1/cmr/
+m/it/10 wea-ring-Ti-mevH[]Raw(sensor, fi-le, hz) \OT1/cmr/m/n/10 ge[]off-net un
+d
  []
 
 
@@ -1092,7 +1080,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
                                                   \fi \fi 
 l.395 
        <./Abbildungen/RawToCounts.JPG>]
-<Abbildungen/FirstPlot.JPG, id=406, 645.91313pt x 576.65437pt>
+<Abbildungen/FirstPlot.JPG, id=407, 645.91313pt x 576.65437pt>
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
@@ -1110,14 +1098,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--407
                                                   \fi \fi 
 l.409 
        <./Abbildungen/FirstPlot.JPG>]
-<Abbildungen/SecondPlot.JPG, id=413, 676.77844pt x 521.69907pt>
+<Abbildungen/SecondPlot.JPG, id=414, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
 Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 413.
 (pdftex.def)             Requested size: 355.66512pt x 284.5313pt.
 
-<Abbildungen/Cut.JPG, id=415, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=416, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
@@ -1130,7 +1118,7 @@ Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 425.
                                                   \fi \fi 
 l.429 
        <./Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=423, 675.27281pt x 521.69907pt>
+<Abbildungen/SecondPlot_RAW.JPG, id=424, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
@@ -1144,7 +1132,7 @@ Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 435.
                                                   \fi \fi 
 l.439 
        <./Abbildungen/Cut.JPG>]
-<Abbildungen/wearingTimevH.JPG, id=429, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=430, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
@@ -1174,7 +1162,7 @@ Underfull \hbox (badness 3209) in paragraph at lines 458--459
 H:mat$ \OT1/cmr/m/n/10 zu fin-den. Im Ge-gen-satz zu den
  []
 
-<Abbildungen/epoch.png, id=438, 1138.2525pt x 33.12375pt>
+<Abbildungen/epoch.png, id=439, 1138.2525pt x 33.12375pt>
 File: Abbildungen/epoch.png Graphic file (type png)
 
 <use Abbildungen/epoch.png>
@@ -1274,33 +1262,34 @@ Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
  ) 
 Here is how much of TeX's memory you used:
- 15322 strings out of 495007
- 275456 string characters out of 3179690
- 354352 words of memory out of 3000000
- 18106 multiletter control sequences out of 15000+200000
- 14114 words of font info for 53 fonts, out of 3000000 for 9000
+ 15324 strings out of 495007
+ 275480 string characters out of 3179690
+ 354355 words of memory out of 3000000
+ 18107 multiletter control sequences out of 15000+200000
+ 14473 words of font info for 54 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,16n,82p,1112b,1923s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,82p,1128b,1923s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Ausarbeitung.pdf (36 pages, 1873480 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Ausarbeitung.pdf (36 pages, 1881856 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
- 468 compressed objects within 5 object streams
+ 552 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
  100 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

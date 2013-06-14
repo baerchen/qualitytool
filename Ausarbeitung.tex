@@ -92,7 +92,7 @@ Die erste Version des QualityControlTools\footnotemark \footnotetext{Johannes Ed
 
 Für den Sensortyp (\textit{Device}) und den Datentyp (\textit{Data type}) war bereits die Vorrichtung für eine Auswahlmöglichkeit des Benutzers vorhanden (siehe Abb.~\ref{v1}:~2~und~3). Diese blieb aber in der ersten Version dem Benutzer gesperrt. Das heißt die Anzeige war automatisch auf \textit{Actigraph(gt3x,gt3x+)} sowie auf \textit{count/epoch measurement} gesetzt und konnte nicht verändert werden.\newline
 
-Zudem ermöglichte es das Tool durch das Betätigen des \textit{Plot All Data + Cut}-Button, aus den eingelesenen Daten eine Grafik zu erstellen. Der, aus diesem Plot, resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert.\newline
+Zudem ermöglichte es das Tool durch das Betätigen des \textit{Plot All Data + Cut}-Button, aus den eingelesenen Daten eine Grafik zu erstellen. Der, aus diesem \textit{Plot}, resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert.\newline
 
 In einem nächsten Schritt konnten die gegebenen Daten zugeschnitten werden. Der Benutzer trug hierzu einen Starttag und die Anzahl der Folgetage in ein vorgegebenes Feld ein. Alle Daten, die sich nicht in diesem Zeitraum befanden, wurden weggeschnitten. Die resultierende \textsc{Timeseries} überschrieb \textit{Kora1.mat}. Aus den entstandenen Daten wurde wiederum ein Graph erstellt. Dieser wurde unter dem Namen \textit{KoraSecondPlot.png} im Dateisystem abgespeichert.\newline
 
@@ -184,7 +184,7 @@ Ist das Laden abgeschlossen, wird sowohl der \textit{PlotAllData + Cut}-Button a
 
 Die geladenen Daten lassen sich in einer Grafik darstellen. In der Grafik sind für Rohdaten drei verschiedene Graphen zu sehen (siehe Abb.~\ref{plot}). Die dazugehörige Legende beschreibt, welche Bewegungsrichtung der jeweilige Graph darstellt. Zusätzlich ist die Grafik mit dem Sensorname, dem Datentyp, der Startzeit und der Frequenz beschriftet.
 
-An der Darstellung des Plots für Counts hat sich nichts wesentliches im Vergleich zur ersten Version des Tools verändert. \newline
+An der Darstellung des \textit{Plots} für Counts hat sich nichts Wesentliches im Vergleich zur ersten Version des Tools verändert. \newline
 
 In dem Fenster des \textit{Plots} kann der Benutzer nun Einstellungen bezüglich Startzeit und Dauer der relevanten Daten treffen.\newline
 
@@ -205,25 +205,25 @@ Bei \textit{raw data measurement} zeigt das Diagramm statt nur einer Achse alle 
 
 
 \subsubsection{Cut Data}
-Wie oben erwähnt gibt es bei den auszuwertenden Daten verschiedene Startzeiten. Damit der User möglichst flexibel ist, was das abschneiden der irrelevanten Daten angeht wurden die zwei Felder \textit{Start Time} und \textit{Duration Hours} hinzugefügt. Neben der schon vorhandenen Funktion im nächsten Schritt nur bestimmte Tage zu plotten, können jetzt auch bestimmte Zeiten ausgewählt werden. So ist es beispielsweise möglich nur die Daten eines Tages von 6:00 Uhr bis 17:00 Uhr zu betrachten.\newline 
+Wie oben erwähnt gibt es bei den auszuwertenden Daten verschiedene Startzeiten. Damit der User möglichst flexibel ist, was das Abschneiden der irrelevanten Daten angeht, wurden die zwei Felder \textit{Start Time} und \textit{Duration Hours} hinzugefügt. Neben der schon vorhandenen Funktion, die im nächsten Schritt nur bestimmte Tage \textit{plottet}, können jetzt auch bestimmte Zeiten ausgewählt werden. So ist es beispielsweise möglich nur die Daten eines Tages von 6:00 Uhr bis 17:00 Uhr zu betrachten.\newline 
 
-Ändert der Benutzer nichts an den Einstellungen der Felder \textit{Start Time} und \textit{Duration Hours} so werden die Daten jeweils vom gewünschten Tag ab 00:00 Uhr bis zum letzten, gewünschten Tag um 00:00 Uhr dargestellt. Der letzte Tag berechnet sich dabei aus dem Eintrag im Feld \textit{Start Days} plus dem Eintrag im Feld \textit{Duration Days}. Überschreitet dieser Wert den vom Sensor gemessenen Zeitraum werden alle Daten ab dem gewünschten Startdatum dargestellt.\newline
+Ändert der Benutzer nichts an den Einstellungen der Felder \textit{Start Time} und \textit{Duration Hours} so werden die Daten jeweils vom gewünschten Tag ab 00:00 Uhr bis zum letzten gewünschten Tag um 00:00 Uhr dargestellt. Der letzte Tag berechnet sich dabei aus dem Eintrag im Feld \textit{Start Days} plus dem Eintrag im Feld \textit{Duration Days}. Überschreitet dieser Wert den vom Sensor gemessenen Zeitraum werden alle Daten ab dem gewünschten Startdatum dargestellt.\newline
 
-Falls das Feld \textit{Duration Days} ebenfalls nicht geändert wird und somit der Eintrag auf 0 bleibt bedeutet dies, dass die auszuwertenden Daten eine Länge von 0 Tagen besitzen. Das führt in weiteren Berechnungen zu Fehlern, da kein Datensatz mehr zur Verfügung steht. Deshalb sollte der User immer darauf achten, beim beschneiden der Daten eine sinnvolle und gültige Zeitangabe zu machen.
+Falls das Feld \textit{Duration Days} ebenfalls nicht geändert wird und somit der Eintrag auf 0 bleibt, bedeutet dies, dass die auszuwertenden Daten eine Länge von 0 Tagen besitzen. Das führt in weiteren Berechnungen zu Fehlern, da kein Datensatz mehr zur Verfügung steht. Deshalb sollte der User immer darauf achten, beim Schneiden der Daten eine sinnvolle und gültige Zeit anzugeben.
 
 \subsection{PlotRelevantData-Button}\label{PlotRelevantData-Button}
 Der \textit{PlotRelevantData-Button} wird dem Benutzer erst nach dem Ausführen des \textit{Plots} aller Daten und dem Schneidevorgang zur Verfügung gestellt. Als Ausgabe erscheint die Grafik der zugeschnittenen, relevanten Daten. Das Fenster entspricht dem im Kapitel \ref{Plot/Cut} vorgestellten. Allerdings lässt sich diese Grafik hier nicht weiter schneiden. Demnach lässt dieses Fenster dem Benutzer keine weiteren Angaben zur Dauer bzw. Startzeit zu.
 
 \subsubsection{Implementierung}
 
-Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Methode \textit{KoraStep3} der Klasse \textit{KoraSteps} aufgerufen. Von hier aus wird die \textsc{Matlab}-Funktion \textit{$step3\_cutFile$} geladen. In dieser gibt es dann die Fallunterscheidung für \textit{raw measurement} und \textit{count/epoch measurement}. Im ersten Fall wird jeweils die \textsc{Matlab}-Funktion \textit{$cutFirstPlus2\_Raw$}, im zweiten Fall die Funktion \textit{$cutFirstPlus2\_new$} berechnet. Die in der Datei \textit{[Filename]$\_$RAW.mat} bzw. \textit{[Filename].mat} gespeicherten Daten werden dabei in einem neuen Graphen gezeichnet. Der so entstehende, zweite Plot wird wiederum in \textit{$[Filename]\_SecondPlot.png$} beziehungsweise in \textit{$[Filename]\_SecondPlot\_RAW.png$} abgespeichert. Somit lässt sich auch diese Grafik von dem Benutzer ohne erneute Einstellungen jederzeit aufrufen.
+Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Methode \textit{KoraStep3} der Klasse \textit{KoraSteps} aufgerufen. Von hier aus wird die \textsc{Matlab}-Funktion \textit{$step3\_cutFile$} geladen. In dieser gibt es dann die Fallunterscheidung zwischen \textit{raw measurement} und \textit{count/epoch measurement}. Im ersten Fall wird jeweils die \textsc{Matlab}-Funktion \textit{$cutFirstPlus2\_Raw$}, im zweiten Fall die Funktion \textit{$cutFirstPlus2\_new$} berechnet. Die in der Datei \textit{[Filename]$\_$RAW.mat} bzw. \textit{[Filename].mat} gespeicherten Daten werden dabei in einem neuen Graphen gezeichnet. Der so entstehende, zweite \textit{Plot} wird wiederum in \textit{$[Filename]\_SecondPlot.png$} beziehungsweise in \textit{$[Filename]\_SecondPlot\_RAW.png$} abgespeichert. Somit lässt sich auch diese Grafik von dem Benutzer ohne erneute Einstellungen jederzeit aufrufen.
 
 \subsection{Wearing time van Hees-Button}\label{Wearing time van Hees-Button}
 
-Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist wurde zusätzlich der Button \textit{Wearing time van Hees} angelegt. Dieser stellt dem Benutzer die Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees verwendet. Der Button wird freigeschaltet sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
+Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist, wurde zusätzlich der Button \textit{Wearing time van Hees} angelegt. Dieser stellt dem Benutzer die Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees verwendet. Der Button wird freigeschaltet, sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
 
 \subsubsection{Implementierung}
-Sobald der User den Button gedrückt hat wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Das heißt, wurden die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten, fehlen diese auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data too small!'' ausgegeben.\newline
+Sobald der User den Button gedrückt hat, wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Für den Fall, dass die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten wurden, fehlen diese somit auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt, wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data too small!'' ausgegeben.\newline
 
 Das Ergebnis wird auf zwei verschiedene Arten abgespeichert (siehe Abb. \ref{vH}): Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Beschleunigungsdaten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
 
@@ -239,21 +239,21 @@ Außerdem wird eine csv-Datei abgespeichert. Diese enthält die genaue Zeitangabe 
 
 \subsection{Raw to Counts/METs-Button}\label{Raw to Counts/METs-Button}
 
-Sobald eine Datei mit dem \textit{Load}-Button (vgl. Kapitel \ref{Der Load-Button}) in die \textsc{Matlab}-Umgebung geladen wurde und es sich bei den Daten um \textit{raw data measurement} handelt besteht die Möglichkeit diese in \textit{count/epoch measurement} umzuwandeln. Diese Funktionalität stellt der Button \textit{Raw to Counts/METs} für den Benutzer zur Verfügung.\newline
+Sobald eine Datei mit dem \textit{Load}-Button (vgl. Kapitel \ref{Der Load-Button}) in die \textsc{Matlab}-Umgebung geladen wurde und es sich bei den Daten um \textit{raw data measurement} handelt, besteht die Möglichkeit diese in \textit{count/epoch measurement} umzuwandeln. Diese Funktionalität stellt der Button \textit{Raw to Counts/METs} für den Benutzer zur Verfügung.\newline
 
 \subsubsection{Aktionen des QualityControlTool}
-Der Button wird aktiv, das heißt seine Umrandung wird grün, sobald der \textit{Load}-Vorgang erfolgreich abgeschlossen ist und solange im Feld \textit{Data type} der Typ \textit{raw data measurement} ausgewählt ist. Nachdem die Berechnungen durch diesen Button erfolgreich abgeschlossen wurden wird das Feld \textit{Data type} automatisch auf \textit{count/epoch measurement} gesetzt und alle damit verbundenen Aktionen werden freigegeben. Damit ist der \textit{Raw to Counts/METs}-Button nicht mehr aktiv, also für den User nicht mehr anwählbar.
+Der Button wird aktiv, das heißt seine Umrandung wird grün, sobald der \textit{Load}-Vorgang erfolgreich abgeschlossen ist und solange im Feld \textit{Data type} der Typ \textit{raw data measurement} ausgewählt ist. Nachdem die Berechnungen durch diesen Button erfolgreich abgeschlossen wurden, wird das Feld \textit{Data type} automatisch auf \textit{count/epoch measurement} gesetzt und alle damit verbundenen Aktionen werden freigegeben. Damit ist der \textit{Raw to Counts/METs}-Button nicht mehr aktiv, also für den User nicht mehr auswählbar.
 
 \subsubsection{Implementierung}
-Drückt der Benutzer den \textit{Raw to Counts/METs}-Button wird in der \textsc{Java}-Klasse \textit{KoraSteps} die Methode \textit{public static boolean RawDataToEpoch(String currentPath, String currentFile, String currentDevice, int currentFrequency, String startDate, String startTime)} aufgerufen. Diese öffnet sogleich die \textsc{Matlab}-Funktion \textit{$calculateCounts1(path, file, hz, sensor,d,t)$}. Da für die Berechnung der Counts die Daten nochmals direkt aus der csv-Datei gelesen werden wird hier, wie auch bei dem \textit{Load}-Button (Kapitel \ref{Der Load-Button}), eine Fallunterscheidung zwischen allen Sensortypen gemacht.\newline
+Drückt der Benutzer den \textit{Raw to Counts/METs}-Button wird in der \textsc{Java}-Klasse \textit{KoraSteps} die Methode \textit{public static boolean RawDataToEpoch(String currentPath, String currentFile, String currentDevice, int currentFrequency, String startDate, String startTime)} aufgerufen. Diese öffnet sogleich die \textsc{Matlab}-Funktion \textit{$calculateCounts1(path, file, hz, sensor,d,t)$}. Da für die Berechnung der Counts die Daten nochmals direkt aus der csv-Datei gelesen werden, wird hier, wie auch bei dem \textit{Load}-Button (Kapitel \ref{Der Load-Button}), eine Fallunterscheidung zwischen allen Sensortypen gemacht.\newline
 
-In jedem dieser Fälle werden zuerst die Daten aus der angegebenen Datei gelesen und in eine Matrix gespeichert. Dies geschieht jeweils mit einem Sensor-spezifischen Funktionsaufruf. Mit dieser Matrix werden in einem zweiten Schritt jeweils die Counts/METs berechnet. Diese Berechnung ist für die Sensoren GeneActive, Shimmer und Somnowatch gleich und wird in der \textsc{Matlab}-Funktion \textit{$rawDataToEpoch3(A,hz,DateTimeNum, file)$} durchgeführt. Für den Sensor ActiGraphGT3X+ muss die Berechnung angepasst werden. Deshalb wird in diesem Fall nur die Funktion \textit{$rawDataToEpoch2(path,file,hz)$} aufgerufen. Da diese Funktion also nur für den Sensor ActiGraphGT3X+ verwendet werden kann werden in ihr auch gleich die Daten aus der csv-Datei eingelesen. Das heißt für diesen Sensor gibt es keinen extra Funktionsaufruf zum Einlesen der Daten in eine Matrix.\newline
+In jedem dieser Fälle werden zuerst die Daten aus der angegebenen Datei gelesen und in eine Matrix gespeichert. Dies geschieht jeweils mit einem Sensor-spezifischen Funktionsaufruf. Mit dieser Matrix werden in einem zweiten Schritt jeweils die Counts/METs berechnet. Diese Berechnung ist für die Sensoren GeneActive, Shimmer und Somnowatch gleich und wird in der \textsc{Matlab}-Funktion \textit{$rawDataToEpoch3(A,hz,DateTimeNum, file)$} durchgeführt. Für den Sensor ActiGraphGT3X+ muss die Berechnung angepasst werden. Deshalb wird in diesem Fall nur die Funktion \textit{$rawDataToEpoch2(path,file,hz)$} aufgerufen. Da diese Funktion also nur für den Sensor ActiGraphGT3X+ verwendet werden kann, werden in ihr auch gleich die Daten aus der csv-Datei eingelesen. Somit gibt es für diesen Sensor keinen extra Funktionsaufruf zum Einlesen der Daten in eine Matrix.\newline
 
 Bei jedem Sensor werden die Rohdaten automatisch in Counts mit einer Epochenlänge von 60 Sekunden umgewandelt. Die Ergebnisse werden dann auf zwei verschiedene Arten abgespeichert: Als erstes werden sie als \textsc{Timeserie} unter dem Namen {$[Filename].mat$} gespeichert. Mit dieser Datei ist es dann möglich alle weiteren Berechnungen durchzuführen, die auch schon bei der ersten Version des Tools für \textit{count/epoch measurement} implementiert waren.\newline
 
-Außerdem werden die Counts und METs in einer csv-Datei unter dem Namen {$[Filename]\_Count\_MET.csv$} gespeichert. Diese Datei enthält dann zuerst die genaue Zeitangabe der Daten. Dahinter stehen jeweils, durch Kommata getrennt, die zugehörigen Counts und dann METs.\newline
+Außerdem werden die Counts und METs in einer csv-Datei unter dem Namen {$[Filename]\_Count\_MET.csv$} gespeichert. Diese Datei enthält zuerst die genaue Zeitangabe der Daten. Dahinter stehen jeweils, durch Kommata getrennt, die zugehörigen Counts und schließlich die METs.\newline
 
-Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
+Damit nach der erfolgreichen Umwandlung die Oberfläche auch das Richtige anzeigt, wird im \textsc{Java}-Code als letzter Schritt in dieser Berechnung die Epochen-Skala aktualisiert und auf 60 Sekunden gesetzt.
 
 \subsection{Analyse nach Andre}
 \subsubsection{Beschreibung}
@@ -320,7 +320,7 @@ Für weitere Informationen zum Aufbau der Implementierung verweisen wir an dieser
 \end{tikzpicture}
 \end{center}
 
-Legende:\newline
+\textbf{Legende:}\newline
 Abhängigkeiten von großen zu kleinen \textit{Bubbles}\\
 rot $\mathrel{\widehat{=}}$ \textit{raw data measurment}\\
 blau  $\mathrel{\widehat{=}}$ \textit{count/epoch measurment}\\
@@ -330,10 +330,10 @@ orange  $\mathrel{\widehat{=}}$ \textit{raw data measurment} oder \textit{count/
 \section{Beispielablauf einer Analyse von Shimmer Daten}\label{Beispielablauf}
 
 Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung einer Datei veranschaulicht. Dazu dient eine Datei des Sensors Shimmer. Es wird nicht mehr auf die genaue Implementation eingegangen, sondern lediglich alles beschrieben, was der User für die Benutzung des Tools benötigt.
-Auf die Schritte der Veränderung der Epoche und die Analysen nach Simon sowie nach Andre wird nur kurz eingegangen, da sich hier zur Vorgängerversion nichts wesentliches verändert hat.
+Auf die Schritte der Veränderung der Epoche und die Analysen nach Simon sowie nach Andre wird nur kurz eingegangen, da sich hier zur Vorgängerversion nichts Wesentliches verändert hat.
 
 \subsection{Starten des Programms}
-Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die Ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei alternativ geöffnet werden.\newline
+Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei alternativ geöffnet werden.\newline
 
 Damit das Tool auf dem Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benötigt.
 
@@ -375,7 +375,7 @@ Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann n
 
 \subsection{Umwandeln von Rohdaten in Counts}
 
-In diesem Schritt des Beispielablauf werden nun die Counts aus den Rohdaten berechnet. Natürlich besteht die Möglichkeit zuerst die Rohdaten zu Plotten (PlotAllData + Cut-Button) und zu beschneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten Plots nicht so lange und die Daten können auf die selbe Art beschnitten werden. In den folgenden Abschnitten wird beschrieben wie der Benutzer danach über den \textit{Data type} zurück zu \textit{raw data measurement} wechseln kann um nur noch den Plot für die ausgewählten Rohdaten durchzuführen.\newline
+In diesem Schritt des Beispielablauf werden nun die Counts aus den Rohdaten berechnet. Natürlich besteht die Möglichkeit zuerst die Rohdaten zu \textit{plotten} (PlotAllData + Cut-Button) und zu beschneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten \textit{Plots} nicht so lange und die Daten können auf die selbe Art beschnitten werden. In den folgenden Abschnitten wird beschrieben wie der Benutzer danach über den \textit{Data type} zurück zu \textit{raw data measurement} wechseln kann um nur noch den \textit{Plot} für die ausgewählten Rohdaten durchzuführen.\newline
 
 Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem Laden grün umrandeten, Button \textit{Raw to Counts/METs} (siehe Kapitel \ref{Raw to Counts/METs-Button}) drücken. Nach der Berechnung wird in der Oberfläche die Auswahl des \textit{Data type} automatisch auf \textit{count/epoch measurement} gesetzt. Nun ist es möglich zwischen beiden Einstellungen hin- und herzuspringen um Berechnungen durchzuführen die es eventuell nur für einen der Datentypen gibt.\newline
 
@@ -389,11 +389,11 @@ Ebenfalls wird nun die Leiste für die Einstellung der Epoche freigegeben und auf
 \label{rawToCounts}
 \end{figure}
 
-\subsection{Plotten aller Daten}\label{Plotten aller Daten}
+\subsection{\textit{Plotten} aller Daten}\label{Plotten aller Daten}
 
 Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige Teile abzuschneiden werden in diesem Schritt erst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.\newline
 
-Zur Erstellung der Grafik für den ersten Plot wird der \textit{$PlotAllData + Cut$}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
+Zur Erstellung der Grafik für den ersten \textit{Plot} wird der \textit{$PlotAllData + Cut$}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
 
 \begin{figure}[H]
 \centerline{
@@ -415,7 +415,7 @@ Wird vom User nun der Button \textit{PlotRelevantData} angewendet werden nur die
 \label{secondPlot}
 \end{figure}
 
-\subsection{Plotten der relevanten Rohdaten}
+\subsection{\textit{Plotten} der relevanten Rohdaten}
 
 Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso beschnitten werden muss der Button \textit{PlotRelevantData} gedrückt werden nachdem in dem Feld \textit{Data type} der Typ \textit{raw data measurement} vom Nutzer eingestellt wurde (vgl. Abb. \ref{cut}).
 
@@ -427,7 +427,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso besc
 \label{cut}
 \end{figure}
 
-Da jetzt ein Teil der Daten wegfällt funktioniert dieser Schritt schneller als der erste Plot mit Rohdaten, der wie in Kapitel \ref{Plotten aller Daten} beschrieben, umgangen wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen erscheint die Grafik für den zweiten Plot mit Rohdaten:
+Da jetzt ein Teil der Daten wegfällt funktioniert dieser Schritt schneller als der erste \textit{Plot} mit Rohdaten, der wie in Kapitel \ref{Plotten aller Daten} beschrieben, umgangen wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen erscheint die Grafik für den zweiten \textit{Plot} mit Rohdaten:
 
 \begin{figure}[H]
 \centerline{
@@ -441,7 +441,7 @@ Nun werden für folgende Anwendungen auch bei Rohdaten nur noch die gewählten, ni
 
 \subsection{Berechnung der Tragezeit nach van Hees}
 
-In dem nächsten Schritt kann nun die Tragezeit nach van Hees berechnet werden. Da sich diese ausschließlich mit Rohdaten berechnen lässt werden für die Auswertung die gerade beschnittenen Daten verwendet.
+In dem nächsten Schritt kann nun die Tragezeit nach van Hees berechnet werden. Da sich diese ausschließlich mit Rohdaten berechnen lässt, werden für die Auswertung die gerade zugeschnittenen Daten verwendet.
 
 Damit dies durchgeführt wird muss der User lediglich auf den \textit{Wearing time van Hees}-Button drücken. Beachtet werden sollte davor noch, wie gerade erklärt, dass dieser nur funktioniert solange der \textit{Data type} noch auf  \textit{raw data measurement} gesetzt ist.
 
@@ -455,7 +455,7 @@ Nach der Berechnung sieht die Oberfläche wie folgt aus, und der Benutzer bekommt
 \label{wTvH}
 \end{figure}
 
-Die Ergebnisse sind, wie in Kapitel \ref{Wearing time van Hees-Button} erklärt, in diesem Beispiel unter den Namen \textit{$shm\_2210061137\_wearingTimevH.csv$} und \textit{$shm\_2210061137\_wearingTimevH.mat$} zu finden. Im Gegensatz zu den zwei Plots, werden diese Ergebnisse nicht automatisch geöffnet. Um sie anzeigen zu lassen muss der User in den Ordner des QualityControlTools navigieren. Dort sind die gerade erwähnten Dateien dann zu finden und können ganz normal gehandhabt werden. 
+Die Ergebnisse sind, wie in Kapitel \ref{Wearing time van Hees-Button} erklärt, in diesem Beispiel unter den Namen \textit{$shm\_2210061137\_wearingTimevH.csv$} und \textit{$shm\_2210061137\_wearingTimevH.mat$} zu finden. Im Gegensatz zu den zwei \textit{Plots}, werden diese Ergebnisse nicht automatisch geöffnet. Um sie anzeigen zu lassen muss der User in den Ordner des QualityControlTools navigieren. Dort sind die gerade erwähnten Dateien dann zu finden und können ganz normal gehandhabt werden. 
 
 \subsection{Epochenänderung}
 
