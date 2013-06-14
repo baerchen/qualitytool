@@ -495,14 +495,15 @@ Dennoch können Berechnungen -- vor allem von großen Datenmengen --  viel Zeit in
 Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen:\newline
 
 
-
+\begin{table}[!h]
 \begin{tabular}{|c | c | c | c | c|}
 \hline
  & Shimmer & Somnowatch & GeneActive & ActiGraph GT3X+ \\
 \hline
 
-\multirow{2}{*}{Load} & \multicolumn{2}{c}{ Zeit, Datum und}\vline \\& \multicolumn{2}{c}{ Frequenz einstellen} \vline & \multicolumn{2}{c}{Einstellungen überprüfen} \vline \\
+\multirow{2}{*}{Load} & \multicolumn{2}{|c|}{ Zeit, Datum und}\\& \multicolumn{2}{|c|}{ Frequenz einstellen} & \multicolumn{2}{|c|}{Einstellungen überprüfen}\\ 
 \hline
+\cline{1-2}
 
 \multirow{2}{*}{Raw to Counts} & \multicolumn{2}{c}{Falls danach Wechsel}\vline \\&
 \multicolumn{2}{c}{ zu Rohdaten,}\vline \\& \multicolumn{2}{c}{ Frequenz neu einstellen} \vline \\
@@ -510,7 +511,8 @@ Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen:\newli
 \hline
 
 \end{tabular}
-\newline
+\end{table}
+
 
 \section{Mögliche Verbesserungen und Erweiterungen}
 
