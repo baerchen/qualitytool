@@ -428,7 +428,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten analog zum S
 \label{cut}
 \end{figure}
 
-Da jetzt ein Teil der Daten wegfällt, funktioniert dieser Schritt schneller als der erste \textit{Plot} mit Rohdaten, der bereits im Kapitel \ref{Plotten aller Daten} beschrieben wurde, umgangen wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen erscheint die Grafik für den zweiten \textit{Plot} mit Rohdaten:
+Da jetzt ein Teil der Daten wegfällt, funktioniert dieser Schritt schneller als der erste \textit{Plot} mit Rohdaten, der bereits im Kapitel \ref{Plotten aller Daten} beschrieben wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen, erscheint die Grafik für den zweiten \textit{Plot} mit Rohdaten:
 
 \begin{figure}[H]
 \centerline{
@@ -438,15 +438,15 @@ Da jetzt ein Teil der Daten wegfällt, funktioniert dieser Schritt schneller als 
 \label{secondPlot_RAW}
 \end{figure}
 
-Nun werden für folgende Anwendungen auch bei Rohdaten nur noch die gewählten, nicht mehr alle, Daten verwendet.
+Auch für die daraufaufbauenden Berechnungen werden nun bei Rohdaten ebenfalls nur noch die ausgewählten, nicht mehr alle, Daten verwendet.
 
 \subsection{Berechnung der Tragezeit nach van Hees}
 
-In dem nächsten Schritt kann nun die Tragezeit nach van Hees berechnet werden. Da sich diese ausschließlich mit Rohdaten berechnen lässt, werden für die Auswertung die gerade zugeschnittenen Daten verwendet.
+In dem nächsten Schritt kann nun die Tragezeit nach \textit{van Hees} berechnet werden. Da sich diese ausschließlich mit Rohdaten berechnen lässt, werden für die Auswertung die gerade zugeschnittenen Daten verwendet.
 
-Damit dies durchgeführt wird muss der User lediglich auf den \textit{Wearing time van Hees}-Button drücken. Beachtet werden sollte davor noch, wie gerade erklärt, dass dieser nur funktioniert solange der \textit{Data type} noch auf  \textit{raw data measurement} gesetzt ist.
+Damit dies durchgeführt wird, muss der User lediglich auf den \mbox{\textit{Wearing time van Hees}-Button} drücken. Dabei ist allerdings zu beachten, dass dieser nur betätigt werden kann, solange der \textit{Data type} auf  \mbox{\textit{raw data measurement}} gesetzt ist.
 
-Nach der Berechnung sieht die Oberfläche wie folgt aus, und der Benutzer bekommt über den \textit{Log} eine Bestätigung der erfolgreichen Berechnung mitgeteilt:
+Nach der Berechnung sieht die Oberfläche wie in der folgenden Abbildung \ref{wTvH} aus. Über den \textit{Log} wird dem Benutzer eine Bestätigung einer erfolgreichen Berechnung mitgeteilt. \newline
 
 \begin{figure}[H]
 \centerline{
@@ -456,11 +456,11 @@ Nach der Berechnung sieht die Oberfläche wie folgt aus, und der Benutzer bekommt
 \label{wTvH}
 \end{figure}
 
-Die Ergebnisse sind, wie in Kapitel \ref{Wearing time van Hees-Button} erklärt, in diesem Beispiel unter den Namen \textit{$shm\_2210061137\_wearingTimevH.csv$} und \textit{$shm\_2210061137\_wearingTimevH.mat$} zu finden. Im Gegensatz zu den zwei \textit{Plots}, werden diese Ergebnisse nicht automatisch geöffnet. Um sie anzeigen zu lassen muss der User in den Ordner des QualityControlTools navigieren. Dort sind die gerade erwähnten Dateien dann zu finden und können ganz normal gehandhabt werden. 
+Die Ergebnisse sind, wie in Kapitel \ref{Wearing time van Hees-Button} erklärt, in diesem Beispiel unter den Namen \textit{$shm\_2210061137\_wearingTimevH.csv$} und \textit{$shm\_2210061137\_wearingTimevH.mat$} zu finden. Im Gegensatz zu den zwei \textit{Plots}, werden diese Ergebnisse nicht automatisch geöffnet. Um sie anzeigen zu lassen, muss der User in den Ordner des QualityControlTools navigieren. Dort sind die gerade erwähnten Dateien dann vorzufinden und können ganz normal gehandhabt werden. 
 
 \subsection{Epochenänderung}
 
-An dem Schritt zur Änderung der Epoche wurde in der Erweiterung keine Neuerungen vorgenommen. Mit Hilfe des Schiebereglers (siehe Abb. \ref{epoch}) kann eine beliebige Epoche eingestellt werden, sofern der \textit{Data type} wieder auf \textit{count/epoch measurement} gesetzt wurde.
+An dem Schritt zur Änderung der Epoche wurden in der Erweiterung keine Neuerungen vorgenommen. Mit Hilfe des Schiebereglers (siehe Abb. \ref{epoch}) kann eine beliebige Epoche eingestellt werden, sofern der \textit{Data type} wieder auf \textit{count/epoch measurement} gesetzt wurde.
 
 \begin{figure}[H]
 \centerline{
@@ -470,11 +470,11 @@ An dem Schritt zur Änderung der Epoche wurde in der Erweiterung keine Neuerungen
 \label{epoch}
 \end{figure}
 
-Das Intervall zur Anpassung beginnt bei der von dem Sensor festgelegten initialen Epochenlänge (beispielsweise 2 Sekunden). Das Maximum liegt bei 60 Sekunden. Die Wahl der neuen Länge muss ein vielfaches der initialen Epochenlänge betragen.
+Das Intervall zur Anpassung beginnt bei der von dem Sensor festgelegten initialen Epochenlänge (beispielsweise 2 Sekunden). Das Maximum liegt bei 60 Sekunden. Die Wahl der neuen Länge muss ein Vielfaches der initialen Epochenlänge betragen.
 
 \subsection{Analyse nach Andre}
 
-Die Daten aus der Analyse nach Andre werden in der csv-Datei \textit{$[Filename]\_finaldata.csv$} gespeichert. Wie auch in der vorherigen Version kann es bei dem Öffnen der Datei in \textit{LibreOffice} bzw. \textit{OpenOffice} zu Fehlern bei der Fließkommadarstellung kommen. So wird eine Fließkommazahl teilweise als ganze Zahl dargestellt. Für weitere Erklärungen verweisen wir auf den Praktikumsbericht der 1. Version.\newline
+Die Daten aus der Analyse nach Andre werden in der csv-Datei \textit{$[Filename]\_finaldata.csv$} gespeichert. Wie auch in der vorherigen Version kann es bei dem Öffnen der Datei in \textit{LibreOffice} bzw. \textit{OpenOffice} zu Fehlern bei der Fließkommadarstellung kommen. So wird eine Fließkommazahl teilweise als ganze Zahl dargestellt. Für weitere Erklärungen verweisen wir auf den Praktikumsbericht der Vorgängerversion.\newline
 
  Bei der Auswertung werden allein Tage mit einer Tragedauer des Sensors von mindestens 10 Stunden berücksichtigt.
 
@@ -483,7 +483,7 @@ Die Daten aus der Analyse nach Andre werden in der csv-Datei \textit{$[Filename]
 Die Analyse nach Simon lässt sich erst nach der Berechnung der Tragezeit durchführen. Somit muss noch ehe der Button für die Analyse betätigt werden kann, der \textit{WearingTime}-Button gedrückt worden sein. Die Zeiten sind in einer csv-Datei hinterlegt und können bei der Analyse ausgelesen werden.\newline
 
 Da bei der Erweiterung dieser Schritt nicht bearbeitet wurde, lassen sich nur die \textit{count/epoch measurement} Daten des Sensors Actigraph auswerten.
-
+\newpage
 
 \section{Hinweise zur Benutzung des Tools}\label{Hinweise}
 
@@ -506,10 +506,10 @@ Zudem gibt es für jeden Sensor Besonderheiten, die beachtet werden müssen:\newli
 
 \multirow{2}{*}{Load} & \multicolumn{2}{|c|}{ Zeit, Datum und}\\& \multicolumn{2}{|c|}{ Frequenz einstellen} & \multicolumn{2}{|c|}{Einstellungen überprüfen}\\ 
 \hline
-\cline{1-2}
 
-\multirow{2}{*}{Raw to Counts} & \multicolumn{2}{c}{Falls danach Wechsel}\vline \\&
-\multicolumn{2}{c}{ zu Rohdaten,}\vline \\& \multicolumn{2}{c}{ Frequenz neu einstellen} \vline \\
+
+\multirow{2}{*}{Raw to Counts} & \multicolumn{2}{|c|}{Falls danach Wechsel} \\&
+\multicolumn{2}{|c|}{ zu Rohdaten,}\\& \multicolumn{2}{|c|}{ Frequenz neu einstellen} &\multicolumn{2}{|c|}{} \\
 
 \hline
 

@@ -35,6 +35,6 @@
 \contentsline {subsection}{\numberline {7.7}Epochen\"anderung}{32}{subsection.7.7}
 \contentsline {subsection}{\numberline {7.8}Analyse nach Andre}{33}{subsection.7.8}
 \contentsline {subsection}{\numberline {7.9}Analyse nach Simon}{33}{subsection.7.9}
-\contentsline {section}{\numberline {8}Hinweise zur Benutzung des Tools}{33}{section.8}
+\contentsline {section}{\numberline {8}Hinweise zur Benutzung des Tools}{34}{section.8}
 \contentsline {section}{\numberline {9}M\"ogliche Verbesserungen und Erweiterungen}{34}{section.9}
 \contentsline {section}{\numberline {10}Fazit}{36}{section.10}
