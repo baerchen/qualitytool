@@ -333,9 +333,9 @@ Im Folgenden werden die Funktionen des erweiterten Tools anhand der Auswertung e
 Auf die Schritte der Veränderung der Epoche und die Analysen nach Simon sowie nach Andre wird nur kurz eingegangen, da sich hier zur Vorgängerversion nichts Wesentliches verändert hat.
 
 \subsection{Starten des Programms}
-Der Aufruf des Programms funktioniert ganz einfach über einen Doppelklick auf die ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei alternativ geöffnet werden.\newline
+Der Aufruf des Programms funktioniert über einen Doppelklick auf die ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei alternativ geöffnet werden.\newline
 
-Damit das Tool auf dem Rechner funktioniert müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benötigt.
+Damit das Tool auf dem Rechner funktioniert, müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benötigt.
 
 \begin{figure}[H]
 \centerline{
@@ -353,17 +353,17 @@ Zuerst wird über den \textit{Browse}-Button (siehe Kapitel \ref{Der Browse-Butto
 \centerline{
 \includegraphics[width=160mm, height=90mm]{Abbildungen/Browse.JPG}
 }
-\caption {Nach auswählen der Datei mittels \textit{Browse}-Button}
+\caption {Nach Auswählen der Datei mittels \textit{Browse}-Button}
 \label{browse}
 \end{figure}
 
-Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte trotzdem immer überprüft werden ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.\newline
+Diese Informationen werden direkt aus der Datei ausgelesen und erscheinen nach den Vorberechnungen auf der Oberfläche in den jeweiligen Feldern (siehe Abbildung \ref{browse}). Somit muss der Nutzer keine Informationen über die Datei haben. Allerdings sollte dennoch immer überprüft werden, ob die Einstellungen wirklich stimmen, da es ansonsten zu Problemen oder falschen Berechnungen führen kann.\newline
 
-Ebenfalls wird die Frequenz automatisch gesetzt. Da diese jedoch nicht in den Daten des Sensortyps Shimmer zu finden sind wurde hier ein Defaultwert von 100 Herz angegeben. Diesen Wert gilt es für den Benutzer unbedingt zu überprüfen, da er auch abweichen kann.\newline
+Ebenfalls wird die Frequenz automatisch gesetzt. Da diese jedoch nicht in den Daten des Sensortyps Shimmer zu finden sind, wurde hier ein Defaultwert von 100 Herz angegeben. Diesen Wert gilt es für den Benutzer unbedingt zu überprüfen, da er auch abweichen kann.\newline
 
-Eine weitere Besonderheit die bei den beiden Sensortypen Shimmer und Somnowatch zusätzliche zu beachten ist, sind die Felder \textit{Start Date} und \textit{Start Time}. Auch diese beiden Informationen sind in den Daten der genannten Sensoren nicht enthalten. Deshalb müssen diese vor drücken des \textit{Load}-Buttons vom Benutzer unbedingt angepasst werden. Geschieht dies nicht, so wie in diesem Beispielablauf, wird jeweils der voreingestellte Defaultwert verwendet.\newline
+Eine weitere Besonderheit, die bei den beiden Sensortypen Shimmer und Somnowatch zusätzlich zu beachten ist, sind die Felder \textit{Start Date} und \textit{Start Time}. Auch diese beiden Informationen sind in den Daten der genannten Sensoren nicht enthalten. Deshalb müssen diese vor dem Drücken des \textit{Load}-Buttons vom Benutzer angepasst werden. Geschieht dies nicht, so wie in diesem Beispielablauf, wird jeweils der voreingestellte Defaultwert verwendet.\newline
 
-Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann nun der grün umrandete \textit{Load}-Button betätigt werden (siehe Kapitel \ref{Der Load-Button}). Wurde dieser gedrückt kann es vor Allem bei größeren Daten, abhängig von der jeweiligen Rechnerleistung, zu einer Rechenzeit von mehreren Minuten kommen.
+Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert, kann nun der grün umrandete \textit{Load}-Button betätigt werden (siehe Kapitel \ref{Der Load-Button}). Wurde dieser gedrückt, kann es vor allem bei größeren Daten, abhängig von der jeweiligen Rechnerleistung, zu einer Rechenzeit von mehreren Minuten kommen.
 
 \begin{figure}[H]
 \centerline{
@@ -375,25 +375,25 @@ Hat der Benutzer alle Einstellungen überprüft und gegebenenfalls geändert kann n
 
 \subsection{Umwandeln von Rohdaten in Counts}
 
-In diesem Schritt des Beispielablauf werden nun die Counts aus den Rohdaten berechnet. Natürlich besteht die Möglichkeit zuerst die Rohdaten zu \textit{plotten} (PlotAllData + Cut-Button) und zu beschneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten \textit{Plots} nicht so lange und die Daten können auf die selbe Art beschnitten werden. In den folgenden Abschnitten wird beschrieben wie der Benutzer danach über den \textit{Data type} zurück zu \textit{raw data measurement} wechseln kann um nur noch den \textit{Plot} für die ausgewählten Rohdaten durchzuführen.\newline
+In diesem Schritt des Beispielablaufs werden nun die Counts aus den Rohdaten berechnet. Zunächst besteht die Möglichkeit die Rohdaten zu \textit{plotten} \mbox{(\textit{PlotAllData + Cut}-Button)} und zu schneiden. Allerdings ist es für große Daten sinnvoll zuerst die Counts zu berechnen. Mit diesen dauert die Berechnung des ersten \textit{Plots} nicht so lange und die Daten können auf die selbe Art zugeschnitten werden. In den folgenden Abschnitten wird beschrieben, wie der Benutzer anschließend über den \textit{Data type} zurück zu \textit{raw data measurement} wechseln kann, um den \textit{Plot} für die ausgewählten Rohdaten durchzuführen.\newline
 
-Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem Laden grün umrandeten, Button \textit{Raw to Counts/METs} (siehe Kapitel \ref{Raw to Counts/METs-Button}) drücken. Nach der Berechnung wird in der Oberfläche die Auswahl des \textit{Data type} automatisch auf \textit{count/epoch measurement} gesetzt. Nun ist es möglich zwischen beiden Einstellungen hin- und herzuspringen um Berechnungen durchzuführen die es eventuell nur für einen der Datentypen gibt.\newline
+Um die Rohdaten in Counts umzuwandeln muss der User lediglich den, nach dem Laden grün umrandeten, Button \textit{Raw to Counts/METs} (siehe Kapitel \ref{Raw to Counts/METs-Button}) drücken. Nach der Berechnung wird in der Oberfläche die Auswahl des \textit{Data type} automatisch auf \textit{count/epoch measurement} gesetzt. Nun ist es möglich zwischen beiden Einstellungen beliebig zu wechseln, um Berechnungen durchzuführen, die es eventuell nur für einen der Datentypen gibt.\newline
 
-Ebenfalls wird nun die Leiste für die Einstellung der Epoche freigegeben und auf 60 Sekunden gesetzt. Gleichzeitig kann der Benutzer nun keine Änderungen mehr in der Frequenz-Leiste mehr machen (vgl. Abb. \ref{rawToCounts}).\newline
+Ebenfalls wird nun die Leiste für die Einstellung der Epoche freigegeben und auf 60 Sekunden gesetzt. Gleichzeitig kann der Benutzer nun keine Änderungen mehr in der Frequenz-Leiste vornehmen (vgl. Abb. \ref{rawToCounts}).\newline
 
 \begin{figure}[H]
 \centerline{
 \includegraphics[width=160mm, height=90mm]{Abbildungen/RawToCounts.JPG}
 }
-\caption {Nach berechnen der Counts/METs mittels \textit{Raw to Counts/METs}-Button}
+\caption {Nach Berechnung der Counts/METs mittels \textit{Raw to Counts/METs}-Button}
 \label{rawToCounts}
 \end{figure}
 
 \subsection{\textit{Plotten} aller Daten}\label{Plotten aller Daten}
 
-Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige Teile abzuschneiden werden in diesem Schritt erst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.\newline
+Um nun die Daten auf einen wesentlichen Teil zu konzentrieren und unwichtige Teile abzuschneiden, werden in diesem Schritt zunächst alle Daten in einer Grafik dargestellt. Anhand dieser Grafik kann der Benutzer dann ein Zeitintervall angeben, in dem die wichtigen Daten liegen. Ausschließlich die Daten in diesem Zeitintervall werden dann für weitere Berechnungen benutzt.\newline
 
-Zur Erstellung der Grafik für den ersten \textit{Plot} wird der \textit{$PlotAllData + Cut$}-Button gedrückt (siehe Kapitel \ref{Plot/Cut}). Für die Beispieldaten sieht dieser wie folgt aus:
+Zur Erstellung der Grafik für den ersten \textit{Plot} wird der \mbox{\textit{$PlotAllData + Cut$}-Button} gedrückt (siehe Kapitel \ref{Plot/Cut}). \newline Für die Beispieldaten sieht dieser wie folgt aus:
 
 \begin{figure}[H]
 \centerline{
@@ -403,9 +403,10 @@ Zur Erstellung der Grafik für den ersten \textit{Plot} wird der \textit{$PlotAll
 \label{firstPlot}
 \end{figure}
 
-Im unteren Bereich wird nun das Zeitintervall für die zukünftig verwendeten Daten angegeben. In diesem Beispiel wird der Bereich zwischen dem ersten und dem dritten Tag genutzt. Dies ergibt sich aus der 1 im Feld \textit{Start Day} und der 2 im Feld \textit{Duration Days}. Da die Daten in diesem Fall schon vor Ende des dritten Tages aufhören, werden in den folgenden Schritten automatisch alle Daten vom ersten Tag an bis zum Ende verwendet. Um die Auswahl zu bestätigen muss vom Anwender der \textit{cut data}-Button in dem Plot Fenster gedrückt werden.\newline
+Im unteren Bereich wird nun das Zeitintervall für die zukünftig verwendeten Daten angegeben. In diesem Beispiel wird der Bereich zwischen dem ersten und dem dritten Tag genutzt. Dies ergibt sich aus der 1 im Feld \textit{Start Day} und der 2 im Feld \textit{Duration Days}. Da die Daten in diesem Fall schon vor Ende des dritten Tages aufhören, werden in den folgenden Schritten automatisch alle Daten vom ersten Tag an bis zum Ende verwendet. Um die Auswahl zu bestätigen, muss vom Anwender der \textit{cut data}-Button in dem \textit{Plot} Fenster gedrückt werden.\newline
 
-Wird vom User nun der Button \textit{PlotRelevantData} angewendet werden nur die gerade gewählten Daten in einer weiteren Grafik dargestellt (siehe Abb. \ref{secondPlot}). Erst ab diesem Schritt werden auch für die Analyse und die Berechnung der Tragezeit nur noch die gewählten Daten verwendet.
+\newpage
+Wird vom User nun der Button \textit{PlotRelevantData} angewendet, werden nur die gerade gewählten Daten in einer weiteren Grafik dargestellt (siehe Abb. \ref{secondPlot}). Erst ab diesem Schritt werden auch für die Analyse und die Berechnung der Tragezeit nur noch die gewählten Daten verwendet.
 
 \begin{figure}[H]
 \centerline{
@@ -417,7 +418,7 @@ Wird vom User nun der Button \textit{PlotRelevantData} angewendet werden nur die
 
 \subsection{\textit{Plotten} der relevanten Rohdaten}
 
-Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso beschnitten werden muss der Button \textit{PlotRelevantData} gedrückt werden nachdem in dem Feld \textit{Data type} der Typ \textit{raw data measurement} vom Nutzer eingestellt wurde (vgl. Abb. \ref{cut}).
+Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten analog zum Schnitt durch den \mbox{\textit{$PlotAllData + Cut$}-Button} zugeschnitten werden, muss der Button \textit{PlotRelevantData} gedrückt werden. Allerdings muss der Nutzer zuvor in dem Feld \textit{Data type} der Typ \mbox{\textit{raw data measurement}}  einstellen \mbox{(vgl. Abb. \ref{cut})}.
 
 \begin{figure}[H]
 \centerline{
@@ -427,7 +428,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten genauso besc
 \label{cut}
 \end{figure}
 
-Da jetzt ein Teil der Daten wegfällt funktioniert dieser Schritt schneller als der erste \textit{Plot} mit Rohdaten, der wie in Kapitel \ref{Plotten aller Daten} beschrieben, umgangen wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen erscheint die Grafik für den zweiten \textit{Plot} mit Rohdaten:
+Da jetzt ein Teil der Daten wegfällt, funktioniert dieser Schritt schneller als der erste \textit{Plot} mit Rohdaten, der bereits im Kapitel \ref{Plotten aller Daten} beschrieben wurde, umgangen wurde. Dennoch kann es auch hier zu Rechenzeiten von mehreren Minuten kommen. Sind alle Berechnungen abgeschlossen erscheint die Grafik für den zweiten \textit{Plot} mit Rohdaten:
 
 \begin{figure}[H]
 \centerline{
