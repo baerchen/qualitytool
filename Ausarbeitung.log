@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  17 JUN 2013 13:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  17 JUN 2013 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,7 +1344,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 7C9D75DEB98C2299348E88357EF503FB;2880.
+(rerunfilecheck)             Checksum: CD213F571F67A62A25265DB8687290EB;2863.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
  ) 
 Here is how much of TeX's memory you used:
@@ -1375,7 +1375,7 @@ nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt10.pfb>
-Output written on Ausarbeitung.pdf (37 pages, 1920534 bytes).
+Output written on Ausarbeitung.pdf (37 pages, 1920492 bytes).
 PDF statistics:
  608 PDF objects out of 1000 (max. 8388607)
  522 compressed objects within 6 object streams
