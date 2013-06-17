@@ -1,15 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  17 JUN 2013 14:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.4.3)  17 JUN 2013 14:16
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **Ausarbeitung.tex
-(./Ausarbeitung.tex
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ng
-erman, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Sarah\MiKTeX\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+(C:\Users\Sarah\MiKTeX\tex\latex\base\size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,54 +29,53 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./Ausarbeitung.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+)
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+(C:\Users\Sarah\MiKTeX\tex\latex\base\latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/umlaute/umlaute.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\umlaute\umlaute.sty
 Package: umlaute 2006/01/29 v2.1 umlaute package (AS)
 
 
 Package umlaute Warning: This package has been superseeded by the `inputenc' pa
 ckage on input line 32.
 
-) (/usr/share/texlive/texmf-dist/tex/generic/german/german.sty
-v2.5e 1998-07-08
+) (C:\Users\Sarah\MiKTeX\tex\latex\german\german.sty v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-german -- \language number for Austrian undefined, default 4 used.
-german -- \language number for French undefined, default 255 used.
+german -- \language number for Austrian undefined, default 22 used.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(C:\Users\Sarah\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(C:\Users\Sarah\MiKTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -78,31 +83,31 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(C:\Users\Sarah\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+(C:\Users\Sarah\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+(C:\Users\Sarah\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -133,7 +138,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -141,48 +146,52 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(C:\Users\Sarah\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Sarah\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(C:\Users\Sarah\MiKTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 3941.
-Package hyperref Info: Option `linktocpage' set `true' on input line 3941.
-Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4319.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen107
 \Fld@menulength=\count92
-\Field@Width=\dimen107
-\Fld@charsize=\dimen108
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count93
 \c@Item=\count94
 \c@Hfootnote=\count95
@@ -190,22 +199,22 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+(C:\Users\Sarah\MiKTeX\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\dstroke\dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count98
 \float@exts=\toks18
@@ -213,41 +222,41 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(C:\Users\Sarah\MiKTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
-\ex@=\dimen109
+\ex@=\dimen110
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen110
+\pmbraise@=\dimen111
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count99
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count100
 \leftroot@=\count101
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count102
 \DOTSCASE@=\count103
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen111
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count104
 \c@MaxMatrixCols=\count105
 \dotsspace@=\muskip11
@@ -258,56 +267,56 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count109
 \maxfields@=\count110
 \andhelp@=\toks22
-\eqnshift@=\dimen112
-\alignsep@=\dimen113
-\tagshift@=\dimen114
-\tagwidth@=\dimen115
-\totwidth@=\dimen116
-\lineht@=\dimen117
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
 \@envbody=\toks23
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks25
 )
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
 \pgfutil@abb=\box30
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen118
-\pgf@y=\dimen119
-\pgf@xa=\dimen120
-\pgf@ya=\dimen121
-\pgf@xb=\dimen122
-\pgf@yb=\dimen123
-\pgf@xc=\dimen124
-\pgf@yc=\dimen125
+\pgf@x=\dimen119
+\pgf@y=\dimen120
+\pgf@xa=\dimen121
+\pgf@ya=\dimen122
+\pgf@xb=\dimen123
+\pgf@yb=\dimen124
+\pgf@xc=\dimen125
+\pgf@yc=\dimen126
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count111
@@ -315,29 +324,29 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \c@pgf@countc=\count113
 \c@pgf@countd=\count114
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count115
 \pgfsyssoftpath@bigbuffer@items=\count116
 )
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(C:\Users\Sarah\MiKTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -351,155 +360,154 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen126
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen127
 \pgfmath@count=\count117
 \pgfmath@box=\box31
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
 )
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code
+.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.te
+x) (C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count118
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen127
-\pgf@picmaxx=\dimen128
-\pgf@picminy=\dimen129
-\pgf@picmaxy=\dimen130
-\pgf@pathminx=\dimen131
-\pgf@pathmaxx=\dimen132
-\pgf@pathminy=\dimen133
-\pgf@pathmaxy=\dimen134
-\pgf@xx=\dimen135
-\pgf@xy=\dimen136
-\pgf@yx=\dimen137
-\pgf@yy=\dimen138
-\pgf@zx=\dimen139
-\pgf@zy=\dimen140
+\pgf@picminx=\dimen128
+\pgf@picmaxx=\dimen129
+\pgf@picminy=\dimen130
+\pgf@picmaxy=\dimen131
+\pgf@pathminx=\dimen132
+\pgf@pathmaxx=\dimen133
+\pgf@pathminy=\dimen134
+\pgf@pathmaxy=\dimen135
+\pgf@xx=\dimen136
+\pgf@xy=\dimen137
+\pgf@yx=\dimen138
+\pgf@yy=\dimen139
+\pgf@zx=\dimen140
+\pgf@zy=\dimen141
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen141
-\pgf@path@lasty=\dimen142
-)
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+\pgf@path@lastx=\dimen142
+\pgf@path@lasty=\dimen143
+) (C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen143
-\pgf@shorten@start@additional=\dimen144
+\pgf@shorten@end@additional=\dimen144
+\pgf@shorten@start@additional=\dimen145
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
 \pgf@picture@serial@count=\count119
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen145
+\pgflinewidth=\dimen146
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.t
+ex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen146
-\pgf@pt@y=\dimen147
-\pgf@pt@temp=\dimen148
-)
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+\pgf@pt@x=\dimen147
+\pgf@pt@y=\dimen148
+\pgf@pt@temp=\dimen149
+) (C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.te
+x
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
-)
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen149
+\pgf@max=\dimen150
 \pgf@sys@shading@range@num=\count120
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box35
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
-)
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (C:\Users\Sarah\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box36
 )
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen150
-\pgf@nodesepend=\dimen151
+\pgf@nodesepstart=\dimen151
+\pgf@nodesepend=\dimen152
 )
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
-(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\Sarah\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen152
-\pgffor@skip=\dimen153
+\pgffor@iter=\dimen153
+\pgffor@skip=\dimen154
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.te
+x
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count121
-\pgfplotmarksize=\dimen154
+\pgfplotmarksize=\dimen155
 )
-\tikz@lastx=\dimen155
-\tikz@lasty=\dimen156
-\tikz@lastxsaved=\dimen157
-\tikz@lastysaved=\dimen158
-\tikzleveldistance=\dimen159
-\tikzsiblingdistance=\dimen160
+\tikz@lastx=\dimen156
+\tikz@lasty=\dimen157
+\tikz@lastxsaved=\dimen158
+\tikz@lastysaved=\dimen159
+\tikzleveldistance=\dimen160
+\tikzsiblingdistance=\dimen161
 \tikz@figbox=\box37
 \tikz@tempbox=\box38
 \tikztreelevel=\count122
 \tikznumberofchildren=\count123
 \tikznumberofcurrentchild=\count124
 \tikz@fig@count=\count125
-
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (C:\Users\Sarah\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count126
 \pgfmatrixcurrentcolumn=\count127
@@ -507,44 +515,41 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count129
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
-hs.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 )))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindm
-ap.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+mindmap.code.tex
 File: tikzlibrarymindmap.code.tex 2009/11/12 v2.10 (rcs-revision 1.9)
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees
-.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+trees.code.tex
 File: tikzlibrarytrees.code.tex 2008/02/24 v2.10 (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
-ations.code.tex
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen161
-\pgfdecoratedremainingdistance=\dimen162
-\pgfdecoratedinputsegmentcompleteddistance=\dimen163
-\pgfdecoratedinputsegmentremainingdistance=\dimen164
-\pgf@decorate@distancetomove=\dimen165
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrary
+decorations.code.tex
+(C:\Users\Sarah\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen162
+\pgfdecoratedremainingdistance=\dimen163
+\pgfdecoratedinputsegmentcompleteddistance=\dimen164
+\pgfdecoratedinputsegmentremainingdistance=\dimen165
+\pgf@decorate@distancetomove=\dimen166
 \pgf@decorate@repeatstate=\count130
-\pgfdecorationsegmentamplitude=\dimen166
-\pgfdecorationsegmentlength=\dimen167
+\pgfdecorationsegmentamplitude=\dimen167
+\pgfdecorationsegmentlength=\dimen168
 )
 \tikz@lib@dec@box=\box39
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+)) (C:\Users\Sarah\MiKTeX\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks34
 \verbatim@line=\toks35
 \verbatim@in@stream=\read2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen168
+(C:\Users\Sarah\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen169
 )
-(./Ausarbeitung.aux)
-\openout1 = `Ausarbeitung.aux'.
-
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -560,41 +565,26 @@ LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\Sarah\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
-\scratchdimen=\dimen169
+\scratchdimen=\dimen170
 \scratchbox=\box40
 \nofMPsegments=\count132
 \nofMParguments=\count133
 \everyMPshowfont=\toks36
 \MPscratchCnt=\count134
-\MPscratchDim=\dimen170
+\MPscratchDim=\dimen171
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks37
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box41
 Package hyperref Info: Link coloring OFF on input line 26.
+ (C:\Users\Sarah\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(C:\Users\Sarah\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
@@ -603,27 +593,25 @@ LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
 
-(./Ausarbeitung.out) (./Ausarbeitung.out)
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.out)
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.out)
 \@outlinefile=\write4
-\openout4 = `Ausarbeitung.out'.
-
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(C:\Users\Sarah\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Ausarbeitung.toc [2])
+{C:/Users/Sarah/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\Sarah\git\qualitytool2\Ausarbeitung.toc [2])
 \tf@toc=\write5
-\openout5 = `Ausarbeitung.toc'.
-
  [3]
 Underfull \hbox (badness 2452) in paragraph at lines 65--66
 \OT1/cmr/m/n/10 Das In-sti-tut f[]ur Me-di-zi-ni-sche Sta-ti-stik und Epi-de-mi
@@ -655,7 +643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Abbildungen/version_1.png, id=253, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=251, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
@@ -677,7 +665,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.97 
+      <C:/Users/Sarah/git/qualitytool2/Abbildungen/version_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 []\OT1/cmr/m/n/10 Zudem erm[]oglich-te es das Tool durch das Bet[]ati-gen des
  []
@@ -692,13 +686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.99 
-      <./Abbildungen/version_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -718,7 +706,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[7] [8] <Abbildungen/ErweitertesTool1.JPG, id=279, 742.27313pt x 392.21532pt>
+[7] [8] [9]
+<Abbildungen/ErweitertesTool1.JPG, id=283, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
@@ -735,13 +724,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.131 
-       <./Abbildungen/ErweitertesTool1.JPG>]
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/ErweitertesTool1.JPG>]
 Underfull \hbox (badness 1546) in paragraph at lines 132--133
 []\OT1/cmr/m/n/10 Wie ge-ra-de erw[]ahnt, kann das er-wei-ter-te Tool auch Roh-
 da-ten aus-wer-
@@ -763,13 +752,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[10] <Abbildungen/Browse-Button.png, id=301, 1023.07219pt x 536.75531pt>
+[11] <Abbildungen/Browse-Button.png, id=305, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
 Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 149.
 (pdftex.def)             Requested size: 455.24228pt x 256.07529pt.
- [11]
+ [12]
 Underfull \hbox (badness 1009) in paragraph at lines 157--158
 \OT1/cmr/m/it/10 sta-tic boo-lean pre-cal-cu-la-ti-on(String cur-rent-Path, Str
 ing cur-rent-Fi-le, String
@@ -800,22 +789,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
 
 Underfull \hbox (badness 2635) in paragraph at lines 161--162
-\OML/cmm/m/it/10 FindSensorFrequency\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[]
-path\OT1/cmr/m/n/10 )$ be-stimmt. Auch die-ses Er-geb-nis ak-
+$\OML/cmm/m/it/10 FindSensorFrequency\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[
+]path\OT1/cmr/m/n/10 )$ be-stimmt. Auch die-ses Er-geb-nis ak-
  []
 
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.162 
-       <./Abbildungen/Browse-Button.png>]
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/Browse-Button.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
@@ -835,13 +824,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-<Abbildungen/Plot.png, id=319, 658.71094pt x 554.82281pt>
+<Abbildungen/Plot.png, id=322, 658.71094pt x 554.82281pt>
 File: Abbildungen/Plot.png Graphic file (type png)
 
 <use Abbildungen/Plot.png>
 Package pdftex.def Info: Abbildungen/Plot.png used on input line 197.
 (pdftex.def)             Requested size: 355.66844pt x 284.53055pt.
- [14]
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
@@ -851,13 +840,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.208 
-       <./Abbildungen/Plot.png>]
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/Plot.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
@@ -880,7 +869,7 @@ OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 new$ \OT1/cmr/m/n/10 be-rech-net. Die in der
 
  []
 
-[16]
+[17]
 Underfull \hbox (badness 1681) in paragraph at lines 229--230
 \OT1/cmr/m/n/10 die \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktion \OT1/cmr/
 m/it/10 wea-ring-Ti-mevH[]Raw(sensor, fi-le, hz) \OT1/cmr/m/n/10 ge[]off-net un
@@ -897,7 +886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-[17] <Abbildungen/wearingTimevH_csv_mat.JPG, id=341, 499.8675pt x 222.07968pt>
+[18] <Abbildungen/wearingTimevH_csv_mat.JPG, id=344, 499.8675pt x 222.07968pt>
 File: Abbildungen/wearingTimevH_csv_mat.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH_csv_mat.JPG>
@@ -909,13 +898,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.249 
-       <./Abbildungen/wearingTimevH_csv_mat.JPG>]
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/wearingTimevH_csv_mat.JPG>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
@@ -935,7 +925,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-[19] <Abbildungen/csv_andre.png, id=355, 1044.90375pt x 623.32875pt>
+[20] <Abbildungen/csv_andre.png, id=358, 1044.90375pt x 623.32875pt>
 File: Abbildungen/csv_andre.png Graphic file (type png)
 
 <use Abbildungen/csv_andre.png>
@@ -946,439 +936,422 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.275 
-       <./Abbildungen/csv_andre.png>]
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/csv_andre.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
 
-Overfull \hbox (2.40208pt too wide) in paragraph at lines 318--318
+Overfull \hbox (2.40208pt too wide) in paragraph at lines 319--319
  [][][][]\OT1/cmr/m/n/8 PlotAllData 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 319--319
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.66681pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.66681pt too wide) in paragraph at lines 319--319
  []\OT1/cmr/m/n/5 (Andre) 
  []
 
 
-Overfull \hbox (2.23627pt too wide) in paragraph at lines 318--318
+Overfull \hbox (2.23627pt too wide) in paragraph at lines 319--319
  [][][][]\OT1/cmr/m/n/5 Change 
  []
 
 
-Overfull \hbox (4.5349pt too wide) in paragraph at lines 318--318
+Overfull \hbox (4.5349pt too wide) in paragraph at lines 319--319
  [][][][]\OT1/cmr/m/n/5 Wearing 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 319--319
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.90295pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.90295pt too wide) in paragraph at lines 319--319
  []\OT1/cmr/m/n/5 (Simon) 
  []
 
 Missing character: There is no ; in font nullfont!
-[21] [22]
-Underfull \hbox (badness 1163) in paragraph at lines 339--340
+[22] [23]
+Underfull \hbox (badness 1163) in paragraph at lines 340--341
 \OT1/cmr/m/n/10 Der Auf-ruf des Pro-gramms funk-tio-niert []uber einen Dop-pelk
 lick auf die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<Abbildungen/OpenTool.png, id=381, 735.49782pt x 411.03563pt>
+<Abbildungen/OpenTool.png, id=384, 735.49782pt x 411.03563pt>
 File: Abbildungen/OpenTool.png Graphic file (type png)
 
 <use Abbildungen/OpenTool.png>
-Package pdftex.def Info: Abbildungen/OpenTool.png used on input line 346.
+Package pdftex.def Info: Abbildungen/OpenTool.png used on input line 347.
 (pdftex.def)             Requested size: 398.35252pt x 213.39479pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.354 
-       <./Abbildungen/OpenTool.png>]
-<Abbildungen/Browse.JPG, id=388, 1026.08344pt x 544.28343pt>
+l.355 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/OpenTool.png>]
+<Abbildungen/Browse.JPG, id=391, 1026.08344pt x 544.28343pt>
 File: Abbildungen/Browse.JPG Graphic file (type jpg)
 
 <use Abbildungen/Browse.JPG>
-Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 358.
+Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 359.
 (pdftex.def)             Requested size: 455.25139pt x 256.07071pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.368 
-       <./Abbildungen/Browse.JPG>]
-<Abbildungen/Load.JPG, id=396, 1027.58907pt x 545.78906pt>
+l.369 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/Browse.JPG>]
+<Abbildungen/Load.JPG, id=400, 1027.58907pt x 545.78906pt>
 File: Abbildungen/Load.JPG Graphic file (type jpg)
 
 <use Abbildungen/Load.JPG>
-Package pdftex.def Info: Abbildungen/Load.JPG used on input line 374.
+Package pdftex.def Info: Abbildungen/Load.JPG used on input line 375.
 (pdftex.def)             Requested size: 455.24518pt x 256.07117pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.382 
-       <./Abbildungen/Load.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+l.383 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/Load.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
-<Abbildungen/RawToCounts.JPG, id=405, 1027.58907pt x 546.54187pt>
+<Abbildungen/RawToCounts.JPG, id=408, 1027.58907pt x 546.54187pt>
 File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
 
 <use Abbildungen/RawToCounts.JPG>
-Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 390.
+Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 391.
 (pdftex.def)             Requested size: 455.24518pt x 256.07411pt.
 
-Underfull \hbox (badness 6204) in paragraph at lines 391--391
+Underfull \hbox (badness 6204) in paragraph at lines 392--392
 []\OT1/cmr/m/n/10 Abbildung 10: []Nach Be-rech-nung der Counts/METs mit-tels \O
 T1/cmr/m/it/10 Raw to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.398 
-       <./Abbildungen/RawToCounts.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+l.399 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/RawToCounts.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 []\OT1/cmr/m/n/10 Zur Er-stel-lung der Gra-fik f[]ur den er-sten \OT1/cmr/m/it/
 10 Plot \OT1/cmr/m/n/10 wird der
  []
 
-<Abbildungen/FirstPlot.JPG, id=412, 645.91313pt x 576.65437pt>
+<Abbildungen/FirstPlot.JPG, id=415, 645.91313pt x 576.65437pt>
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
-Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 404.
+Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 405.
 (pdftex.def)             Requested size: 355.65741pt x 284.53409pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.410 
-       <./Abbildungen/FirstPlot.JPG>] [28]
-<Abbildungen/SecondPlot.JPG, id=424, 676.77844pt x 521.69907pt>
+l.411 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/FirstPlot.JPG>] [29]
+<Abbildungen/SecondPlot.JPG, id=427, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 417.
+Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 418.
 (pdftex.def)             Requested size: 355.66512pt x 284.5313pt.
 
-<Abbildungen/Cut.JPG, id=426, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=429, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
-Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 429.
+Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 430.
 (pdftex.def)             Requested size: 455.24518pt x 256.0771pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.433 
-       <./Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=435, 675.27281pt x 521.69907pt>
+l.434 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/SecondPlot.JPG>]
+<Abbildungen/SecondPlot_RAW.JPG, id=437, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 439.
+Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 440.
 
 (pdftex.def)             Requested size: 355.66727pt x 284.5313pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.13
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.443 
-       <./Abbildungen/Cut.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+l.444 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/Cut.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 []\OT1/cmr/m/n/10 Damit dies durch-gef[]uhrt wird, muss der User le-dig-lich au
 f den
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 450--451
+Underfull \hbox (badness 4048) in paragraph at lines 451--452
 [] \OT1/cmr/m/n/10 dr[]ucken. Da-bei ist al-ler-dings zu be-ach-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 450--451
+Underfull \hbox (badness 1558) in paragraph at lines 451--452
 \OT1/cmr/m/n/10 ten, dass die-ser nur bet[]atigt wer-den kann, so-lan-ge der \O
 T1/cmr/m/it/10 Da-ta ty-pe \OT1/cmr/m/n/10 auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
-<Abbildungen/wearingTimevH.JPG, id=441, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=444, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
-Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 457.
+Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 458.
 (pdftex.def)             Requested size: 455.24069pt x 256.0771pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.461 
-       <./Abbildungen/SecondPlot_RAW.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+l.462 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/SecondPlot_RAW.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 []\OT1/cmr/m/n/10 Die Er-geb-nis-se sind, wie in Ka-pi-tel []5.5[] er-kl[]art, 
 in die-sem Bei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 \OT1/cmr/m/n/10 spiel un-ter den Na-men $\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 
 2210061137[]\OML/cmm/m/it/10 wearingTimevH:csv$ \OT1/cmr/m/n/10 und
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 462--463
-\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 2210061137[]\OML/cmm/m/it/10 wearingTimev
-H:mat$ \OT1/cmr/m/n/10 zu fin-den. Im Ge-gen-satz zu den
+Underfull \hbox (badness 3209) in paragraph at lines 463--464
+$\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 2210061137[]\OML/cmm/m/it/10 wearingTime
+vH:mat$ \OT1/cmr/m/n/10 zu fin-den. Im Ge-gen-satz zu den
  []
 
-<Abbildungen/epoch.png, id=451, 1138.2525pt x 33.12375pt>
+<Abbildungen/epoch.png, id=453, 1138.2525pt x 33.12375pt>
 File: Abbildungen/epoch.png Graphic file (type png)
 
 <use Abbildungen/epoch.png>
-Package pdftex.def Info: Abbildungen/epoch.png used on input line 471.
+Package pdftex.def Info: Abbildungen/epoch.png used on input line 472.
 (pdftex.def)             Requested size: 455.24083pt x 14.22624pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.15
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.477 
+l.478 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.477 
-       <./Abbildungen/wearingTimevH.JPG> <./Abbildungen/epoch.png>]
-Underfull \hbox (badness 6268) in paragraph at lines 480--481
+l.478 
+       <C:/Users/Sarah/git/qualitytool2/Abbildungen/wearingTimevH.JPG> <C:/User
+s/Sarah/git/qualitytool2/Abbildungen/epoch.png>]
+Underfull \hbox (badness 6268) in paragraph at lines 481--482
 \OT1/cmr/m/n/10 Die Da-ten aus der Ana-ly-se nach And-re wer-den in der csv-Dat
 ei
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 480--481
-\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Filename\OT1/cmr/m/n/10 ][]\OML/cmm/m/it/10 f
-inaldata:csv$ \OT1/cmr/m/n/10 ge-spei-chert. Wie auch in der vor-he-ri-gen Ver-
-si-
+Underfull \hbox (badness 1158) in paragraph at lines 481--482
+$\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Filename\OT1/cmr/m/n/10 ][]\OML/cmm/m/it/10 
+finaldata:csv$ \OT1/cmr/m/n/10 ge-spei-chert. Wie auch in der vor-he-ri-gen Ver
+-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-[33]
+[34]
 Overfull \hbox (29.07465pt too wide) in paragraph at lines 494--494
 [][][]\OT1/cmr/m/n/8 m[]ogli-che Dow-n-load-sei-te: \OT1/cmr/m/it/8 http://www.
 oracle.com/technetwork/java/javase/downloads/index.html| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--497
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
 
-Overfull \hbox (9.9033pt too wide) in paragraph at lines 505--520
+Overfull \hbox (9.9033pt too wide) in paragraph at lines 504--519
 [][] 
  []
 
-[34]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 528.
+[35] [36]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 535.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (C:\Users\Sarah\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 528.
- [35]
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-[36] (./Ausarbeitung.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\OT1/cmr/m/sc/10 KORA-kooperative Ge-sund-heits-for-schung in der Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmr/m/sc/10 gi-on Augs-burg\OT1/cmr/m/n/10 , 2013.  []$\OT1/cmtt/m/n/10 ht
-tp : / / www . helmholtz-[]muenchen .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmtt/m/n/10 de / kora / informationen-[]fuer-[]wissenschaftlerinnen /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmtt/m/n/10 uebersicht-[]abgeschlossener-[]kora-[]studien / index . html$[
-]\OT1/cmr/m/n/10 ,entnommen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-[]\OT1/cmr/m/sc/10 KORA-kooperative Ge-sund-heits-for-schung in der Re-gi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-\OT1/cmr/m/sc/10 on Augs-burg\OT1/cmr/m/n/10 , 2013.  []$\OT1/cmtt/m/n/10 http 
-: / / de . wikipedia . org / wiki / CSV _
- []
-
-) (./Ausarbeitung.lof
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
- [][] []\OT1/cmr/m/n/10 Nach Be-rech-nung der Counts/METs mit-tels \OT1/cmr/m/i
-t/10 Raw to 
- []
-
-)
-\tf@lof=\write6
-\openout6 = `Ausarbeitung.lof'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 535.
  [37]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
- (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
-Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: CD213F571F67A62A25265DB8687290EB;2863.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+
+ []
+
+[38]
+No file Ausarbeitung.bbl.
+No file Ausarbeitung.lof.
+\tf@lof=\write6
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 564.
+[39]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 564.
+ (C:\Users\Sarah\git\qualitytool2\Ausarbeitung.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 564.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 564.
+
+
+Package rerunfilecheck Warning: File `Ausarbeitung.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Ausarbeitung.out':
+(rerunfilecheck)             Before: CD213F571F67A62A25265DB8687290EB;2863
+(rerunfilecheck)             After:  B65C44DFF68C58FFB15899C25A31D0B6;2998.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 564.
  ) 
 Here is how much of TeX's memory you used:
- 15346 strings out of 495007
- 275685 string characters out of 3179690
- 354510 words of memory out of 3000000
- 18114 multiletter control sequences out of 15000+200000
- 15295 words of font info for 57 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 15346 strings out of 493921
+ 275651 string characters out of 3149689
+ 354466 words of memory out of 3000000
+ 18215 multiletter control sequences out of 15000+200000
+ 15127 words of font info for 56 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
  56i,16n,82p,1128b,1923s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on Ausarbeitung.pdf (37 pages, 1920492 bytes).
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.idp} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{cite.csv} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{cite.raw} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{cite.KORA} has been referenced but does not exist, 
+replaced by a fixed one
+
+<C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sara
+h/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sarah/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmbx9.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
+ti10.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sarah/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sarah/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Sara
+h/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Sarah/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb
+><C:/Users/Sarah/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sar
+ah/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Sarah/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/Sarah/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti9.pfb>
+Output written on Ausarbeitung.pdf (39 pages, 1968759 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 106 named destinations out of 1000 (max. 500000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

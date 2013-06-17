@@ -18,7 +18,7 @@
 \BOOKMARK [2][-]{subsection.5.5}{Wearing time van Hees-Button}{section.5}% 18
 \BOOKMARK [3][-]{subsubsection.5.5.1}{Implementierung}{subsection.5.5}% 19
 \BOOKMARK [2][-]{subsection.5.6}{Raw to Counts/METs-Button}{section.5}% 20
-\BOOKMARK [3][-]{subsubsection.5.6.1}{Implementation}{subsection.5.6}% 21
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Aktionen des QualityControlTool}{subsection.5.6}% 21
 \BOOKMARK [3][-]{subsubsection.5.6.2}{Implementierung}{subsection.5.6}% 22
 \BOOKMARK [2][-]{subsection.5.7}{Analyse nach Andre}{section.5}% 23
 \BOOKMARK [3][-]{subsubsection.5.7.1}{Beschreibung}{subsection.5.7}% 24
@@ -36,5 +36,6 @@
 \BOOKMARK [2][-]{subsection.7.8}{Analyse nach Andre}{section.7}% 36
 \BOOKMARK [2][-]{subsection.7.9}{Analyse nach Simon}{section.7}% 37
 \BOOKMARK [1][-]{section.8}{Hinweise zur Benutzung des Tools}{}% 38
-\BOOKMARK [1][-]{section.9}{M\366gliche Verbesserungen und Erweiterungen}{}% 39
-\BOOKMARK [1][-]{section.10}{Fazit}{}% 40
+\BOOKMARK [1][-]{section.9}{Hinweise zur Weiterentwicklung des Tools}{}% 39
+\BOOKMARK [1][-]{section.10}{M\366gliche Verbesserungen und Erweiterungen}{}% 40
+\BOOKMARK [1][-]{section.11}{Fazit}{}% 41
