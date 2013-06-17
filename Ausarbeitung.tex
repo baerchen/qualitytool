@@ -16,7 +16,7 @@
 
 \title{IDP im Sommersemester 2013 \\
 % Hier bitte den Titel eintragen!
-       {\bf Quality Control Tool: Adaption to raw data}
+       {\bf Quality Control Tool:\\ Adaption to raw data}
 }
 
 % Bitte Datum des Vortrags angeben
@@ -38,9 +38,10 @@
 
 \noindent
 
-Diese Ausarbeitung gibt dem Benutzer einen Einblick in die Bedienbarkeit des QualtiyControlTools.
-Ausgehend von der ersten Version der beiden Entwickler Martin Attenkofer und Johannes Eder werden die Erweiterungen des QualityControlTools vorgestellt.
-Zudem geht diese Arbeit auf die Funktionen ein, die das QualityControlTool zur Analyse von Daten der Biosensoren GeneActive, Somnowatch, Shimmer und GT3X+  bereitstellt.
+Das QualityControlTool ist ein Programm, das dem Benutzer das Auswerten von Sensordaten erleichtern soll. Bisher existierte eine Version, die Berechnungen allein für den Sensor Actigraph zuließ. Dabei lag die zugrunde liegende Datei nur in dem Format \textit{count measurement} vor.\\
+Ausgehend von der ersten Version der beiden Entwickler Martin Attenkofer und Johannes Eder wurde das Tool für weitere Sensoren und einen zusätzliches Datentyp erweitert.\\
+In der folgenden Arbeit im Zusammenhang des ``IDP'' werden die Erweiterungen des QualityControlTools vorgestellt. Auch soll dieses Paper dem Benutzer als Gebrauchsanweisung dienen. So wird auf die Funktionen eingegangen, die das QualityControlTool zur Analyse der Daten 
+ der Biosensoren GeneActive, Somnowatch, Shimmer und Actigraph GT3X+ bereitstellt. Um auf diese Version aufbauende Entwicklungen zu erleichtern, wird an dieser Stelle auch die Implementation, die hinter den jeweiligen Funktionen steht, vorgestellt. 
 
 \end{abstract}
 \end{center}
@@ -61,13 +62,15 @@ Um den Einstieg für neue Nutzer des Tools möglichst einfach zu gestalten wird in
 
 \section{Motivation}
 
-Das Institut für Medizinische Statistik und Epidemiologie (IMSE) der TU München beschäftigt sich mit der Analyse der Daten der \textsc{Kora} Studien. \textsc{Kora} steht für die \textit{kooperative Gesundheitsforschung in der Region Augsburg}\footnotemark \footnotetext{Für weitere Informationen verweisen wir Sie auf die Internetadresse:\newline http://www.helmholtz-muenchen.de/kora/informationen-fuer-wissenschaftlerinnen/uebersicht-abgeschlossener-kora-studien/index.html}.\newline
+Das Institut für Medizinische Statistik und Epidemiologie (IMSE) der \mbox{TU München} beschäftigt sich mit der Analyse der Daten der \textsc{Kora} Studien. \textsc{Kora} steht für die \textit{kooperative Gesundheitsforschung in der Region Augsburg}~\cite{KORA}.\newline
 
-Das Ziel der \textit{Feasibilty}-Studie der Nationalen Kohorten war das Testen der Realisierbarkeit mono- und multifunktioneller Apparaturen, die Körperbewegungen messen. So sollten Körperleistung (PA) und der Energieverbrauch analysiert werden. Im speziellen wurden vier verschiedene Biosensoren betrachtet, die \textit{raw acceleration data} für mindestens 7 Tage lieferten.\newline
+Das Ziel der \textit{Feasibilty}-Studie der Nationalen Kohorten war das Testen der Realisierbarkeit mono- und multifunktioneller Apparaturen, die Körperbewegungen messen. So sollten Körperleistung (PA) und der Energieverbrauch analysiert werden. Im Speziellen wurden vier verschiedene Biosensoren betrachtet, die \textit{raw acceleration data}\footnotemark\footnotetext{Das Rohdaten-Format ist ein mögliches Speicherformat. Sie sind unkomprimiert und unbearbeitet. Sie zeichnen sich durch eine hohe Dynamik aus. \cite{raw}} für mindestens 7 Tage lieferten.\newline
 
-Das QualityControlTool soll das Auswerten der, von den Biosensoren erstellten, csv-Dateien erleichtern. Für die Auswertung existieren zahlreiche Algorithmen, welche in \textsc{Matlab} implementiert sind. Allerdings besitzen viele Anwender nur ein eingeschränktes Informatikwissen. Für diese ist eine Auswertung mit einem hohen zeitlichen und hohem Arbeitsaufwand, sich in Matlab einzuarbeiten, verbunden.\newline
+Das QualityControlTool soll das Auswerten der, von den Biosensoren erstellten, csv-Dateien\footnotemark \footnotetext{\textbf{csv} ist die Abkürzung für \textbf{comma-seperated values}. Dieses Dateiformat beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten.~\cite{csv} } erleichtern. Für die Auswertung existieren zahlreiche Algorithmen, welche in \textsc{Matlab} implementiert sind. Allerdings besitzen viele Anwender nur ein eingeschränktes Informatikwissen. Für diese ist eine Auswertung mit einem hohen zeitlichen und hohem Arbeitsaufwand, sich in Matlab einzuarbeiten, verbunden.\newline
+\newpage
 
-Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bzw. mathematische Kenntnisse gegeben. Sobald man mit der Benutzeroberfläche vertraut ist, übernimmt der PC das Auswerten der Daten. Zusätzlich werden die ausgewerteten Daten so gespeichert, dass sie schnell auffindbar sind und jederzeit erneut abgerufen werden können. 
+Mit dem QualityControlTool ist eine einfache Bedienbarkeit ohne informatische bzw. mathematische Kenntnisse gegeben. 
+Sobald man mit der Benutzeroberfläche vertraut ist, übernimmt der PC das Auswerten der Daten. Zusätzlich werden die ausgewerteten Daten so gespeichert, dass sie schnell auffindbar sind und jederzeit erneut abgerufen werden können. 
 
 \section{Projektbeschreibung}
 
@@ -88,11 +91,11 @@ Außerdem sollen die beiden neuen Funktionen \textit{wearing time van Hees} und \
 \label{v1}
 \end{figure}
 
-Die erste Version des QualityControlTools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} war bislang nur auf den Biosensor ActiGraph GT3X ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textit{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann in \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.\newline
+Die erste Version des QualityControlTools\cite{idp} war bislang nur auf den Biosensor ActiGraph GT3X ausgerichtet. Für diesen Sensor ließen sich csv-Dateien des Datentyps \textit{count data} auswerten. Hierzu konnte der Benutzer einen Pfad mit dem entsprechenden Dateinamen übergeben. Beim Betätigen des \textit{Browse}-Buttons (siehe Abb.~\ref{v1}:~1) wurden die Daten der gewählten Datei geladen. Diese wurden dann in \textsc{Timeseries}-Format als \textsc{Matlab}-Datei unter dem Namen \textit{Kora1.mat} gespeichert.\newline
 
 Für den Sensortyp (\textit{Device}) und den Datentyp (\textit{Data type}) war bereits die Vorrichtung für eine Auswahlmöglichkeit des Benutzers vorhanden (siehe Abb.~\ref{v1}:~2~und~3). Diese blieb aber in der ersten Version dem Benutzer gesperrt. Das heißt die Anzeige war automatisch auf \textit{Actigraph(gt3x,gt3x+)} sowie auf \textit{count/epoch measurement} gesetzt und konnte nicht verändert werden.\newline
 
-Zudem ermöglichte es das Tool durch das Betätigen des \textit{Plot All Data + Cut}-Button, aus den eingelesenen Daten eine Grafik zu erstellen. Der, aus diesem \textit{Plot}, resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert.\newline
+Zudem ermöglichte es das Tool durch das Betätigen des \mbox{\textit{Plot All Data + Cut}-Buttons}, aus den eingelesenen Daten eine Grafik zu erstellen. Der aus diesem \textit{Plot} resultierende Graph wurde unter dem Namen \textit{KoraFirstPlot.png} im Dateisystem gespeichert.\newline
 
 In einem nächsten Schritt konnten die gegebenen Daten zugeschnitten werden. Der Benutzer trug hierzu einen Starttag und die Anzahl der Folgetage in ein vorgegebenes Feld ein. Alle Daten, die sich nicht in diesem Zeitraum befanden, wurden weggeschnitten. Die resultierende \textsc{Timeseries} überschrieb \textit{Kora1.mat}. Aus den entstandenen Daten wurde wiederum ein Graph erstellt. Dieser wurde unter dem Namen \textit{KoraSecondPlot.png} im Dateisystem abgespeichert.\newline
 
@@ -101,9 +104,9 @@ Als ein so genannter Zwischenschritt war das Verändern der Epochenlänge zu sehen
 Die Daten der csv-Datei ließen sich sowohl mit Hilfe von dem Algorithmus von Andre wie auch nach dem Algorithmus von Simon analysieren.
 Bei dem erstgenannten wurden für jeden Tag der Eingabedaten eine bestimmte Anzahl an Werte berechnet, welche in einem Vektor gespeichert wurden. Der Vektor ließ sich anschließend in der Datei \textit{finaldata.csv} auffinden. Bei dem Algorithmus nach Simon wurden sowohl pro Tag, als auch für den gesamten Datensatz eine bestimmte Anzahl an Daten bestimmt. Die Ergebnisse waren in den Dateien \textit{sum\_table\_[Klassenname]} und \textit{sum\_filt\_[Klassenname]} abgelegt. Um Probleme in Java vorzubeugen, wurde am Ende der Workspace geleert.\newline
 
-Um jedoch die Analyse nach Simon berechnen zu können musste zuerst die Tragezeit für die auszuwertende Datei berechnet werden. Dies konnte mit dem Button \textit{wearing Time} (siehe Abb.~\ref{v1}:~6) mit Hilfe des Algorithmus von Hecht et al 98 durchgeführt werden. Resultierend geht aus diesem Schritt ein mit 0 oder 1 befüllter Vektor hervor.Dabei steht $0$ für nicht getragen und $1$ für getragen. Aufzufinden war der Vektor sowohl als \textsc{Matlab}-Datei \textit{wearingTime.mat} als auch als csv-Datei \textit{wearingTime.csv} vorzufinden. Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den zugehörigen, errechneten Werten.\newline
-
-Für weiteres Interesse verweisen wir auf den Praktikumsbericht \textit{Quality Control Tool for Different Accelerometer Data} von Johannes Eder und Martin Attenkofer.
+Um jedoch die Analyse nach Simon berechnen zu können, musste zuerst die Tragezeit für die auszuwertende Datei berechnet werden. Dies konnte mit dem Button \textit{wearing Time} (siehe Abb.~\ref{v1}:~6) mit Hilfe des Algorithmus von Hecht et al 98 durchgeführt werden. Resultierend geht aus diesem Schritt ein mit 0 oder 1 befüllter Vektor hervor. Dabei steht $0$ für nicht getragen und $1$ für getragen. Aufzufinden war der Vektor sowohl als \textsc{Matlab}-Datei \textit{wearingTime.mat} als auch als csv-Datei \textit{wearingTime.csv}. Die csv-Datei bestand aus einer Zeitspalte sowie einer Spalte mit den zugehörigen, errechneten Werten.\newline
+\newpage
+Für weiteres Interesse verweisen wir auf den Praktikumsbericht \textit{Quality Control Tool for Different Accelerometer Data} von Johannes Eder und Martin Attenkofer~\cite{idp}.
 
 
 
@@ -126,11 +129,11 @@ In Abbildung \ref{v2} sind alle Änderungen zur vorherigen Version gekennzeichnet
 
 In Feld 1 der Abbildung \ref{v2} hat sich für den Betrachter nichts geändert. Allerdings verbirgt sich hinter dem \textit{Browse}-Button eine andere Funktionalität. Statt die Datei zu laden wie in der ersten Version des Tools, wird hier nur noch die Datei ausgewählt und der entsprechende Dateipfad in die \textsc{Java}-Umgebung geladen. Das eigentliche Laden in die \textsc{Matlab}-Umgebung findet erst mit Drücken des \textit{Load}-Buttons (siehe Abb.~\ref{v2}:~4) statt. Da die wesentlichen Änderungen des Tools darin liegen, dass mehrere Sensorarten und auch Rohdaten ausgewertet werden können, musste die Funktionalität des \textit{Load}-Buttons ebenfalls erweitert werden. Die genaue Dokumentation dafür ist in Kapitel \ref{Der Load-Button} beschrieben.\newline
 
-Wie gerade erwähnt kann das erweiterte Tool auch Rohdaten auswerten. Diese haben keine Epochenlänge in Minuten oder Sekunden wie \textit{count/epoch measurement}, sondern werden mit einer bestimmten Frequenz aufgenommen. Da nicht in allen Rohdaten diese Frequenz angegeben ist, muss der User diese wissen und per Hand eingeben. Dies ist vor allem bei Shimmer und Somnowatch Daten nötig. Bei ActiGraph GT3X+ und GeneActive Daten wird die Frequenz automatisch ausgelesen (vgl. Kapitel \ref{Der Load-Button}). Jedoch sollte der User hier immer die Frequenz überprüfen. Damit der Anwender Zugriff auf die Frequenz hat, diese einstellen und überprüfen kann, ist die Leiste \textit{Frequency} (siehe Abb.~\ref{v2}:~2) ergänzt worden.\newline
+Wie gerade erwähnt, kann das erweiterte Tool auch Rohdaten auswerten. Diese haben keine Epochenlänge in Minuten oder Sekunden wie \mbox{\textit{count/epoch measurement}}, sondern werden mit einer bestimmten Frequenz aufgenommen. Da nicht in allen Rohdaten diese Frequenz angegeben ist, muss der User diese wissen und per Hand eingeben. Dies ist vor allem bei Shimmer und Somnowatch Daten nötig. Bei ActiGraph GT3X+ und GeneActive Daten wird die Frequenz automatisch ausgelesen (vgl. Kapitel \ref{Der Load-Button}). Jedoch sollte der User hier immer die Frequenz überprüfen. Damit der Anwender Zugriff auf die Frequenz hat, diese einstellen und überprüfen kann, ist die Leiste \textit{Frequency} (siehe Abb.~\ref{v2}:~2) ergänzt worden.\newline
 
 In der ersten Version des Tools mussten die auszuwertenden Daten immer um 12:00 Uhr beginnen. Da die jetzigen Daten auch zu anderen Zeitpunkten anfangen können, wurde das Tool um die Felder \textit{StartTime} und \textit{StartDate} erweitert (siehe Abb.~\ref{v2}:~3). Diese muss der User für Somnowatch und Shimmer Daten per Hand eingeben, da in den entsprechenden Dateien weder Informationen über Anfangszeit noch über Anfangsdatum gespeichert sind. Für Daten der anderen Sensoren werden diese Informationen automatisch eingelesen (vgl. Kapitel \ref{Der Load-Button}).\newline
 
-Im Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige Neuerungen gemacht worden. Zum einen wurde der oben erwähnte \textit{Load}-Button neu erstellt. Zum Anderen wurde für die Auswertung von Rohdaten der Button \textit{wearing Time van Hees} hinzugefügt (vgl. Kapitel \ref{Wearing time van Hees-Button}). Um es dem User zu ermöglichen Rohdaten in Epochdaten umzuwandeln, wurde zudem der Button \textit{Raw to Counts/METs} neu angelegt (vgl. Kapitel \ref{Raw to Counts/METs-Button}). In den nachstehenden Kapiteln wird nun auf die Implementierung der einzelnen Buttons näher eingegangen.
+Im Bereich der Buttons (siehe Abb.~\ref{v2}:~4) sind ebenfalls einige Neuerungen gemacht worden. Zum einen wurde der oben erwähnte \textit{Load}-Button neu erstellt. Zum anderen wurde für die Auswertung von Rohdaten der Button \mbox{\textit{wearing Time van Hees}} hinzugefügt (vgl. Kapitel \ref{Wearing time van Hees-Button}). Um es dem User zu ermöglichen Rohdaten in Epochdaten umzuwandeln, wurde zudem der Button \mbox{\textit{Raw to Counts/METs}} neu angelegt (vgl. Kapitel \ref{Raw to Counts/METs-Button}). In den nachstehenden Kapiteln wird nun auf die Implementierung der einzelnen Buttons näher eingegangen.
 \newpage
 
 \subsection{Der Browse-Button}\label{Der Browse-Button}
@@ -171,7 +174,7 @@ Der \textit{Load}-Button wird dem Benutzer nur nach dem Ausführen des \textit{Br
 Die Trennung des \textit{Browse}-Buttons und des \textit{Load}-Buttons erlaubt dem User vom Programm selbstsändig vorgenommene Einstellungen zu überprüfen und gegebenenfalls zu verifizieren. So lassen sich nach den Voreinstellungen sowohl der Sensorname, als auch die Frequenz, die Datenart und Startzeit und -datum einstellen.
 
 \subsubsection{Implementierung}
-Die ausgewählte Datei wird nun mit den endgültigen Einstellungen erstmals in die \textsc{Matlab}-Umgebung geladen. In der \textsc{Java}-Klasse \textit{KoraSteps} wird die Methode \textit{KoraStep1} ausgeführt. Abhängig von dem jeweiligen Sensor und dem \textit{measurement} werden von hier aus die entsprechenden \textsc{Matlab}-Funktionen aufgerufen. Für das \textit{count/epoch measurement} existiert in diesem Tool nur eine Implementation für den Sensor ActiGraph GT3X. Für die Sensoren Shimmer, GeneActive und ActiGraph GT3X+ gibt es hingegen lediglich eine Implementierung für \textit{raw data measurement}. Im Falle von falschen Usereinstellungen im Bezug auf die zugrundeliegende Datenart wird dies als Fehler behandelt. Dabei erscheint die Meldung ``No code implemented for [Sensorname] count/epoch measurement!'' beziehungsweise ''No code implemented for ActiGraph GT3X raw data measurement''.\newline
+Die ausgewählte Datei wird nun mit den endgültigen Einstellungen erstmals in die \textsc{Matlab}-Umgebung geladen. In der \textsc{Java}-Klasse \textit{KoraSteps} wird die Methode \textit{KoraStep1} ausgeführt. Abhängig von dem jeweiligen Sensor und dem \textit{measurement} werden von hier aus die entsprechenden \textsc{Matlab}-Funktionen aufgerufen. Für das \textit{count/epoch measurement} existiert in diesem Tool nur eine Implementation für den Sensor ActiGraph GT3X. Für die Sensoren Shimmer, GeneActive und ActiGraph GT3X+ gibt es hingegen lediglich eine Implementierung für \textit{raw data measurement}. Im Falle von falschen Usereinstellungen im Bezug auf die zugrundeliegende Datenart wird dies als Fehler behandelt. Dabei erscheint die Meldung ``No code implemented for [Sensorname] count/epoch measurement!'' beziehungsweise ``No code implemented for ActiGraph GT3X raw data measurement''.\newline
 
 Für jeden dieser Fälle existiert eine eigene \textsc{Matlab}-Funktion. Diese weichen in Sensor- und Datentypspezifischen Details voneinander ab. Grund dafür ist der Unterschied im Aufbau der csv-Dateien. So besitzen beispielsweise die GeneActive Dateien einen Dateikopf mit den jeweiligen Informationen wie Messfrequenz oder Startzeit, wohingegen Somnowatch Dateien direkt mit den gemessenen Beschleunigungsdaten starten. Auch die Anzahl der Spalten weichen voneinander ab.\newline
 
@@ -223,7 +226,7 @@ Wird der Button von dem Benutzer betätigt, wird im \textsc{Java}-Prgramm die Met
 Da die Berechnung der Tragezeit nach Hecht nur für Counts möglich ist, wurde zusätzlich der Button \textit{Wearing time van Hees} angelegt. Dieser stellt dem Benutzer die Möglichkeit zur Berechnung der Tragezeiten bei \textit{raw data measurement} zur Verfügung. Hierbei wird der Algorithmus von van Hees verwendet. Der Button wird freigeschaltet, sobald der Schritt \textit{PlotAllData + Cut} erfolgreich beendet wurde.
 
 \subsubsection{Implementierung}
-Sobald der User den Button gedrückt hat, wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Für den Fall, dass die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten wurden, fehlen diese somit auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt, wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ''Error while performing van Hees Wearing Time calculation! Data too small!'' ausgegeben.\newline
+Sobald der User den Button gedrückt hat, wird über den \textsc{Java}-Code die Methode \textit{public static boolean KoraStep5VanHees(String device, String file, int frequency)} in der Klasse \textit{KoraSteps} aufgerufen. Über diese wird dann wiederum die \textsc{Matlab}-Funktion \textit{wearingTimevH\_Raw(sensor, file, hz)} geöffnet und berechnet. Zur Berechnung werden die Daten aus der Datei {$[Filename]\_RAW$} verwendet. Für den Fall, dass die irrelevanten Daten bereits mit der Funktion \textit{PlotRelevantData} abgeschnitten wurden, fehlen diese somit auch in der \textit{wearingTime}-Berechnung. Wurde dieser Schritt (vgl. Kapitel \ref{PlotRelevantData-Button}) bisher noch nicht durchgeführt, wird die Tragezeit für alle eingelesenen Daten ausgewertet. Dabei betrachtet der Algorithmus die eingehenden Daten immer in Intervallen von 15 Minuten. Aus diesem Grund müssen die auszuwertenden Daten auch eine Länge von mindestens 15 Minuten aufweisen, andernfalls wir der Fehler ``Error while performing van Hees Wearing Time calculation! Data too small!'' ausgegeben.\newline
 
 Das Ergebnis wird auf zwei verschiedene Arten abgespeichert (siehe Abb. \ref{vH}): Es wird eine \textit{.mat}-Datei erstellt. In dieser befindet sich eine Matrix \textit{B} die in den ersten drei Spalten die gemessenen Beschleunigungsdaten des Sensors enthält und in der vierten Spalte jeweils die Information, ob der Sensor laut van Hees getragen wurde oder nicht. Wurde der Sensor getragen ist der Eintrag gleich 1, wurde er nicht getragen ist der Eintrag gleich 0.\newline
 
@@ -279,7 +282,7 @@ In der Funktion \textit{finaldata2csv} werden die berechneten Daten dann in der 
 
 Bei der Analyse nach Simon hat sich zur ersten Version des Tools nichts verändert.
 Die Analyse ist weiterhin nur für \textit{count/epoch measurement} für den Sensor ActiGraph GT3X ausführbar.
-Für weitere Informationen zum Aufbau der Implementierung verweisen wir an dieser Stelle auf den Praktkumsbericht ``QualityControlTool for Different Accelerometer Data'' von Martin Attenkofer und Johannes Eder.
+Für weitere Informationen zum Aufbau der Implementierung verweisen wir an dieser Stelle auf den Praktkumsbericht ``QualityControlTool for Different Accelerometer Data'' von Martin Attenkofer und Johannes Eder~\cite{idp}.
 
 \section{Abhängigkeiten im QualityControlTool}
  
@@ -335,7 +338,7 @@ Auf die Schritte der Veränderung der Epoche und die Analysen nach Simon sowie na
 \subsection{Starten des Programms}
 Der Aufruf des Programms funktioniert über einen Doppelklick auf die ausführbare jar-Datei. Sollte das nicht funktionieren, kann das Programm über einen Doppelklick auf die Batch-Datei alternativ geöffnet werden.\newline
 
-Damit das Tool auf dem Rechner funktioniert, müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools\footnotemark \footnotetext{Johannes Eder, Martin Attenkofer, \emph{IDP: Quality Control Tool for Different Accelerometer Data}, München, Institut für Medizinische Statistik und Epidemiologie, 2013} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benötigt.
+Damit das Tool auf dem Rechner funktioniert, müssen dort einige Vorinstallationen gemacht werden. Neben der Software die bereits für die erste Version des Tools~\cite{idp} benötigt wird, wird jetzt auch die \textsc{Matlab} \textbf{Signal Processing Toolbox} benötigt.
 
 \begin{figure}[H]
 \centerline{
@@ -399,7 +402,7 @@ Zur Erstellung der Grafik für den ersten \textit{Plot} wird der \mbox{\textit{$P
 \centerline{
 \includegraphics[width=125mm, height=100mm]{Abbildungen/FirstPlot.JPG}
 }
-\caption {Erster Plot}
+\caption {Erster \textit{Plot}}
 \label{firstPlot}
 \end{figure}
 
@@ -412,7 +415,7 @@ Wird vom User nun der Button \textit{PlotRelevantData} angewendet, werden nur di
 \centerline{
 \includegraphics[width=125mm, height=100mm]{Abbildungen/SecondPlot.JPG}
 }
-\caption {Zweiter Plot}
+\caption {Zweiter \textit{Plot}}
 \label{secondPlot}
 \end{figure}
 
@@ -424,7 +427,7 @@ Damit die im vorherigen Schritt ausgewählten Daten für die Rohdaten analog zum S
 \centerline{
 \includegraphics[width=160mm, height=90mm]{Abbildungen/Cut.JPG}
 }
-\caption {Ansicht der Benutzeroberfläche vor Plotten der relevanten Rohdaten}
+\caption {Ansicht der Benutzeroberfläche vor \textit{Plotten} der relevanten Rohdaten}
 \label{cut}
 \end{figure}
 
@@ -434,7 +437,7 @@ Da jetzt ein Teil der Daten wegfällt, funktioniert dieser Schritt schneller als 
 \centerline{
 \includegraphics[width=125mm, height=100mm]{Abbildungen/SecondPlot_RAW.JPG}
 }
-\caption {Zweiter Plot mit Rohdaten}
+\caption {Zweiter \textit{Plot} mit Rohdaten}
 \label{secondPlot_RAW}
 \end{figure}
 
@@ -544,8 +547,12 @@ Anschließend wurden in \textsc{Java} die entsprechenden Erweiterungen implementi
 
 Es ist ein Programm entstanden, das das Auswerten auf einer großen Bandbreite ermöglicht. Dazu benötigt der Benutzer keinerlei Hintergrundinformationen im Bezug auf die Programmierung. Allerdings benötigt es sehr viel Geduld bei der Analyse. Besonders bei großen Dateien bedarf es für die einzelnen Schritte mehr oder weniger viel Zeit. 
 
-
-
+\newpage
+\bibliographystyle{plain}
+\nocite{*}
+% Die Quellen sind in der Datei Ausarbeitung.bib definiert
+\bibliography{Ausarbeitung} 
+\listoffigures
 
 \end{document}
 

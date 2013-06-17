@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  15 JUN 2013 22:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.28)  17 JUN 2013 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,55 +625,70 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \openout5 = `Ausarbeitung.toc'.
 
  [3]
-Overfull \hbox (5.61754pt too wide) in paragraph at lines 64--64
-\OT1/cmr/m/n/8 http://www.helmholtz-muenchen.de/kora/informationen-fuer-wissens
-chaftlerinnen/uebersicht-
+Underfull \hbox (badness 2452) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 Das In-sti-tut f[]ur Me-di-zi-ni-sche Sta-ti-stik und Epi-de-mi
+o-lo-gie (IM-SE) der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<Abbildungen/version_1.png, id=243, 870.25125pt x 651.43375pt>
+<Abbildungen/version_1.png, id=253, 870.25125pt x 651.43375pt>
 File: Abbildungen/version_1.png Graphic file (type png)
 
 <use Abbildungen/version_1.png>
-Package pdftex.def Info: Abbildungen/version_1.png used on input line 86.
+Package pdftex.def Info: Abbildungen/version_1.png used on input line 89.
 (pdftex.def)             Requested size: 426.79866pt x 270.31013pt.
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 93--94
+Underfull \hbox (badness 1052) in paragraph at lines 96--97
 \OT1/cmr/m/n/10 Vor-rich-tung f[]ur ei-ne Aus-wahlm[]oglich-keit des Be-nut-zer
 s vor-han-den (sie-he
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/10 Zudem erm[]oglich-te es das Tool durch das Bet[]ati-gen des
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/10 , aus den ein-ge-le-se-nen Da-ten ei-ne Gra-fik zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -682,52 +697,41 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.94 
+l.99 
       <./Abbildungen/version_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-
-Underfull \hbox (badness 1348) in paragraph at lines 104--105
-\OT1/cmr/m/n/10 Auf-zu-fin-den war der Vek-tor so-wohl als \OT1/cmr/m/sc/10 Mat
--lab\OT1/cmr/m/n/10 -Datei \OT1/cmr/m/it/10 wea-ring-Ti-me.mat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-[7] [8] <Abbildungen/ErweitertesTool1.JPG, id=269, 742.27313pt x 392.21532pt>
+[7] [8] <Abbildungen/ErweitertesTool1.JPG, id=279, 742.27313pt x 392.21532pt>
 File: Abbildungen/ErweitertesTool1.JPG Graphic file (type jpg)
 
 <use Abbildungen/ErweitertesTool1.JPG>
 Package pdftex.def Info: Abbildungen/ErweitertesTool1.JPG used on input line 12
-0.
+3.
 (pdftex.def)             Requested size: 426.79242pt x 256.09198pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
@@ -736,54 +740,66 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 
+l.131 
        <./Abbildungen/ErweitertesTool1.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 1546) in paragraph at lines 132--133
+[]\OT1/cmr/m/n/10 Wie ge-ra-de erw[]ahnt, kann das er-wei-ter-te Tool auch Roh-
+da-ten aus-wer-
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 132--133
+\OT1/cmr/m/n/10 ten. Die-se ha-ben kei-ne Epo-chenl[]ange in Mi-nu-ten oder Se-
+kun-den wie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[10] <Abbildungen/Browse-Button.png, id=291, 1023.07219pt x 536.75531pt>
+[10] <Abbildungen/Browse-Button.png, id=301, 1023.07219pt x 536.75531pt>
 File: Abbildungen/Browse-Button.png Graphic file (type png)
 
 <use Abbildungen/Browse-Button.png>
-Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 146.
+Package pdftex.def Info: Abbildungen/Browse-Button.png used on input line 149.
 (pdftex.def)             Requested size: 455.24228pt x 256.07529pt.
  [11]
-Underfull \hbox (badness 1009) in paragraph at lines 154--155
+Underfull \hbox (badness 1009) in paragraph at lines 157--158
 \OT1/cmr/m/it/10 sta-tic boo-lean pre-cal-cu-la-ti-on(String cur-rent-Path, Str
 ing cur-rent-Fi-le, String
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 156--157
+Underfull \hbox (badness 1394) in paragraph at lines 159--160
 []\OT1/cmr/m/n/10 Den \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktionen wird 
 da-bei der Da-teipfad und der Da-teiname
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 156--157
+Underfull \hbox (badness 5667) in paragraph at lines 159--160
 \OT1/cmr/m/n/10 der zu-vor aus-gew[]ahl-ten csv-Datei []uber-ge-ben. Es wird di
 e Funk-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 []\OT1/cmr/m/n/10 Die Fre-quenz des Sen-sors wird mit Hil-fe der \OT1/cmr/m/sc/
 10 Mat-lab\OT1/cmr/m/n/10 -Funktion
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 158--159
+Underfull \hbox (badness 2635) in paragraph at lines 161--162
 \OML/cmm/m/it/10 FindSensorFrequency\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; file[]
 path\OT1/cmr/m/n/10 )$ be-stimmt. Auch die-ses Er-geb-nis ak-
  []
@@ -793,45 +809,45 @@ path\OT1/cmr/m/n/10 )$ be-stimmt. Auch die-ses Er-geb-nis ak-
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.159 
+l.162 
        <./Abbildungen/Browse-Button.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-<Abbildungen/Plot.png, id=308, 658.71094pt x 554.82281pt>
+<Abbildungen/Plot.png, id=319, 658.71094pt x 554.82281pt>
 File: Abbildungen/Plot.png Graphic file (type png)
 
 <use Abbildungen/Plot.png>
-Package pdftex.def Info: Abbildungen/Plot.png used on input line 194.
+Package pdftex.def Info: Abbildungen/Plot.png used on input line 197.
 (pdftex.def)             Requested size: 355.66844pt x 284.53055pt.
  [14]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
@@ -840,56 +856,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.205 
+l.208 
        <./Abbildungen/Plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 219--220
+Underfull \hbox (badness 1442) in paragraph at lines 222--223
 \OT1/cmr/m/n/10 Fall-un-ter-schei-dung zwi-schen \OT1/cmr/m/it/10 raw mea-su-re
 -ment \OT1/cmr/m/n/10 und \OT1/cmr/m/it/10 count/epoch mea-su-re-
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 219--220
+Underfull \hbox (badness 1237) in paragraph at lines 222--223
 \OT1/cmr/m/n/10 im zwei-ten Fall die Funk-ti-on $\OML/cmm/m/it/10 cutFirstPlus\
 OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 new$ \OT1/cmr/m/n/10 be-rech-net. Die in der
 
  []
 
 [16]
-Underfull \hbox (badness 1681) in paragraph at lines 226--227
+Underfull \hbox (badness 1681) in paragraph at lines 229--230
 \OT1/cmr/m/n/10 die \OT1/cmr/m/sc/10 Mat-lab\OT1/cmr/m/n/10 -Funktion \OT1/cmr/
 m/it/10 wea-ring-Ti-mevH[]Raw(sensor, fi-le, hz) \OT1/cmr/m/n/10 ge[]off-net un
 d
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-[17] <Abbildungen/wearingTimevH_csv_mat.JPG, id=331, 499.8675pt x 222.07968pt>
+[17] <Abbildungen/wearingTimevH_csv_mat.JPG, id=341, 499.8675pt x 222.07968pt>
 File: Abbildungen/wearingTimevH_csv_mat.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH_csv_mat.JPG>
 Package pdftex.def Info: Abbildungen/wearingTimevH_csv_mat.JPG used on input li
-ne 233.
+ne 236.
 (pdftex.def)             Requested size: 312.98846pt x 142.26266pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
@@ -898,35 +914,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.246 
+l.249 
        <./Abbildungen/wearingTimevH_csv_mat.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-[19] <Abbildungen/csv_andre.png, id=345, 1044.90375pt x 623.32875pt>
+[19] <Abbildungen/csv_andre.png, id=355, 1044.90375pt x 623.32875pt>
 File: Abbildungen/csv_andre.png Graphic file (type png)
 
 <use Abbildungen/csv_andre.png>
-Package pdftex.def Info: Abbildungen/csv_andre.png used on input line 265.
+Package pdftex.def Info: Abbildungen/csv_andre.png used on input line 268.
 (pdftex.def)             Requested size: 398.34306pt x 256.08005pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
@@ -935,199 +951,199 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.272 
+l.275 
        <./Abbildungen/csv_andre.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
 
-Overfull \hbox (2.40208pt too wide) in paragraph at lines 315--315
+Overfull \hbox (2.40208pt too wide) in paragraph at lines 318--318
  [][][][]\OT1/cmr/m/n/8 PlotAllData 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 315--315
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 318--318
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.66681pt too wide) in paragraph at lines 315--315
+Overfull \hbox (3.66681pt too wide) in paragraph at lines 318--318
  []\OT1/cmr/m/n/5 (Andre) 
  []
 
 
-Overfull \hbox (2.23627pt too wide) in paragraph at lines 315--315
+Overfull \hbox (2.23627pt too wide) in paragraph at lines 318--318
  [][][][]\OT1/cmr/m/n/5 Change 
  []
 
 
-Overfull \hbox (4.5349pt too wide) in paragraph at lines 315--315
+Overfull \hbox (4.5349pt too wide) in paragraph at lines 318--318
  [][][][]\OT1/cmr/m/n/5 Wearing 
  []
 
 
-Overfull \hbox (3.52794pt too wide) in paragraph at lines 315--315
+Overfull \hbox (3.52794pt too wide) in paragraph at lines 318--318
  [][][][]\OT1/cmr/m/n/5 Analyse 
  []
 
 
-Overfull \hbox (3.90295pt too wide) in paragraph at lines 315--315
+Overfull \hbox (3.90295pt too wide) in paragraph at lines 318--318
  []\OT1/cmr/m/n/5 (Simon) 
  []
 
 Missing character: There is no ; in font nullfont!
 [21] [22]
-Underfull \hbox (badness 1163) in paragraph at lines 336--337
+Underfull \hbox (badness 1163) in paragraph at lines 339--340
 \OT1/cmr/m/n/10 Der Auf-ruf des Pro-gramms funk-tio-niert []uber einen Dop-pelk
 lick auf die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-<Abbildungen/OpenTool.png, id=370, 735.49782pt x 411.03563pt>
+<Abbildungen/OpenTool.png, id=381, 735.49782pt x 411.03563pt>
 File: Abbildungen/OpenTool.png Graphic file (type png)
 
 <use Abbildungen/OpenTool.png>
-Package pdftex.def Info: Abbildungen/OpenTool.png used on input line 343.
+Package pdftex.def Info: Abbildungen/OpenTool.png used on input line 346.
 (pdftex.def)             Requested size: 398.35252pt x 213.39479pt.
- [23]
-<Abbildungen/Browse.JPG, id=377, 1026.08344pt x 544.28343pt>
-File: Abbildungen/Browse.JPG Graphic file (type jpg)
-
-<use Abbildungen/Browse.JPG>
-Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 355.
-(pdftex.def)             Requested size: 455.25139pt x 256.07071pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.359 
+l.354 
        <./Abbildungen/OpenTool.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+<Abbildungen/Browse.JPG, id=388, 1026.08344pt x 544.28343pt>
+File: Abbildungen/Browse.JPG Graphic file (type jpg)
+
+<use Abbildungen/Browse.JPG>
+Package pdftex.def Info: Abbildungen/Browse.JPG used on input line 358.
+(pdftex.def)             Requested size: 455.25139pt x 256.07071pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.365 
+l.368 
        <./Abbildungen/Browse.JPG>]
-<Abbildungen/Load.JPG, id=391, 1027.58907pt x 545.78906pt>
+<Abbildungen/Load.JPG, id=396, 1027.58907pt x 545.78906pt>
 File: Abbildungen/Load.JPG Graphic file (type jpg)
 
 <use Abbildungen/Load.JPG>
-Package pdftex.def Info: Abbildungen/Load.JPG used on input line 371.
+Package pdftex.def Info: Abbildungen/Load.JPG used on input line 374.
 (pdftex.def)             Requested size: 455.24518pt x 256.07117pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.381 
+l.382 
        <./Abbildungen/Load.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-<Abbildungen/RawToCounts.JPG, id=399, 1027.58907pt x 546.54187pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+<Abbildungen/RawToCounts.JPG, id=405, 1027.58907pt x 546.54187pt>
 File: Abbildungen/RawToCounts.JPG Graphic file (type jpg)
 
 <use Abbildungen/RawToCounts.JPG>
-Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 387.
+Package pdftex.def Info: Abbildungen/RawToCounts.JPG used on input line 390.
 (pdftex.def)             Requested size: 455.24518pt x 256.07411pt.
 
-Underfull \hbox (badness 6204) in paragraph at lines 388--388
+Underfull \hbox (badness 6204) in paragraph at lines 391--391
 []\OT1/cmr/m/n/10 Abbildung 10: []Nach Be-rech-nung der Counts/METs mit-tels \O
 T1/cmr/m/it/10 Raw to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 
+l.398 
        <./Abbildungen/RawToCounts.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 Zur Er-stel-lung der Gra-fik f[]ur den er-sten \OT1/cmr/m/it/
 10 Plot \OT1/cmr/m/n/10 wird der
  []
 
-<Abbildungen/FirstPlot.JPG, id=407, 645.91313pt x 576.65437pt>
+<Abbildungen/FirstPlot.JPG, id=412, 645.91313pt x 576.65437pt>
 File: Abbildungen/FirstPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/FirstPlot.JPG>
-Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 401.
+Package pdftex.def Info: Abbildungen/FirstPlot.JPG used on input line 404.
 (pdftex.def)             Requested size: 355.65741pt x 284.53409pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
-[28pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.408 \newpage
-               <./Abbildungen/FirstPlot.JPG>]
-<Abbildungen/SecondPlot.JPG, id=414, 676.77844pt x 521.69907pt>
+l.410 
+       <./Abbildungen/FirstPlot.JPG>] [28]
+<Abbildungen/SecondPlot.JPG, id=424, 676.77844pt x 521.69907pt>
 File: Abbildungen/SecondPlot.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 414.
+Package pdftex.def Info: Abbildungen/SecondPlot.JPG used on input line 417.
 (pdftex.def)             Requested size: 355.66512pt x 284.5313pt.
 
-<Abbildungen/Cut.JPG, id=416, 1027.58907pt x 548.0475pt>
+<Abbildungen/Cut.JPG, id=426, 1027.58907pt x 548.0475pt>
 File: Abbildungen/Cut.JPG Graphic file (type jpg)
 
 <use Abbildungen/Cut.JPG>
-Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 426.
+Package pdftex.def Info: Abbildungen/Cut.JPG used on input line 429.
 (pdftex.def)             Requested size: 455.24518pt x 256.0771pt.
  [29pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.430 
+l.433 
        <./Abbildungen/SecondPlot.JPG>]
-<Abbildungen/SecondPlot_RAW.JPG, id=424, 675.27281pt x 521.69907pt>
+<Abbildungen/SecondPlot_RAW.JPG, id=435, 675.27281pt x 521.69907pt>
 File: Abbildungen/SecondPlot_RAW.JPG Graphic file (type jpg)
 
 <use Abbildungen/SecondPlot_RAW.JPG>
-Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 436.
+Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 439.
 
 (pdftex.def)             Requested size: 355.66727pt x 284.5313pt.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.13
@@ -1135,188 +1151,234 @@ Package pdftex.def Info: Abbildungen/SecondPlot_RAW.JPG used on input line 436.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.440 
+l.443 
        <./Abbildungen/Cut.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []\OT1/cmr/m/n/10 Damit dies durch-gef[]uhrt wird, muss der User le-dig-lich au
 f den
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 447--448
+Underfull \hbox (badness 4048) in paragraph at lines 450--451
 [] \OT1/cmr/m/n/10 dr[]ucken. Da-bei ist al-ler-dings zu be-ach-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 447--448
+Underfull \hbox (badness 1558) in paragraph at lines 450--451
 \OT1/cmr/m/n/10 ten, dass die-ser nur bet[]atigt wer-den kann, so-lan-ge der \O
 T1/cmr/m/it/10 Da-ta ty-pe \OT1/cmr/m/n/10 auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
-<Abbildungen/wearingTimevH.JPG, id=431, 1026.83624pt x 548.0475pt>
+<Abbildungen/wearingTimevH.JPG, id=441, 1026.83624pt x 548.0475pt>
 File: Abbildungen/wearingTimevH.JPG Graphic file (type jpg)
 
 <use Abbildungen/wearingTimevH.JPG>
-Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 454.
+Package pdftex.def Info: Abbildungen/wearingTimevH.JPG used on input line 457.
 (pdftex.def)             Requested size: 455.24069pt x 256.0771pt.
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.458 
+l.461 
        <./Abbildungen/SecondPlot_RAW.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 []\OT1/cmr/m/n/10 Die Er-geb-nis-se sind, wie in Ka-pi-tel []5.5[] er-kl[]art, 
 in die-sem Bei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 \OT1/cmr/m/n/10 spiel un-ter den Na-men $\OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 
 2210061137[]\OML/cmm/m/it/10 wearingTimevH:csv$ \OT1/cmr/m/n/10 und
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 459--460
+Underfull \hbox (badness 3209) in paragraph at lines 462--463
 \OML/cmm/m/it/10 shm[]\OT1/cmr/m/n/10 2210061137[]\OML/cmm/m/it/10 wearingTimev
 H:mat$ \OT1/cmr/m/n/10 zu fin-den. Im Ge-gen-satz zu den
  []
 
-<Abbildungen/epoch.png, id=441, 1138.2525pt x 33.12375pt>
+<Abbildungen/epoch.png, id=451, 1138.2525pt x 33.12375pt>
 File: Abbildungen/epoch.png Graphic file (type png)
 
 <use Abbildungen/epoch.png>
-Package pdftex.def Info: Abbildungen/epoch.png used on input line 468.
+Package pdftex.def Info: Abbildungen/epoch.png used on input line 471.
 (pdftex.def)             Requested size: 455.24083pt x 14.22624pt.
  [32pdfTeX warning (ext4): destination with the same identifier (name{figure.15
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.474 
+l.477 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.474 
+l.477 
        <./Abbildungen/wearingTimevH.JPG> <./Abbildungen/epoch.png>]
-Underfull \hbox (badness 6268) in paragraph at lines 477--478
+Underfull \hbox (badness 6268) in paragraph at lines 480--481
 \OT1/cmr/m/n/10 Die Da-ten aus der Ana-ly-se nach And-re wer-den in der csv-Dat
 ei
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 477--478
+Underfull \hbox (badness 1158) in paragraph at lines 480--481
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Filename\OT1/cmr/m/n/10 ][]\OML/cmm/m/it/10 f
 inaldata:csv$ \OT1/cmr/m/n/10 ge-spei-chert. Wie auch in der vor-he-ri-gen Ver-
 si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
 [33]
-Overfull \hbox (29.07465pt too wide) in paragraph at lines 491--491
+Overfull \hbox (29.07465pt too wide) in paragraph at lines 494--494
 [][][]\OT1/cmr/m/n/8 m[]ogli-che Dow-n-load-sei-te: \OT1/cmr/m/it/8 http://www.
 oracle.com/technetwork/java/javase/downloads/index.html| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--494
+Underfull \hbox (badness 10000) in paragraph at lines 493--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--497
+Underfull \hbox (badness 10000) in paragraph at lines 498--500
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
 
-Overfull \hbox (9.9033pt too wide) in paragraph at lines 502--517
+Overfull \hbox (9.9033pt too wide) in paragraph at lines 505--520
 [][] 
  []
 
 [34]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 525.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 528.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 525.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 528.
  [35]
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 550.
-[36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
+[36] (./Ausarbeitung.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\OT1/cmr/m/sc/10 KORA-kooperative Ge-sund-heits-for-schung in der Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmr/m/sc/10 gi-on Augs-burg\OT1/cmr/m/n/10 , 2013.  []$\OT1/cmtt/m/n/10 ht
+tp : / / www . helmholtz-[]muenchen .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmtt/m/n/10 de / kora / informationen-[]fuer-[]wissenschaftlerinnen /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmtt/m/n/10 uebersicht-[]abgeschlossener-[]kora-[]studien / index . html$[
+]\OT1/cmr/m/n/10 ,entnommen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+[]\OT1/cmr/m/sc/10 KORA-kooperative Ge-sund-heits-for-schung in der Re-gi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+\OT1/cmr/m/sc/10 on Augs-burg\OT1/cmr/m/n/10 , 2013.  []$\OT1/cmtt/m/n/10 http 
+: / / de . wikipedia . org / wiki / CSV _
+ []
+
+) (./Ausarbeitung.lof
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ [][] []\OT1/cmr/m/n/10 Nach Be-rech-nung der Counts/METs mit-tels \OT1/cmr/m/i
+t/10 Raw to 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `Ausarbeitung.lof'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
  (./Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 550.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
 (rerunfilecheck)             Checksum: 7C9D75DEB98C2299348E88357EF503FB;2880.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 550.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
  ) 
 Here is how much of TeX's memory you used:
- 15324 strings out of 495007
- 275480 string characters out of 3179690
- 354356 words of memory out of 3000000
- 18107 multiletter control sequences out of 15000+200000
- 14473 words of font info for 54 fonts, out of 3000000 for 9000
+ 15346 strings out of 495007
+ 275685 string characters out of 3179690
+ 354510 words of memory out of 3000000
+ 18114 multiletter control sequences out of 15000+200000
+ 15295 words of font info for 57 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,16n,82p,1128b,1923s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Ausarbeitung.pdf (36 pages, 1882075 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on Ausarbeitung.pdf (37 pages, 1920534 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 522 compressed objects within 6 object streams
+ 106 named destinations out of 1000 (max. 500000)
  437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
